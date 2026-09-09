@@ -50,12 +50,13 @@ export const news = [
 ];
 
 export const videos = [
-  { id:'OLqaLtyg3SA', game:'whiteout-survival', title:'Whiteout Survival beginner tips and progression', channel:'YouTube creator guide', duration:'12:18', summary:'A visual starting route covering builders, heroes and daily routines.' },
-  { id:'dQw4w9WgXcQ', game:'monopoly-go', title:'MONOPOLY GO! event planning walkthrough', channel:'Community tutorial', duration:'09:42', summary:'Board position, multipliers and event milestone planning explained on screen.' },
-  { id:'M9lZ5Qy5S2s', game:'pokemon-go', title:'Pokémon GO raid team building basics', channel:'Player video', duration:'15:06', summary:'How to read counters, weather boosts and party size recommendations.' },
-  { id:'MmB9b5njVbA', game:'minecraft', title:'Minecraft survival: the first day', channel:'Official trailer/tutorial', duration:'10:31', summary:'A visual path from wood tools to a safe first shelter.' },
-  { id:'vlVSJ0AvZe0', game:'bloons-td-6', title:'Bloons TD 6 placement and economy basics', channel:'Strategy creator', duration:'18:24', summary:'Understand lanes, crosspaths and early cash flow with practical examples.' },
-  { id:'ot7uXNQskhs', game:'stardew-valley', title:'Stardew Valley first spring planning', channel:'Community guide', duration:'14:12', summary:'A relaxed walkthrough of crops, mines, fishing and town routines.' },
+  { id:'yXdHGoSfZmE', game:'whiteout-survival', title:'Whiteout Survival Beginner Guide from NOOB to PRO In 2025', channel:'KaidGames2', duration:'10:12', summary:'A creator walkthrough of early progression, resource priorities and common beginner mistakes.' },
+  { id:'KN5PxzQQBMs', game:'monopoly-go', title:'Top 10 Tips & Tricks (Monopoly Go!)', channel:'Yooosin', duration:'15:17', summary:'Ten practical player tips covering dice use, board timing and reward planning.' },
+  { id:'HcWIsOQygIQ', game:'pokemon-go', title:"POKÉMON GO'S ULTIMATE BEGINNERS GUIDE!", channel:'Poké Daxi', duration:'16:16', summary:'A broad beginner guide to catching, progression, resources and daily routines.' },
+  { id:'RM79zJc6_Q4', game:'royal-match', title:'Royal Match - Basic Fundamentals, Tips and Tricks', channel:'ATrain64', duration:'14:40', summary:'A player guide to board reading, booster timing and level fundamentals.' },
+  { id:'MmB9b5njVbA', game:'minecraft', title:'Official Minecraft Trailer', channel:'Minecraft', duration:'01:00', summary:'The official trailer introduces exploration, crafting, survival and creative building.' },
+  { id:'gBeI4md2ixE', game:'bloons-td-6', title:'BEST BTD6 Beginner Guide! From Noob To PRO', channel:'SJB', duration:'39:14', summary:'A long-form beginner guide to towers, heroes, placement and economy.' },
+  { id:'ot7uXNQskhs', game:'stardew-valley', title:'Stardew Valley Trailer', channel:'ConcernedApe', duration:'03:09', summary:'The official trailer shows farming, relationships, exploration and seasonal life.' },
 ];
 
 export const codes = [

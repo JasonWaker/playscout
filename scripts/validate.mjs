@@ -66,6 +66,17 @@ if (!rankingsHtml.includes('Last successful Apple sync:') || !rankingsHtml.inclu
 const releasesHtml = await readFile(path.join(out, 'new-games', 'index.html'), 'utf8');
 if (!releasesHtml.includes('Last successful Apple sync:') || !releasesHtml.includes('iOS/iPadOS only')) errors.push('new releases: Apple-only platform scope or live timestamp is not visible');
 
+const pulse = JSON.parse(await readFile(path.join(root, 'src', 'generated', 'game-pulse.json'), 'utf8'));
+if (!Array.isArray(pulse?.items) || pulse.items.length !== 6) errors.push('Game Pulse: expected exactly 6 briefings');
+if (pulse?.items?.filter(item => item.kind === 'new').length !== 3) errors.push('Game Pulse: expected exactly 3 new games');
+if (pulse?.items?.filter(item => item.kind === 'hot').length !== 3) errors.push('Game Pulse: expected exactly 3 hot games');
+if (pulse?.items?.some(item => !item.id || !item.name || !item.developer || !item.artworkUrl || !item.storeUrl || !item.genre || !item.intro || !item.playStyle || !Array.isArray(item.tips) || item.tips.length !== 3 || !item.video?.url || !item.video?.thumbnailUrl || !item.sourceUrl || !item.copyOrigin)) errors.push('Game Pulse: a briefing is missing required content or provenance fields');
+if (pulse?.items?.filter(item => item.kind === 'hot').some(item => !item.rank)) errors.push('Game Pulse: a hot game is missing its live rank');
+if (pulse?.items?.some(item => item.video?.type === 'video' && !/^https:\/\/www\.youtube\.com\/watch\?v=[\w-]+$/.test(item.video.url))) errors.push('Game Pulse: a specific video has an invalid YouTube URL');
+const pulseHtml = await readFile(path.join(out, 'game-pulse', 'index.html'), 'utf8');
+if (!pulseHtml.includes('<b>3</b><span>new games</span>') || !pulseHtml.includes('<b>3</b><span>hot games</span>') || !pulseHtml.includes('data-pulse-search') || !pulseHtml.includes('US iOS/iPadOS') || !pulseHtml.includes('automatically synthesized')) errors.push('Game Pulse page: edition counts, search, platform scope or synthesis disclosure is missing');
+if ((pulseHtml.match(/data-pulse-card/g) || []).length !== 6) errors.push('Game Pulse page: expected 6 rendered briefing cards');
+
 const discovery = JSON.parse(await readFile(path.join(root, 'src', 'generated', 'discovery-feeds.json'), 'utf8'));
 if (!Array.isArray(discovery?.giveaways?.entries) || discovery.giveaways.entries.length < 5) errors.push('GamerPower: expected at least 5 active offers');
 if (discovery?.giveaways?.entries?.some(item => !item.id || !item.title || !item.sourceUrl || !item.thumbnailUrl || !Array.isArray(item.platforms))) errors.push('GamerPower: an entry is missing required fields');

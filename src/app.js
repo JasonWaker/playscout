@@ -67,6 +67,66 @@
     }));
   }
 
+  const pulseSearch = document.querySelector('[data-pulse-search]');
+  if (pulseSearch) {
+    const cards = [...document.querySelectorAll('[data-pulse-card]')];
+    const count = document.querySelector('[data-pulse-count]');
+    let kind = 'all';
+    const applyPulseFilter = () => {
+      const term = pulseSearch.value.trim().toLowerCase();
+      let visible = 0;
+      cards.forEach(card => {
+        const matchesKind = kind === 'all' || card.dataset.kind === kind;
+        const matchesTerm = !term || card.dataset.search.includes(term);
+        card.hidden = !(matchesKind && matchesTerm);
+        if (matchesKind && matchesTerm) visible++;
+      });
+      count.textContent = `${visible} briefing${visible === 1 ? '' : 's'} shown`;
+    };
+    pulseSearch.addEventListener('input', applyPulseFilter);
+    document.querySelectorAll('[data-pulse-filter]').forEach(button => button.addEventListener('click', () => {
+      kind = button.dataset.pulseFilter;
+      document.querySelectorAll('[data-pulse-filter]').forEach(item => item.classList.toggle('selected', item === button));
+      applyPulseFilter();
+    }));
+  }
+
+  const savedPulseKey = 'playscout.savedPulse';
+  let savedPulse = [];
+  try { savedPulse = JSON.parse(localStorage.getItem(savedPulseKey) || '[]'); } catch {}
+  document.querySelectorAll('[data-save-pulse]').forEach(button => {
+    const id = button.dataset.savePulse;
+    const paint = () => {
+      const saved = savedPulse.includes(id);
+      button.setAttribute('aria-pressed', String(saved));
+      button.textContent = saved ? '♥ Saved' : '♡ Save';
+    };
+    paint();
+    button.addEventListener('click', () => {
+      savedPulse = savedPulse.includes(id) ? savedPulse.filter(item => item !== id) : [...savedPulse, id];
+      try { localStorage.setItem(savedPulseKey, JSON.stringify(savedPulse)); } catch {}
+      paint();
+    });
+  });
+
+  document.querySelectorAll('[data-share-pulse]').forEach(button => {
+    button.addEventListener('click', async () => {
+      const url = new URL(button.dataset.sharePulse, location.href).href;
+      const title = `${button.dataset.shareTitle} on PlayScout Game Pulse`;
+      try {
+        if (navigator.share) await navigator.share({ title, url });
+        else {
+          await navigator.clipboard.writeText(url);
+          const old = button.textContent;
+          button.textContent = 'Link copied';
+          setTimeout(() => { button.textContent = old; }, 1600);
+        }
+      } catch (error) {
+        if (error?.name !== 'AbortError') location.href = url;
+      }
+    });
+  });
+
   const searchInput = document.querySelector('[data-site-search]');
   if (searchInput) {
     const index = JSON.parse(document.querySelector('#search-index').textContent);

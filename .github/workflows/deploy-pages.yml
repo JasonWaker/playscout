@@ -27,6 +27,8 @@ jobs:
           cache: npm
       - name: Sync permitted public data
         run: npm run sync:data
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
       - name: Build static site
         env:
           SITE_BASE: /playscout

@@ -4,13 +4,13 @@
   "country": "US",
   "platform": "iOS/iPadOS",
   "storefront": "Apple App Store",
-  "fetchedAt": "2026-09-09T02:52:58.216Z",
+  "fetchedAt": "2026-09-09T03:55:10.118Z",
   "scopeNote": "United States iOS/iPadOS App Store Games category (genre 6014). This dataset contains no Android rankings. Rank is the position returned by Apple.",
   "charts": {
     "free": {
       "title": "iTunes Store: Top Free Applications in Games",
       "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json",
-      "feedUpdated": "2026-09-08T19:52:22-07:00",
+      "feedUpdated": "2026-09-08T20:53:18-07:00",
       "entries": [
         {
           "id": "6761760135",
@@ -442,7 +442,7 @@
     "paid": {
       "title": "iTunes Store: Top Paid Applications in Games",
       "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json",
-      "feedUpdated": "2026-09-08T19:52:22-07:00",
+      "feedUpdated": "2026-09-08T20:53:18-07:00",
       "entries": [
         {
           "id": "479516143",
@@ -874,7 +874,7 @@
     "grossing": {
       "title": "iTunes Store: Top Grossing",
       "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json",
-      "feedUpdated": "2026-09-08T19:52:22-07:00",
+      "feedUpdated": "2026-09-08T20:53:18-07:00",
       "entries": [
         {
           "id": "1621328561",
@@ -1307,7 +1307,7 @@
   "releases": {
     "title": "iTunes Store: All New Applications",
     "sourceUrl": "https://rss.marketingtools.apple.com/",
-    "feedUpdated": "2026-09-08T19:52:22-07:00",
+    "feedUpdated": "2026-09-08T20:53:18-07:00",
     "scopeNote": "Recent games discovered across Apple New Applications and live US Games charts, deduplicated and sorted by the App Store release date.",
     "entries": [
       {

@@ -4,13 +4,13 @@ PlayScout is a content-rich, static-first game discovery site inspired by the us
 
 ## What is implemented
 
-- 48 generated HTML pages: 12 game hubs, 12 guide articles, 10 news articles, 13 channel/policy pages, and a custom 404.
-- Desktop and mobile navigation, game filtering, site search, ranking tabs, code-copy feedback, YouTube embeds, and responsive layouts.
+- 49 generated HTML pages: 12 game hubs, 12 guide articles, 10 news articles, 14 channel/policy pages, and a custom 404.
+- Desktop and mobile navigation, Game Pulse and game filtering, site search, ranking tabs, saved briefings, native share/copy feedback, YouTube embeds, and responsive layouts.
 - Unique titles, descriptions, canonicals, one H1 per page, Open Graph metadata, `Article`, `NewsArticle`, `BreadcrumbList`, `VideoObject`, `Organization`, and `WebSite` JSON-LD.
 - `robots.txt`, `sitemap.xml`, RSS feed, crawlable `<a href>` links, and a GitHub Pages deployment workflow.
 - Source and editorial policy pages that separate store rank, editorial heat, player experience, and first-party facts.
 
-The Rankings and New releases pages use Apple’s US iOS/iPadOS App Store feeds and never represent Android ranks. GamerPower supplies live, cross-platform offers with attribution. FreeToGame supplies the recent PC/browser free-to-play catalog with attribution. Editorial story dates, heat scores, event claims and codes remain clearly labelled preview data and must be verified before promotion.
+The Rankings and New releases pages use Apple’s US iOS/iPadOS App Store feeds and never represent Android ranks. Game Pulse publishes a daily set of three new and three hot games from that data, enriched with Apple metadata, specific YouTube creator videos where verified, and clearly labelled synthesized introductions and tips. GamerPower supplies live, cross-platform offers with attribution. FreeToGame supplies the recent PC/browser free-to-play catalog with attribution. Editorial story dates, heat scores, event claims and codes remain clearly labelled preview data and must be verified before promotion.
 
 ## Local development
 
@@ -19,7 +19,7 @@ npm run check
 npm run serve
 ```
 
-Refresh all three cached source snapshots with `npm run sync:data`. GitHub Actions runs this sync every six hours and deploys the generated site while retaining the last successful snapshot during a provider outage.
+Refresh the cached source snapshots and daily Game Pulse edition with `npm run sync:data`. GitHub Actions runs this sync every six hours and deploys the generated site while retaining the last successful snapshot during a provider outage.
 
 Open `http://localhost:4174`. Edit structured content in `src/data.mjs`, templates in `scripts/build.mjs`, presentation in `src/styles.css`, and client enhancements in `src/app.js`.
 
@@ -30,6 +30,8 @@ Open `http://localhost:4174`. Edit structured content in `src/data.mjs`, templat
 3. Fetch permitted YouTube metadata through the YouTube Data API and store the specific video ID. Embed or link to the original; never mirror the video file.
 4. Source images from publisher press kits, permitted store APIs, owned captures, or licensed libraries. Keep license, attribution, and expiry fields next to each asset.
 5. Send material changes to an editor, publish only complete pages, and mark stale/failed data visibly.
+
+Set the optional GitHub Actions secret `YOUTUBE_API_KEY` to let the daily pipeline find specific videos for unfamiliar new releases and display public YouTube view/like counts. Without it, known games keep their verified video IDs and unfamiliar games receive a clearly labelled YouTube search link; the site never invents engagement numbers.
 
 ## Path to 100k monthly page views
 
