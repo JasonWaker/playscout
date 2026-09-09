@@ -87,6 +87,16 @@ if (!giveawaysHtml.includes('Last successful GamerPower sync:') || !giveawaysHtm
 const freeGamesHtml = await readFile(path.join(out, 'free-games', 'index.html'), 'utf8');
 if (!freeGamesHtml.includes('Last successful FreeToGame sync:') || !freeGamesHtml.includes('PC &amp; browser')) errors.push('free games: source scope or live timestamp is not visible');
 
+const sourcedNews = [
+  ['minecraft-wilderness-bound','https://www.minecraft.net/en-us/article/drop-3-2026-name-announce'],
+  ['minecraft-treasure-hunt-watch-challenge','https://www.minecraft.net/en-us/article/treasure-hunt-watch-challenge'],
+  ['roblox-fall-games-preview','https://about.roblox.com/newsroom/2026/09/roblox-fall-games-preview'],
+];
+for (const [slug, sourceUrl] of sourcedNews) {
+  const html = await readFile(path.join(out, 'news', slug, 'index.html'), 'utf8');
+  if (!html.includes('PRIMARY SOURCE') || !html.includes(sourceUrl) || !html.includes('Source checked')) errors.push(`news ${slug}: verified source disclosure is missing`);
+}
+
 if (errors.length) {
   console.error(errors.join('\n'));
   process.exit(1);

@@ -4,13 +4,13 @@
   "country": "US",
   "platform": "iOS/iPadOS",
   "storefront": "Apple App Store",
-  "fetchedAt": "2026-09-09T03:55:10.118Z",
+  "fetchedAt": "2026-09-09T09:01:39.377Z",
   "scopeNote": "United States iOS/iPadOS App Store Games category (genre 6014). This dataset contains no Android rankings. Rank is the position returned by Apple.",
   "charts": {
     "free": {
       "title": "iTunes Store: Top Free Applications in Games",
       "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json",
-      "feedUpdated": "2026-09-08T20:53:18-07:00",
+      "feedUpdated": "2026-09-09T02:01:40-07:00",
       "entries": [
         {
           "id": "6761760135",
@@ -33,7 +33,7 @@
           "id": "6752672568",
           "name": "Block Out! - Color Sort Puzzle",
           "developer": "Grand Games A.Ş.",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/25/cc/c025cce9-36eb-8873-0d02-f63d6badc179/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/b7/cc/66b7ccf2-f181-a66d-a2a7-cff222a775f8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
           "storeUrl": "https://apps.apple.com/us/app/block-out-color-sort-puzzle/id6752672568?uo=2",
           "releaseDate": "2025-10-31T00:00:00-07:00",
           "genres": [
@@ -115,29 +115,29 @@
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
-          "id": "431946152",
-          "name": "Roblox",
-          "developer": "Roblox Corporation",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/f6/b9/73f6b9d7-6a5c-e9db-57d6-dd82f64038f3/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/roblox/id431946152?uo=2",
-          "releaseDate": "2011-05-26T13:51:47-07:00",
-          "genres": [
-            "Games"
-          ],
-          "rank": 7,
-          "platform": "iOS/iPadOS",
-          "storefront": "Apple App Store",
-          "localSlug": "roblox",
-          "discoveredVia": "Top free",
-          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
-        },
-        {
           "id": "6468921495",
           "name": "Vita Mahjong",
           "developer": "Vita Studio",
           "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/03/dd/ac03ddd8-cec0-3190-c3bf-cd31ab4bd49b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
           "storeUrl": "https://apps.apple.com/us/app/vita-mahjong/id6468921495?uo=2",
           "releaseDate": "2023-12-01T00:00:00-07:00",
+          "genres": [
+            "Games"
+          ],
+          "rank": 7,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
+          "localSlug": null,
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
+        },
+        {
+          "id": "6760325543",
+          "name": "CubeAway - 3DPuzzle",
+          "developer": "GOODROID,Inc.",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/99/d2/7e99d217-5a1c-489d-3af1-a53427fb4cb8/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/cubeaway-3dpuzzle/id6760325543?uo=2",
+          "releaseDate": "2026-03-13T00:00:00-07:00",
           "genres": [
             "Games"
           ],
@@ -149,19 +149,19 @@
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
-          "id": "6760325543",
-          "name": "CubeAway - 3DPuzzle",
-          "developer": "GOODROID,Inc.",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/c3/64/bcc364aa-74dd-504a-be7a-1a3dc0d90471/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/cubeaway-3dpuzzle/id6760325543?uo=2",
-          "releaseDate": "2026-03-13T00:00:00-07:00",
+          "id": "431946152",
+          "name": "Roblox",
+          "developer": "Roblox Corporation",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/f6/b9/73f6b9d7-6a5c-e9db-57d6-dd82f64038f3/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/roblox/id431946152?uo=2",
+          "releaseDate": "2011-05-26T13:51:47-07:00",
           "genres": [
             "Games"
           ],
           "rank": 9,
           "platform": "iOS/iPadOS",
           "storefront": "Apple App Store",
-          "localSlug": null,
+          "localSlug": "roblox",
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
@@ -183,6 +183,23 @@
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
+          "id": "6780195090",
+          "name": "82-0.com",
+          "developer": "Vaulty Studios Inc.",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/53/21/d3/5321d312-e22f-b6d6-dcfd-6ec69789b1db/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/82-0-com/id6780195090?uo=2",
+          "releaseDate": "2026-06-24T00:00:00-07:00",
+          "genres": [
+            "Games"
+          ],
+          "rank": 11,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
+          "localSlug": null,
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
+        },
+        {
           "id": "1617391485",
           "name": "Block Blast！",
           "developer": "Hungry Studio",
@@ -192,7 +209,7 @@
           "genres": [
             "Games"
           ],
-          "rank": 11,
+          "rank": 12,
           "platform": "iOS/iPadOS",
           "storefront": "Apple App Store",
           "localSlug": null,
@@ -206,23 +223,6 @@
           "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/fd/2a/f1fd2a75-d77c-2e0a-18d5-f56f2d0633f8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
           "storeUrl": "https://apps.apple.com/us/app/car-evolve/id6754464806?uo=2",
           "releaseDate": "2025-11-10T00:00:00-07:00",
-          "genres": [
-            "Games"
-          ],
-          "rank": 12,
-          "platform": "iOS/iPadOS",
-          "storefront": "Apple App Store",
-          "localSlug": null,
-          "discoveredVia": "Top free",
-          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
-        },
-        {
-          "id": "6780195090",
-          "name": "82-0.com",
-          "developer": "Vaulty Studios Inc.",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/53/21/d3/5321d312-e22f-b6d6-dcfd-6ec69789b1db/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/82-0-com/id6780195090?uo=2",
-          "releaseDate": "2026-06-24T00:00:00-07:00",
           "genres": [
             "Games"
           ],
@@ -251,12 +251,12 @@
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
-          "id": "1623318294",
-          "name": "Gossip Harbor®: Merge & Story",
-          "developer": "Microfun Limited",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/c3/15/b7c31546-603c-f813-0af5-71978cd76570/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/gossip-harbor-merge-story/id1623318294?uo=2",
-          "releaseDate": "2022-07-07T00:00:00-07:00",
+          "id": "6746743297",
+          "name": "Bus Fever Party!",
+          "developer": "Lumi Games",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/20/4a/88204a17-8942-3a71-df34-96dfc698e48d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/bus-fever-party/id6746743297?uo=2",
+          "releaseDate": "2025-06-13T00:00:00-07:00",
           "genres": [
             "Games"
           ],
@@ -268,16 +268,33 @@
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
-          "id": "6759412341",
-          "name": "EA College Football Mobile 27",
-          "developer": "Electronic Arts",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/2e/a5/632ea5a5-33e3-d96b-49da-9b733c81a90b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/ea-college-football-mobile-27/id6759412341?uo=2",
-          "releaseDate": "2026-07-09T00:00:00-07:00",
+          "id": "6761757565",
+          "name": "Colorever: Gem Art Puzzle",
+          "developer": "Oakever Games",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/2e/b0/a32eb044-3e64-ceb9-e7f2-96aa2f24d30f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/colorever-gem-art-puzzle/id6761757565?uo=2",
+          "releaseDate": "2026-04-20T00:00:00-07:00",
           "genres": [
             "Games"
           ],
           "rank": 16,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
+          "localSlug": null,
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
+        },
+        {
+          "id": "1623318294",
+          "name": "Gossip Harbor®: Merge & Story",
+          "developer": "Microfun Limited",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/c3/15/b7c31546-603c-f813-0af5-71978cd76570/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/gossip-harbor-merge-story/id1623318294?uo=2",
+          "releaseDate": "2022-07-07T00:00:00-07:00",
+          "genres": [
+            "Games"
+          ],
+          "rank": 17,
           "platform": "iOS/iPadOS",
           "storefront": "Apple App Store",
           "localSlug": null,
@@ -291,23 +308,6 @@
           "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/7b/ba/cf7bba17-4270-55ab-7d08-96ec164921cc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
           "storeUrl": "https://apps.apple.com/us/app/royal-smash-physics-puzzle/id6780891673?uo=2",
           "releaseDate": "2026-06-30T00:00:00-07:00",
-          "genres": [
-            "Games"
-          ],
-          "rank": 17,
-          "platform": "iOS/iPadOS",
-          "storefront": "Apple App Store",
-          "localSlug": null,
-          "discoveredVia": "Top free",
-          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
-        },
-        {
-          "id": "6746743297",
-          "name": "Bus Fever Party!",
-          "developer": "Lumi Games",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/20/4a/88204a17-8942-3a71-df34-96dfc698e48d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/bus-fever-party/id6746743297?uo=2",
-          "releaseDate": "2025-06-13T00:00:00-07:00",
           "genres": [
             "Games"
           ],
@@ -336,12 +336,12 @@
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
-          "id": "6761757565",
-          "name": "Colorever: Gem Art Puzzle",
-          "developer": "Oakever Games",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/2e/b0/a32eb044-3e64-ceb9-e7f2-96aa2f24d30f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/colorever-gem-art-puzzle/id6761757565?uo=2",
-          "releaseDate": "2026-04-20T00:00:00-07:00",
+          "id": "6747492600",
+          "name": "Mahjong Blast",
+          "developer": "Nebula Studio",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/8b/c3/3c8bc3af-0288-b180-a987-4287a625c027/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/mahjong-blast/id6747492600?uo=2",
+          "releaseDate": "2025-06-24T00:00:00-07:00",
           "genres": [
             "Games"
           ],
@@ -353,12 +353,12 @@
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
-          "id": "6747492600",
-          "name": "Mahjong Blast",
-          "developer": "Nebula Studio",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/8b/c3/3c8bc3af-0288-b180-a987-4287a625c027/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/mahjong-blast/id6747492600?uo=2",
-          "releaseDate": "2025-06-24T00:00:00-07:00",
+          "id": "6759412341",
+          "name": "EA College Football Mobile 27",
+          "developer": "Electronic Arts",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/2e/a5/632ea5a5-33e3-d96b-49da-9b733c81a90b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/ea-college-football-mobile-27/id6759412341?uo=2",
+          "releaseDate": "2026-07-09T00:00:00-07:00",
           "genres": [
             "Games"
           ],
@@ -387,12 +387,12 @@
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
-          "id": "1608987929",
-          "name": "Triumph Arcade",
-          "developer": "Triumph Arcade",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/e2/84/00e2845b-2b46-e680-757a-7864b8cbbc2a/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/triumph-arcade/id1608987929?uo=2",
-          "releaseDate": "2022-02-22T00:00:00-07:00",
+          "id": "6767091927",
+          "name": "Jigsaw Drop: Solitaire Puzzle",
+          "developer": "Runyou Game",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/e7/e8/b1e7e8dd-4965-4d4c-f260-0ebb2734135d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/jigsaw-drop-solitaire-puzzle/id6767091927?uo=2",
+          "releaseDate": "2026-05-11T00:00:00-07:00",
           "genres": [
             "Games"
           ],
@@ -400,23 +400,6 @@
           "platform": "iOS/iPadOS",
           "storefront": "Apple App Store",
           "localSlug": null,
-          "discoveredVia": "Top free",
-          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
-        },
-        {
-          "id": "1482155847",
-          "name": "Royal Match",
-          "developer": "Dream Games",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d9/9d/83/d99d834a-172e-0962-988c-5c95acc4ce97/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/royal-match/id1482155847?uo=2",
-          "releaseDate": "2021-02-25T00:00:00-07:00",
-          "genres": [
-            "Games"
-          ],
-          "rank": 24,
-          "platform": "iOS/iPadOS",
-          "storefront": "Apple App Store",
-          "localSlug": "royal-match",
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
@@ -430,10 +413,27 @@
           "genres": [
             "Games"
           ],
-          "rank": 25,
+          "rank": 24,
           "platform": "iOS/iPadOS",
           "storefront": "Apple App Store",
           "localSlug": "monopoly-go",
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
+        },
+        {
+          "id": "6748397500",
+          "name": "Arrows – Puzzle Escape",
+          "developer": "Lessmore GmbH",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/07/6f/47/076f471a-1ee5-13de-6e44-d22905b8ad1b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/arrows-puzzle-escape/id6748397500?uo=2",
+          "releaseDate": "2025-08-09T00:00:00-07:00",
+          "genres": [
+            "Games"
+          ],
+          "rank": 25,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
+          "localSlug": null,
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         }
@@ -442,7 +442,7 @@
     "paid": {
       "title": "iTunes Store: Top Paid Applications in Games",
       "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json",
-      "feedUpdated": "2026-09-08T20:53:18-07:00",
+      "feedUpdated": "2026-09-09T02:01:40-07:00",
       "entries": [
         {
           "id": "479516143",
@@ -547,23 +547,6 @@
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
-          "id": "1406710800",
-          "name": "Stardew Valley",
-          "developer": "ConcernedApe",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0e/df/12/0edf1230-3f6e-fbb3-7f72-f2aa844d100a/AppIcons-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/stardew-valley/id1406710800?uo=2",
-          "releaseDate": "2018-10-24T00:00:00-07:00",
-          "genres": [
-            "Games"
-          ],
-          "rank": 7,
-          "platform": "iOS/iPadOS",
-          "storefront": "Apple App Store",
-          "localSlug": "stardew-valley",
-          "discoveredVia": "Top paid",
-          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
-        },
-        {
           "id": "6502453075",
           "name": "Balatro",
           "developer": "Playstack Ltd",
@@ -573,10 +556,27 @@
           "genres": [
             "Games"
           ],
-          "rank": 8,
+          "rank": 7,
           "platform": "iOS/iPadOS",
           "storefront": "Apple App Store",
           "localSlug": null,
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
+        },
+        {
+          "id": "1406710800",
+          "name": "Stardew Valley",
+          "developer": "ConcernedApe",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0e/df/12/0edf1230-3f6e-fbb3-7f72-f2aa844d100a/AppIcons-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/stardew-valley/id1406710800?uo=2",
+          "releaseDate": "2018-10-24T00:00:00-07:00",
+          "genres": [
+            "Games"
+          ],
+          "rank": 8,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
+          "localSlug": "stardew-valley",
           "discoveredVia": "Top paid",
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
@@ -615,12 +615,12 @@
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
-          "id": "763692274",
-          "name": "Grand Theft Auto: San Andreas",
-          "developer": "Rockstar Games",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/02/f2/c002f295-cf73-0278-8e73-d8d1f9e7a9af/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/grand-theft-auto-san-andreas/id763692274?uo=2",
-          "releaseDate": "2013-12-12T00:00:00-07:00",
+          "id": "824305459",
+          "name": "Papa's Freezeria To Go!",
+          "developer": "Flipline Studios",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/44/d1/bb/44d1bb03-8871-ff83-c212-5c55b0f335a6/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/papas-freezeria-to-go/id824305459?uo=2",
+          "releaseDate": "2014-02-26T15:08:16-07:00",
           "genres": [
             "Games"
           ],
@@ -632,12 +632,12 @@
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
-          "id": "824305459",
-          "name": "Papa's Freezeria To Go!",
-          "developer": "Flipline Studios",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/44/d1/bb/44d1bb03-8871-ff83-c212-5c55b0f335a6/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/papas-freezeria-to-go/id824305459?uo=2",
-          "releaseDate": "2014-02-26T15:08:16-07:00",
+          "id": "763692274",
+          "name": "Grand Theft Auto: San Andreas",
+          "developer": "Rockstar Games",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/02/f2/c002f295-cf73-0278-8e73-d8d1f9e7a9af/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/grand-theft-auto-san-andreas/id763692274?uo=2",
+          "releaseDate": "2013-12-12T00:00:00-07:00",
           "genres": [
             "Games"
           ],
@@ -683,12 +683,12 @@
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
-          "id": "1491530147",
-          "name": "Slay the Spire",
-          "developer": "Balor Games",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/0c/92/910c920a-0ab6-1939-e297-083995b640c7/AppIcon-1x_U007emarketing-0-11-0-0-85-220-0.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/slay-the-spire/id1491530147?uo=2",
-          "releaseDate": "2020-06-13T00:00:00-07:00",
+          "id": "1093131935",
+          "name": "Incredibox",
+          "developer": "So Far So Good",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/2b/6c/d02b6c61-94fe-4863-56ae-a2a522061147/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/incredibox/id1093131935?uo=2",
+          "releaseDate": "2016-03-27T11:02:38-07:00",
           "genres": [
             "Games"
           ],
@@ -700,12 +700,12 @@
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
-          "id": "1093131935",
-          "name": "Incredibox",
-          "developer": "So Far So Good",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/2b/6c/d02b6c61-94fe-4863-56ae-a2a522061147/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/incredibox/id1093131935?uo=2",
-          "releaseDate": "2016-03-27T11:02:38-07:00",
+          "id": "1491530147",
+          "name": "Slay the Spire",
+          "developer": "Balor Games",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/0c/92/910c920a-0ab6-1939-e297-083995b640c7/AppIcon-1x_U007emarketing-0-11-0-0-85-220-0.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/slay-the-spire/id1491530147?uo=2",
+          "releaseDate": "2020-06-13T00:00:00-07:00",
           "genres": [
             "Games"
           ],
@@ -734,6 +734,23 @@
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
+          "id": "6714479204",
+          "name": "Lowriders Comeback: Boulevard",
+          "developer": "Oleh Chernykh",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/a4/d6/d6a4d65c-2fb0-245b-61f2-0a791d6788fd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/lowriders-comeback-boulevard/id6714479204?uo=2",
+          "releaseDate": "2024-12-06T00:00:00-07:00",
+          "genres": [
+            "Games"
+          ],
+          "rank": 18,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
+          "localSlug": null,
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
+        },
+        {
           "id": "912536422",
           "name": "Five Nights at Freddy's",
           "developer": "CLICKTEAM LLC USA",
@@ -743,7 +760,7 @@
           "genres": [
             "Games"
           ],
-          "rank": 18,
+          "rank": 19,
           "platform": "iOS/iPadOS",
           "storefront": "Apple App Store",
           "localSlug": null,
@@ -760,41 +777,7 @@
           "genres": [
             "Games"
           ],
-          "rank": 19,
-          "platform": "iOS/iPadOS",
-          "storefront": "Apple App Store",
-          "localSlug": null,
-          "discoveredVia": "Top paid",
-          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
-        },
-        {
-          "id": "6714479204",
-          "name": "Lowriders Comeback: Boulevard",
-          "developer": "Oleh Chernykh",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/a4/d6/d6a4d65c-2fb0-245b-61f2-0a791d6788fd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/lowriders-comeback-boulevard/id6714479204?uo=2",
-          "releaseDate": "2024-12-06T00:00:00-07:00",
-          "genres": [
-            "Games"
-          ],
           "rank": 20,
-          "platform": "iOS/iPadOS",
-          "storefront": "Apple App Store",
-          "localSlug": null,
-          "discoveredVia": "Top paid",
-          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
-        },
-        {
-          "id": "6754894237",
-          "name": "CloverPit",
-          "developer": "Future Friends Games",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/83/4f/3d834fff-7e41-dbe7-06ff-e91fd0422963/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/cloverpit/id6754894237?uo=2",
-          "releaseDate": "2025-12-17T00:00:00-07:00",
-          "genres": [
-            "Games"
-          ],
-          "rank": 21,
           "platform": "iOS/iPadOS",
           "storefront": "Apple App Store",
           "localSlug": null,
@@ -811,7 +794,7 @@
           "genres": [
             "Games"
           ],
-          "rank": 22,
+          "rank": 21,
           "platform": "iOS/iPadOS",
           "storefront": "Apple App Store",
           "localSlug": null,
@@ -819,16 +802,16 @@
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
-          "id": "891194610",
-          "name": "Earn to Die 2",
-          "developer": "Not Doppler",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fe/cc/ab/feccab35-76b9-2ffa-7a6a-40ea9af24707/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/earn-to-die-2/id891194610?uo=2",
-          "releaseDate": "2014-11-20T00:00:00-07:00",
+          "id": "6754894237",
+          "name": "CloverPit",
+          "developer": "Future Friends Games",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/83/4f/3d834fff-7e41-dbe7-06ff-e91fd0422963/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/cloverpit/id6754894237?uo=2",
+          "releaseDate": "2025-12-17T00:00:00-07:00",
           "genres": [
             "Games"
           ],
-          "rank": 23,
+          "rank": 22,
           "platform": "iOS/iPadOS",
           "storefront": "Apple App Store",
           "localSlug": null,
@@ -845,7 +828,7 @@
           "genres": [
             "Games"
           ],
-          "rank": 24,
+          "rank": 23,
           "platform": "iOS/iPadOS",
           "storefront": "Apple App Store",
           "localSlug": null,
@@ -862,6 +845,23 @@
           "genres": [
             "Games"
           ],
+          "rank": 24,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
+          "localSlug": null,
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
+        },
+        {
+          "id": "891194610",
+          "name": "Earn to Die 2",
+          "developer": "Not Doppler",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fe/cc/ab/feccab35-76b9-2ffa-7a6a-40ea9af24707/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/earn-to-die-2/id891194610?uo=2",
+          "releaseDate": "2014-11-20T00:00:00-07:00",
+          "genres": [
+            "Games"
+          ],
           "rank": 25,
           "platform": "iOS/iPadOS",
           "storefront": "Apple App Store",
@@ -874,7 +874,7 @@
     "grossing": {
       "title": "iTunes Store: Top Grossing",
       "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json",
-      "feedUpdated": "2026-09-08T20:53:18-07:00",
+      "feedUpdated": "2026-09-09T02:01:40-07:00",
       "entries": [
         {
           "id": "1621328561",
@@ -894,23 +894,6 @@
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
-          "id": "1094591345",
-          "name": "Pokémon GO",
-          "developer": "Scopely Explore, Inc.",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/4a/21/de4a21a0-dfd8-1198-ae05-d7b8a85e6abc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/pok%C3%A9mon-go/id1094591345?uo=2",
-          "releaseDate": "2016-07-06T17:39:49-07:00",
-          "genres": [
-            "Games"
-          ],
-          "rank": 2,
-          "platform": "iOS/iPadOS",
-          "storefront": "Apple App Store",
-          "localSlug": "pokemon-go",
-          "discoveredVia": "Top grossing",
-          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
-        },
-        {
           "id": "1482155847",
           "name": "Royal Match",
           "developer": "Dream Games",
@@ -920,7 +903,7 @@
           "genres": [
             "Games"
           ],
-          "rank": 3,
+          "rank": 2,
           "platform": "iOS/iPadOS",
           "storefront": "Apple App Store",
           "localSlug": "royal-match",
@@ -928,10 +911,27 @@
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
+          "id": "1094591345",
+          "name": "Pokémon GO",
+          "developer": "Scopely Explore, Inc.",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/4a/21/de4a21a0-dfd8-1198-ae05-d7b8a85e6abc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/pok%C3%A9mon-go/id1094591345?uo=2",
+          "releaseDate": "2016-07-06T17:39:49-07:00",
+          "genres": [
+            "Games"
+          ],
+          "rank": 3,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
+          "localSlug": "pokemon-go",
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
+        },
+        {
           "id": "553834731",
           "name": "Candy Crush Saga",
           "developer": "King",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/1b/35/0b1b35b6-667d-f339-9645-c83a2940e45d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8f/de/33/8fde33a2-a5d3-ee30-cc04-36ec1ed1ef91/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
           "storeUrl": "https://apps.apple.com/us/app/candy-crush-saga/id553834731?uo=2",
           "releaseDate": "2012-11-14T06:41:32-07:00",
           "genres": [
@@ -996,6 +996,23 @@
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
+          "id": "431946152",
+          "name": "Roblox",
+          "developer": "Roblox Corporation",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/f6/b9/73f6b9d7-6a5c-e9db-57d6-dd82f64038f3/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/roblox/id431946152?uo=2",
+          "releaseDate": "2011-05-26T13:51:47-07:00",
+          "genres": [
+            "Games"
+          ],
+          "rank": 8,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
+          "localSlug": "roblox",
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
+        },
+        {
           "id": "1606549505",
           "name": "Royal Kingdom",
           "developer": "Dream Games",
@@ -1005,7 +1022,7 @@
           "genres": [
             "Games"
           ],
-          "rank": 8,
+          "rank": 9,
           "platform": "iOS/iPadOS",
           "storefront": "Apple App Store",
           "localSlug": null,
@@ -1022,7 +1039,7 @@
           "genres": [
             "Games"
           ],
-          "rank": 9,
+          "rank": 10,
           "platform": "iOS/iPadOS",
           "storefront": "Apple App Store",
           "localSlug": null,
@@ -1039,27 +1056,10 @@
           "genres": [
             "Games"
           ],
-          "rank": 10,
-          "platform": "iOS/iPadOS",
-          "storefront": "Apple App Store",
-          "localSlug": null,
-          "discoveredVia": "Top grossing",
-          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
-        },
-        {
-          "id": "431946152",
-          "name": "Roblox",
-          "developer": "Roblox Corporation",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/f6/b9/73f6b9d7-6a5c-e9db-57d6-dd82f64038f3/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/roblox/id431946152?uo=2",
-          "releaseDate": "2011-05-26T13:51:47-07:00",
-          "genres": [
-            "Games"
-          ],
           "rank": 11,
           "platform": "iOS/iPadOS",
           "storefront": "Apple App Store",
-          "localSlug": "roblox",
+          "localSlug": null,
           "discoveredVia": "Top grossing",
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
@@ -1081,50 +1081,16 @@
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
-          "id": "6471045672",
-          "name": "Tasty Travels: Merge Game",
-          "developer": "Century Games Pte. Ltd.",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/45/bb/e045bb47-6e25-55e1-c687-8e64a7dea9d2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/tasty-travels-merge-game/id6471045672?uo=2",
-          "releaseDate": "2024-04-11T00:00:00-07:00",
+          "id": "6503272652",
+          "name": "Last Z: Survival Shooter",
+          "developer": "Omnilojo Pte Ltd",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/3a/da/083ada8d-3366-6c51-c9d4-c11bc9ceccd1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/last-z-survival-shooter/id6503272652?uo=2",
+          "releaseDate": "2025-04-24T00:00:00-07:00",
           "genres": [
             "Games"
           ],
           "rank": 13,
-          "platform": "iOS/iPadOS",
-          "storefront": "Apple App Store",
-          "localSlug": null,
-          "discoveredVia": "Top grossing",
-          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
-        },
-        {
-          "id": "1053012308",
-          "name": "Clash Royale",
-          "developer": "Supercell",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/59/cc/2559cc81-78bd-168e-c74a-d3649542f25a/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/clash-royale/id1053012308?uo=2",
-          "releaseDate": "2016-03-01T23:25:45-07:00",
-          "genres": [
-            "Games"
-          ],
-          "rank": 14,
-          "platform": "iOS/iPadOS",
-          "storefront": "Apple App Store",
-          "localSlug": null,
-          "discoveredVia": "Top grossing",
-          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
-        },
-        {
-          "id": "1098157959",
-          "name": "Evony",
-          "developer": "TOP GAMES INC.",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/df/a8/27dfa803-eabf-4d2c-a330-2b969aeda18b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/evony/id1098157959?uo=2",
-          "releaseDate": "2016-04-26T19:06:23-07:00",
-          "genres": [
-            "Games"
-          ],
-          "rank": 15,
           "platform": "iOS/iPadOS",
           "storefront": "Apple App Store",
           "localSlug": null,
@@ -1141,7 +1107,24 @@
           "genres": [
             "Games"
           ],
-          "rank": 16,
+          "rank": 14,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
+          "localSlug": null,
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
+        },
+        {
+          "id": "6471045672",
+          "name": "Tasty Travels: Merge Game",
+          "developer": "Century Games Pte. Ltd.",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/45/bb/e045bb47-6e25-55e1-c687-8e64a7dea9d2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/tasty-travels-merge-game/id6471045672?uo=2",
+          "releaseDate": "2024-04-11T00:00:00-07:00",
+          "genres": [
+            "Games"
+          ],
+          "rank": 15,
           "platform": "iOS/iPadOS",
           "storefront": "Apple App Store",
           "localSlug": null,
@@ -1158,7 +1141,7 @@
           "genres": [
             "Games"
           ],
-          "rank": 17,
+          "rank": 16,
           "platform": "iOS/iPadOS",
           "storefront": "Apple App Store",
           "localSlug": null,
@@ -1166,16 +1149,16 @@
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
-          "id": "6503272652",
-          "name": "Last Z: Survival Shooter",
-          "developer": "Omnilojo Pte Ltd",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/3a/da/083ada8d-3366-6c51-c9d4-c11bc9ceccd1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/last-z-survival-shooter/id6503272652?uo=2",
-          "releaseDate": "2025-04-24T00:00:00-07:00",
+          "id": "6751056652",
+          "name": "Pixel Flow!",
+          "developer": "Loom Games Oyun Yazilim ve Pazarlama Anonim Sirketi",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/45/e0/1545e00a-4c45-1909-f2af-18f7a06bd790/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/pixel-flow/id6751056652?uo=2",
+          "releaseDate": "2025-08-17T00:00:00-07:00",
           "genres": [
             "Games"
           ],
-          "rank": 18,
+          "rank": 17,
           "platform": "iOS/iPadOS",
           "storefront": "Apple App Store",
           "localSlug": null,
@@ -1192,6 +1175,23 @@
           "genres": [
             "Games"
           ],
+          "rank": 18,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
+          "localSlug": null,
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
+        },
+        {
+          "id": "1053012308",
+          "name": "Clash Royale",
+          "developer": "Supercell",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/59/cc/2559cc81-78bd-168e-c74a-d3649542f25a/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/clash-royale/id1053012308?uo=2",
+          "releaseDate": "2016-03-01T23:25:45-07:00",
+          "genres": [
+            "Games"
+          ],
           "rank": 19,
           "platform": "iOS/iPadOS",
           "storefront": "Apple App Store",
@@ -1200,12 +1200,12 @@
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
-          "id": "6751056652",
-          "name": "Pixel Flow!",
-          "developer": "Loom Games Oyun Yazilim ve Pazarlama Anonim Sirketi",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/45/e0/1545e00a-4c45-1909-f2af-18f7a06bd790/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/pixel-flow/id6751056652?uo=2",
-          "releaseDate": "2025-08-17T00:00:00-07:00",
+          "id": "6752672568",
+          "name": "Block Out! - Color Sort Puzzle",
+          "developer": "Grand Games A.Ş.",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/b7/cc/66b7ccf2-f181-a66d-a2a7-cff222a775f8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/block-out-color-sort-puzzle/id6752672568?uo=2",
+          "releaseDate": "2025-10-31T00:00:00-07:00",
           "genres": [
             "Games"
           ],
@@ -1234,12 +1234,12 @@
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
-          "id": "6752672568",
-          "name": "Block Out! - Color Sort Puzzle",
-          "developer": "Grand Games A.Ş.",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/25/cc/c025cce9-36eb-8873-0d02-f63d6badc179/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/block-out-color-sort-puzzle/id6752672568?uo=2",
-          "releaseDate": "2025-10-31T00:00:00-07:00",
+          "id": "6756058501",
+          "name": "Jelly Busters: Puzzle Game",
+          "developer": "Moon Active",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/92/17/529217b2-f027-fa20-6b59-46822356ad5d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/jelly-busters-puzzle-game/id6756058501?uo=2",
+          "releaseDate": "2026-01-26T00:00:00-07:00",
           "genres": [
             "Games"
           ],
@@ -1251,33 +1251,16 @@
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
-          "id": "6756058501",
-          "name": "Jelly Busters: Puzzle Game",
-          "developer": "Moon Active",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/92/17/529217b2-f027-fa20-6b59-46822356ad5d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/jelly-busters-puzzle-game/id6756058501?uo=2",
-          "releaseDate": "2026-01-26T00:00:00-07:00",
+          "id": "1098157959",
+          "name": "Evony",
+          "developer": "TOP GAMES INC.",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/df/a8/27dfa803-eabf-4d2c-a330-2b969aeda18b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/evony/id1098157959?uo=2",
+          "releaseDate": "2016-04-26T19:06:23-07:00",
           "genres": [
             "Games"
           ],
           "rank": 23,
-          "platform": "iOS/iPadOS",
-          "storefront": "Apple App Store",
-          "localSlug": null,
-          "discoveredVia": "Top grossing",
-          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
-        },
-        {
-          "id": "307569751",
-          "name": "NYT Games: Wordle & Crossword",
-          "developer": "The New York Times Company",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/7b/f4/df7bf400-e0b2-c19d-bd8a-2e18ceafeec8/Release-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/100x100bb.png",
-          "storeUrl": "https://apps.apple.com/us/app/nyt-games-wordle-crossword/id307569751?uo=2",
-          "releaseDate": "2009-03-26T19:01:58-07:00",
-          "genres": [
-            "Games"
-          ],
-          "rank": 24,
           "platform": "iOS/iPadOS",
           "storefront": "Apple App Store",
           "localSlug": null,
@@ -1294,6 +1277,23 @@
           "genres": [
             "Games"
           ],
+          "rank": 24,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
+          "localSlug": null,
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
+        },
+        {
+          "id": "6740043080",
+          "name": "Screwdom",
+          "developer": "Zego Global Pte Ltd",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/18/89/d0/1889d02e-9bbc-9413-6020-e5f788c14691/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "storeUrl": "https://apps.apple.com/us/app/screwdom/id6740043080?uo=2",
+          "releaseDate": "2025-01-02T00:00:00-07:00",
+          "genres": [
+            "Games"
+          ],
           "rank": 25,
           "platform": "iOS/iPadOS",
           "storefront": "Apple App Store",
@@ -1307,7 +1307,7 @@
   "releases": {
     "title": "iTunes Store: All New Applications",
     "sourceUrl": "https://rss.marketingtools.apple.com/",
-    "feedUpdated": "2026-09-08T20:53:18-07:00",
+    "feedUpdated": "2026-09-09T02:01:40-07:00",
     "scopeNote": "Recent games discovered across Apple New Applications and live US Games charts, deduplicated and sorted by the App Store release date.",
     "entries": [
       {
@@ -1337,7 +1337,7 @@
         "genres": [
           "Games"
         ],
-        "rank": 24,
+        "rank": 23,
         "platform": "iOS/iPadOS",
         "storefront": "Apple App Store",
         "localSlug": null,
@@ -1354,7 +1354,7 @@
         "genres": [
           "Games"
         ],
-        "rank": 25,
+        "rank": 24,
         "platform": "iOS/iPadOS",
         "storefront": "Apple App Store",
         "localSlug": null,
@@ -1388,7 +1388,7 @@
         "genres": [
           "Games"
         ],
-        "rank": 16,
+        "rank": 21,
         "platform": "iOS/iPadOS",
         "storefront": "Apple App Store",
         "localSlug": null,
@@ -1592,7 +1592,7 @@
         "genres": [
           "Games"
         ],
-        "rank": 17,
+        "rank": 18,
         "platform": "iOS/iPadOS",
         "storefront": "Apple App Store",
         "localSlug": null,
@@ -1609,7 +1609,7 @@
         "genres": [
           "Games"
         ],
-        "rank": 13,
+        "rank": 11,
         "platform": "iOS/iPadOS",
         "storefront": "Apple App Store",
         "localSlug": null,
@@ -1660,12 +1660,29 @@
         "genres": [
           "Games"
         ],
-        "rank": 22,
+        "rank": 21,
         "platform": "iOS/iPadOS",
         "storefront": "Apple App Store",
         "localSlug": null,
         "discoveredVia": "Top paid",
         "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
+      },
+      {
+        "id": "6767091927",
+        "name": "Jigsaw Drop: Solitaire Puzzle",
+        "developer": "Runyou Game",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/e7/e8/b1e7e8dd-4965-4d4c-f260-0ebb2734135d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+        "storeUrl": "https://apps.apple.com/us/app/jigsaw-drop-solitaire-puzzle/id6767091927?uo=2",
+        "releaseDate": "2026-05-11T00:00:00-07:00",
+        "genres": [
+          "Games"
+        ],
+        "rank": 23,
+        "platform": "iOS/iPadOS",
+        "storefront": "Apple App Store",
+        "localSlug": null,
+        "discoveredVia": "Top free",
+        "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
       },
       {
         "id": "6761757565",
@@ -1677,7 +1694,7 @@
         "genres": [
           "Games"
         ],
-        "rank": 20,
+        "rank": 16,
         "platform": "iOS/iPadOS",
         "storefront": "Apple App Store",
         "localSlug": null,
@@ -1712,23 +1729,6 @@
           "Games"
         ],
         "rank": 6,
-        "platform": "iOS/iPadOS",
-        "storefront": "Apple App Store",
-        "localSlug": null,
-        "discoveredVia": "Top free",
-        "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
-      },
-      {
-        "id": "6760325543",
-        "name": "CubeAway - 3DPuzzle",
-        "developer": "GOODROID,Inc.",
-        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/c3/64/bcc364aa-74dd-504a-be7a-1a3dc0d90471/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
-        "storeUrl": "https://apps.apple.com/us/app/cubeaway-3dpuzzle/id6760325543?uo=2",
-        "releaseDate": "2026-03-13T00:00:00-07:00",
-        "genres": [
-          "Games"
-        ],
-        "rank": 9,
         "platform": "iOS/iPadOS",
         "storefront": "Apple App Store",
         "localSlug": null,

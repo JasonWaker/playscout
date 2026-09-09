@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-09T03:55:11.365Z",
+  "fetchedAt": "2026-09-09T09:01:41.219Z",
   "giveaways": {
     "provider": "GamerPower",
     "sourceUrl": "https://www.gamerpower.com/api-read",
     "endpoint": "https://www.gamerpower.com/api/giveaways?sort-by=date",
-    "fetchedAt": "2026-09-09T03:55:11.365Z",
+    "fetchedAt": "2026-09-09T09:01:41.219Z",
     "scopeNote": "Active giveaways, full games, in-game loot and beta access across listed platforms. Platform labels come from GamerPower; this is not a store ranking.",
     "entries": [
       {
@@ -24,7 +24,7 @@
           "GOG",
           "DRM-Free"
         ],
-        "users": 18980,
+        "users": 20360,
         "status": "Active"
       },
       {
@@ -42,7 +42,7 @@
           "Android",
           "iOS"
         ],
-        "users": 11920,
+        "users": 12260,
         "status": "Active"
       },
       {
@@ -60,7 +60,7 @@
           "PC",
           "Epic Games Store"
         ],
-        "users": 45620,
+        "users": 46950,
         "status": "Active"
       },
       {
@@ -81,7 +81,7 @@
           "Android",
           "iOS"
         ],
-        "users": 5920,
+        "users": 6070,
         "status": "Active"
       },
       {
@@ -99,7 +99,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 48620,
+        "users": 49240,
         "status": "Active"
       },
       {
@@ -117,7 +117,7 @@
           "PC",
           "Epic Games Store"
         ],
-        "users": 126600,
+        "users": 128010,
         "status": "Active"
       },
       {
@@ -135,7 +135,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 63230,
+        "users": 63910,
         "status": "Active"
       },
       {
@@ -153,7 +153,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 79430,
+        "users": 80120,
         "status": "Active"
       },
       {
@@ -172,7 +172,7 @@
           "Android",
           "iOS"
         ],
-        "users": 18670,
+        "users": 18780,
         "status": "Active"
       },
       {
@@ -190,7 +190,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 99720,
+        "users": 100540,
         "status": "Active"
       },
       {
@@ -208,7 +208,7 @@
           "PC",
           "Steam"
         ],
-        "users": 25960,
+        "users": 25990,
         "status": "Active"
       },
       {
@@ -226,7 +226,7 @@
           "PC",
           "Steam"
         ],
-        "users": 21760,
+        "users": 21830,
         "status": "Active"
       },
       {
@@ -244,7 +244,7 @@
           "PC",
           "Steam"
         ],
-        "users": 258540,
+        "users": 259830,
         "status": "Active"
       },
       {
@@ -261,7 +261,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 44970,
+        "users": 45390,
         "status": "Active"
       },
       {
@@ -279,7 +279,7 @@
           "PC",
           "Steam"
         ],
-        "users": 31240,
+        "users": 31290,
         "status": "Active"
       },
       {
@@ -297,7 +297,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 154760,
+        "users": 155010,
         "status": "Active"
       },
       {
@@ -316,7 +316,7 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 142200,
+        "users": 142530,
         "status": "Active"
       },
       {
@@ -335,7 +335,7 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 150750,
+        "users": 151190,
         "status": "Active"
       },
       {
@@ -352,7 +352,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 33900,
+        "users": 34030,
         "status": "Active"
       },
       {
@@ -369,7 +369,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 39930,
+        "users": 39970,
         "status": "Active"
       },
       {
@@ -389,7 +389,7 @@
           "Xbox Series X|S",
           "Nintendo Switch"
         ],
-        "users": 45040,
+        "users": 45120,
         "status": "Active"
       },
       {
@@ -406,7 +406,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 46350,
+        "users": 46430,
         "status": "Active"
       },
       {
@@ -425,7 +425,7 @@
           "Playstation 5",
           "Playstation 4"
         ],
-        "users": 47840,
+        "users": 47920,
         "status": "Active"
       },
       {
@@ -445,7 +445,7 @@
           "Android",
           "iOS"
         ],
-        "users": 49450,
+        "users": 49530,
         "status": "Active"
       },
       {
@@ -462,7 +462,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 48120,
+        "users": 48160,
         "status": "Active"
       },
       {
@@ -485,7 +485,7 @@
           "Android",
           "iOS"
         ],
-        "users": 48130,
+        "users": 48210,
         "status": "Active"
       },
       {
@@ -503,7 +503,7 @@
           "PC",
           "Steam"
         ],
-        "users": 58170,
+        "users": 58250,
         "status": "Active"
       },
       {
@@ -520,7 +520,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 58880,
+        "users": 58970,
         "status": "Active"
       },
       {
@@ -537,7 +537,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 58300,
+        "users": 58360,
         "status": "Active"
       },
       {
@@ -556,7 +556,7 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 74590,
+        "users": 74930,
         "status": "Active"
       }
     ]
@@ -565,7 +565,7 @@
     "provider": "FreeToGame",
     "sourceUrl": "https://www.freetogame.com/api-doc",
     "endpoint": "https://www.freetogame.com/api/games?sort-by=release-date",
-    "fetchedAt": "2026-09-09T03:55:11.365Z",
+    "fetchedAt": "2026-09-09T09:01:41.219Z",
     "scopeNote": "Free-to-play PC and browser game directory sorted by the provider release-date feed. This is not an iOS or Android chart.",
     "entries": [
       {

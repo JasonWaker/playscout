@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "date": "2026-09-09",
-  "generatedAt": "2026-09-09T03:55:10.229Z",
-  "sourceObservedAt": "2026-09-09T03:55:10.118Z",
+  "generatedAt": "2026-09-09T09:01:39.874Z",
+  "sourceObservedAt": "2026-09-09T09:01:39.377Z",
   "scopeNote": "Daily editorial briefing: three recent US iOS releases and three current US iOS grossing-chart games. Facts remain linked to Apple; practical tips are automatically synthesized and labelled.",
   "items": [
     {
@@ -17,7 +17,7 @@
       "releaseDate": "2026-09-07T00:00:00-07:00",
       "rank": null,
       "rating": 4.8,
-      "ratingCount": 214,
+      "ratingCount": 283,
       "contentRating": "4+",
       "intro": "MiniMuses is game from Studio Sirenia. This briefing uses current App Store metadata to explain what to inspect before investing time or money.",
       "playStyle": "Start with the tutorial and first complete play loop, then decide whether the game rewards skill, collection, planning or repeated short sessions.",
@@ -37,7 +37,7 @@
       },
       "sourceProvider": "Apple App Store",
       "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-09T03:55:10.118Z",
+      "sourceObservedAt": "2026-09-09T09:01:39.377Z",
       "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
     },
     {
@@ -52,7 +52,7 @@
       "releaseDate": "2026-08-17T00:00:00-07:00",
       "rank": null,
       "rating": 4.9,
-      "ratingCount": 289,
+      "ratingCount": 290,
       "contentRating": "12+",
       "intro": "Slots & Daggers is a strategy title from Future Friends Games. This briefing uses current App Store metadata to explain what to inspect before investing time or money.",
       "playStyle": "Progress comes from reading objectives, sequencing upgrades and protecting scarce resources for the moments that return the most value.",
@@ -72,7 +72,7 @@
       },
       "sourceProvider": "Apple App Store",
       "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-09T03:55:10.118Z",
+      "sourceObservedAt": "2026-09-09T09:01:39.377Z",
       "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
     },
     {
@@ -87,7 +87,7 @@
       "releaseDate": "2026-08-13T00:00:00-07:00",
       "rank": null,
       "rating": 4.9,
-      "ratingCount": 1822,
+      "ratingCount": 1829,
       "contentRating": "12+",
       "intro": "Servant of the Lake is an adventure title from Rusty Lake. This briefing uses current App Store metadata to explain what to inspect before investing time or money.",
       "playStyle": "The core loop rewards pattern recognition, deliberate use of limited tools and learning why a failed attempt ran out of options.",
@@ -107,7 +107,7 @@
       },
       "sourceProvider": "Apple App Store",
       "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-09T03:55:10.118Z",
+      "sourceObservedAt": "2026-09-09T09:01:39.377Z",
       "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
     },
     {
@@ -122,7 +122,7 @@
       "releaseDate": "2023-04-11T00:00:00-07:00",
       "rank": 1,
       "rating": 4.8,
-      "ratingCount": 3819560,
+      "ratingCount": 3819734,
       "contentRating": "9+",
       "intro": "Roll, collect landmarks and plan event multipliers in a fast-moving social board game.",
       "playStyle": "Progress comes from reading objectives, sequencing upgrades and protecting scarce resources for the moments that return the most value.",
@@ -142,42 +142,7 @@
       },
       "sourceProvider": "Apple App Store",
       "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-09T03:55:10.118Z",
-      "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
-    },
-    {
-      "id": "hot-1094591345",
-      "kind": "hot",
-      "name": "Pokémon GO",
-      "developer": "Scopely Explore, Inc.",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/4a/21/de4a21a0-dfd8-1198-ae05-d7b8a85e6abc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "storeUrl": "https://apps.apple.com/us/app/pok%C3%A9mon-go/id1094591345?uo=2",
-      "localSlug": "pokemon-go",
-      "genre": "Strategy",
-      "releaseDate": "2016-07-06T17:39:49-07:00",
-      "rank": 2,
-      "rating": 4,
-      "ratingCount": 652574,
-      "contentRating": "9+",
-      "intro": "Explore real-world locations, build raid teams and collect Pokémon through live events.",
-      "playStyle": "Progress comes from reading objectives, sequencing upgrades and protecting scarce resources for the moments that return the most value.",
-      "tips": [
-        "Finish the tutorial before spending premium currency.",
-        "Keep one reserve of speedups or consumables until event rules are clear.",
-        "Join an active group early and compare advice with the current game version."
-      ],
-      "video": {
-        "type": "video",
-        "id": "HcWIsOQygIQ",
-        "title": "POKÉMON GO'S ULTIMATE BEGINNERS GUIDE!",
-        "channel": "Poké Daxi",
-        "duration": "16:16",
-        "url": "https://www.youtube.com/watch?v=HcWIsOQygIQ",
-        "thumbnailUrl": "https://i.ytimg.com/vi/HcWIsOQygIQ/hqdefault.jpg"
-      },
-      "sourceProvider": "Apple App Store",
-      "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-09T03:55:10.118Z",
+      "sourceObservedAt": "2026-09-09T09:01:39.377Z",
       "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
     },
     {
@@ -190,9 +155,9 @@
       "localSlug": "royal-match",
       "genre": "Casual",
       "releaseDate": "2021-02-25T00:00:00-07:00",
-      "rank": 3,
+      "rank": 2,
       "rating": 4.7,
-      "ratingCount": 3809562,
+      "ratingCount": 3809818,
       "contentRating": "12+",
       "intro": "Complete match-three levels, unlock areas and restore King Robert’s castle.",
       "playStyle": "The core loop rewards pattern recognition, deliberate use of limited tools and learning why a failed attempt ran out of options.",
@@ -212,7 +177,42 @@
       },
       "sourceProvider": "Apple App Store",
       "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-09T03:55:10.118Z",
+      "sourceObservedAt": "2026-09-09T09:01:39.377Z",
+      "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
+    },
+    {
+      "id": "hot-1094591345",
+      "kind": "hot",
+      "name": "Pokémon GO",
+      "developer": "Scopely Explore, Inc.",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/4a/21/de4a21a0-dfd8-1198-ae05-d7b8a85e6abc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "storeUrl": "https://apps.apple.com/us/app/pok%C3%A9mon-go/id1094591345?uo=2",
+      "localSlug": "pokemon-go",
+      "genre": "Strategy",
+      "releaseDate": "2016-07-06T17:39:49-07:00",
+      "rank": 3,
+      "rating": 4,
+      "ratingCount": 652583,
+      "contentRating": "9+",
+      "intro": "Explore real-world locations, build raid teams and collect Pokémon through live events.",
+      "playStyle": "Progress comes from reading objectives, sequencing upgrades and protecting scarce resources for the moments that return the most value.",
+      "tips": [
+        "Finish the tutorial before spending premium currency.",
+        "Keep one reserve of speedups or consumables until event rules are clear.",
+        "Join an active group early and compare advice with the current game version."
+      ],
+      "video": {
+        "type": "video",
+        "id": "HcWIsOQygIQ",
+        "title": "POKÉMON GO'S ULTIMATE BEGINNERS GUIDE!",
+        "channel": "Poké Daxi",
+        "duration": "16:16",
+        "url": "https://www.youtube.com/watch?v=HcWIsOQygIQ",
+        "thumbnailUrl": "https://i.ytimg.com/vi/HcWIsOQygIQ/hqdefault.jpg"
+      },
+      "sourceProvider": "Apple App Store",
+      "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json",
+      "sourceObservedAt": "2026-09-09T09:01:39.377Z",
       "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
     }
   ]
