@@ -10,7 +10,7 @@ PlayScout is a content-rich, static-first mobile game discovery site inspired by
 - `robots.txt`, `sitemap.xml`, RSS feed, crawlable `<a href>` links, and a GitHub Pages deployment workflow.
 - Source and editorial policy pages that separate store rank, editorial heat, player experience, and first-party facts.
 
-The visible rankings, dates, and codes are clearly labelled sample editorial data. They are suitable for product validation, not publication as current fact. Replace them with verified feeds before promoting the site.
+The Rankings page now uses Apple’s US App Store Games feeds for free, paid, and grossing charts. Editorial heat, event dates, and codes remain clearly labelled preview data and must be verified before promotion.
 
 ## Local development
 
@@ -18,6 +18,8 @@ The visible rankings, dates, and codes are clearly labelled sample editorial dat
 npm run check
 npm run serve
 ```
+
+Refresh the cached Apple chart snapshot with `npm run sync:data`. GitHub Actions runs this sync every six hours and deploys the generated site while retaining the last successful snapshot during a provider outage.
 
 Open `http://localhost:4174`. Edit structured content in `src/data.mjs`, templates in `scripts/build.mjs`, presentation in `src/styles.css`, and client enhancements in `src/app.js`.
 

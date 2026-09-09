@@ -4,6 +4,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
 
 permissions:
   contents: read
@@ -23,6 +25,8 @@ jobs:
         with:
           node-version: 20
           cache: npm
+      - name: Sync permitted public data
+        run: npm run sync:data
       - name: Build static site
         env:
           SITE_BASE: /playscout

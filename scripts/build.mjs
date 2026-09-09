@@ -1,4 +1,5 @@
 import { cp, mkdir, rm, writeFile } from 'node:fs/promises';
+import { readFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { site, games, guides, news, videos, codes, releases, gameBySlug } from '../src/data.mjs';
@@ -7,7 +8,10 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const out = path.join(root, 'dist');
 const base = (process.env.SITE_BASE || '').replace(/\/$/, '');
 const siteUrl = (process.env.SITE_URL || 'http://localhost:4174').replace(/\/$/, '');
-const buildDate = '2026-09-09';
+const buildDate = new Date().toISOString().slice(0,10);
+let appleData = { provider:'Apple', country:'US', fetchedAt:null, scopeNote:'Cached editorial fallback', charts:{ free:{entries:[]}, paid:{entries:[]}, grossing:{entries:[]} } };
+try { appleData = JSON.parse(readFileSync(path.join(root, 'src', 'generated', 'apple-charts.json'), 'utf8')); } catch {}
+const chartTime = appleData.fetchedAt ? new Intl.DateTimeFormat('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit',timeZone:'UTC',timeZoneName:'short'}).format(new Date(appleData.fetchedAt)) : 'cached preview';
 
 const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const href = route => route.startsWith('http') ? route : `${base}${route.startsWith('/') ? route : `/${route}`}`;
@@ -17,6 +21,8 @@ const routeFile = route => route === '/' ? path.join(out, 'index.html') : path.j
 const game = slug => gameBySlug(slug) || games[0];
 
 const icon = (item, cls='') => `<img class="${cls}" src="${asset(item.image)}" alt="${esc(item.name)} app icon" width="64" height="64" loading="lazy">`;
+const feedIcon = (item, cls='') => `<img class="${cls}" src="${esc(item.artworkUrl)}" alt="${esc(item.name)} app icon from Apple" width="64" height="64" loading="lazy">`;
+const feedLink = item => item.localSlug ? href(`/games/${item.localSlug}/`) : esc(item.storeUrl);
 const badge = (text, tone='teal') => `<span class="badge badge-${tone}">${esc(text)}</span>`;
 const gameCard = item => `<a class="game-card" href="${href(`/games/${item.slug}/`)}">${icon(item)}<span><strong>${esc(item.name)}</strong><small>${esc(item.genre)}</small><em>${esc(item.status)} · ${esc(item.rank)}</em></span></a>`;
 const storyCard = (item, section='guides') => {
@@ -28,7 +34,7 @@ const breadcrumbs = items => `<nav class="breadcrumbs" aria-label="Breadcrumb">$
 function header(active='') {
   const nav = [['Games','/games/'],['Rankings','/rankings/'],['New releases','/new-games/'],['Guides','/guides/'],['News','/news/'],['Videos','/videos/'],['Codes','/codes/']];
   return `<header class="site-header">
-    <div class="trend-bar"><div class="shell trend-inner"><div class="trend-links"><b>Trending</b><a href="${href('/guides/whiteout-survival-upgrade-priority/')}">Whiteout Survival upgrades</a><a href="${href('/news/monopoly-go-event-calendar/')}">MONOPOLY GO! events</a><a href="${href('/guides/roblox-best-adventures/')}">Best Roblox games</a></div><span class="data-note"><i></i>Editorial demo · US</span></div></div>
+    <div class="trend-bar"><div class="shell trend-inner"><div class="trend-links"><b>Trending</b><a href="${href('/guides/whiteout-survival-upgrade-priority/')}">Whiteout Survival upgrades</a><a href="${href('/news/monopoly-go-event-calendar/')}">MONOPOLY GO! events</a><a href="${href('/guides/roblox-best-adventures/')}">Best Roblox games</a></div><span class="data-note"><i></i>Apple charts · ${esc(chartTime)}</span></div></div>
     <div class="shell masthead"><a class="brand" href="${href('/')}"><span class="brand-mark">P</span><span>PLAY<strong>SCOUT</strong></span></a>
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span><span class="sr-only">Open navigation</span></button>
       <nav id="primary-nav" aria-label="Primary navigation">${nav.map(([label,url]) => `<a ${active === label ? 'aria-current="page" class="active"' : ''} href="${href(url)}">${label}</a>`).join('')}</nav>
@@ -38,7 +44,7 @@ function header(active='') {
 }
 
 function footer() {
-  return `<footer><div class="shell footer-grid"><div><a class="brand brand-footer" href="${href('/')}"><span class="brand-mark">P</span><span>PLAY<strong>SCOUT</strong></span></a><p>Useful mobile-game answers, clear sourcing and paths that help players decide what to do next.</p></div><div><strong>Explore</strong><a href="${href('/games/')}">Games</a><a href="${href('/rankings/')}">Rankings</a><a href="${href('/guides/')}">Guides</a><a href="${href('/videos/')}">Videos</a></div><div><strong>About</strong><a href="${href('/about/sources/')}">Sources & methodology</a><a href="${href('/about/editorial-policy/')}">Editorial policy</a><a href="${href('/sitemap.xml')}">Sitemap</a></div><div class="demo-note"><strong>Preview status</strong><p>Rankings, dates and redeem codes are sample editorial data for product validation. Verify them before production use.</p></div></div><div class="shell footer-bottom"><span>© 2026 PlayScout</span><span>Built for fast, accessible discovery</span></div></footer>`;
+  return `<footer><div class="shell footer-grid"><div><a class="brand brand-footer" href="${href('/')}"><span class="brand-mark">P</span><span>PLAY<strong>SCOUT</strong></span></a><p>Useful mobile-game answers, clear sourcing and paths that help players decide what to do next.</p></div><div><strong>Explore</strong><a href="${href('/games/')}">Games</a><a href="${href('/rankings/')}">Rankings</a><a href="${href('/guides/')}">Guides</a><a href="${href('/videos/')}">Videos</a></div><div><strong>About</strong><a href="${href('/about/sources/')}">Sources & methodology</a><a href="${href('/about/editorial-policy/')}">Editorial policy</a><a href="${href('/sitemap.xml')}">Sitemap</a></div><div class="demo-note"><strong>Data status</strong><p>The Rankings page uses live Apple feeds. Editorial heat, dates and redeem codes remain labelled preview data until verified.</p></div></div><div class="shell footer-bottom"><span>© 2026 PlayScout</span><span>Built for fast, accessible discovery</span></div></footer>`;
 }
 
 function layout({ title, description, route='/', active='', body, type='website', jsonLd=[] , noindex=false }) {
@@ -53,7 +59,7 @@ function layout({ title, description, route='/', active='', body, type='website'
 
 const sectionHead = (kicker,title,linkLabel='',linkRoute='') => `<div class="section-heading"><div><span class="kicker">${esc(kicker)}</span><h2>${esc(title)}</h2></div>${linkLabel ? `<a href="${href(linkRoute)}">${esc(linkLabel)} <span aria-hidden="true">→</span></a>` : ''}</div>`;
 const pageHero = (kicker,title,text,stats=[]) => `<section class="page-hero"><div class="shell"><span class="kicker">${esc(kicker)}</span><h1>${esc(title)}</h1><p>${esc(text)}</p>${stats.length ? `<div class="page-stats">${stats.map(([n,l]) => `<span><b>${esc(n)}</b><span>${esc(l)}</span></span>`).join('')}</div>` : ''}</div></section>`;
-const sourceBox = () => `<aside class="source-box"><span class="kicker">TRANSPARENCY</span><h3>How to read this preview</h3><p>Visible rankings and freshness labels demonstrate the publishing model. A production editor must verify every changing fact against its linked source.</p><a href="${href('/about/sources/')}">Read our source policy →</a></aside>`;
+const sourceBox = () => `<aside class="source-box"><span class="kicker">TRANSPARENCY</span><h3>Check the source label</h3><p>Apple chart rows are fetched automatically. Editorial claims, events and codes still require a visible source and verification state before promotion.</p><a href="${href('/about/sources/')}">Read our source policy →</a></aside>`;
 
 function homePage() {
   const lead = guides[0]; const leadGame = game(lead.game);
@@ -113,10 +119,15 @@ function articleParagraph(g,item,i,isGuide){
   return (isGuide?guide:update)[i];
 }
 
+function liveRankRow(item){
+  const external = !item.localSlug;
+  return `<a class="rank-row" href="${feedLink(item)}" ${external?'target="_blank" rel="noopener noreferrer"':''}><b>${item.rank}</b><span class="rank-game">${feedIcon(item)}<span><strong>${esc(item.name)}</strong><small>${esc(item.developer)}</small></span></span><span>${esc(item.genres[0] || 'Games')}</span><span>Apple</span><span>${esc(item.releaseDate || '—')}</span><small>${external?'App Store ↗':'Game hub'}</small></a>`;
+}
+
 function rankingsPage(){
-  const rankSets=[['Paid',games.slice(4,11)],['Free',[games[3],games[2],games[0],games[8],games[11],games[1]]],['Grossing',[games[1],games[5],games[0],games[2],games[11],games[3]]]];
-  const body=`${pageHero('STORE CHARTS + EDITORIAL CONTEXT','Mobile game rankings','Compare sample free, paid and grossing charts, then open each game hub for guides and context.',[['3','chart views'],['12','linked game hubs'],['Daily','planned refresh']])}<section class="shell"><div class="filter-bar ranking-controls" role="tablist" aria-label="Ranking type">${rankSets.map(([name],i)=>`<button type="button" data-rank-tab="${name.toLowerCase()}" class="${i===0?'selected':''}">${name}</button>`).join('')}<a class="push" href="${href('/about/sources/')}">Methodology →</a></div>${rankSets.map(([name,set],si)=>`<section class="rank-section ${si?'is-hidden':''}" data-rank-panel="${name.toLowerCase()}">${sectionHead('UNITED STATES · IPHONE',`Top ${name.toLowerCase()} games`)}<div class="rank-table"><div class="rank-head"><span>Rank</span><span>Game</span><span>Genre</span><span>Move</span><span>Heat</span><span>Status</span></div>${set.map((g,i)=>`<a class="rank-row" href="${href(`/games/${g.slug}/`)}"><b>${i+1}</b><span class="rank-game">${icon(g)}<span><strong>${esc(g.name)}</strong><small>${esc(g.developer)}</small></span></span><span>${esc(g.genre.split(' · ')[0])}</span><span class="${i%3===1?'up':''}">${i%3===1?'▲ 1':'—'}</span><span>${g.score}/100</span><small>${esc(g.status)}</small></a>`).join('')}</div></section>`).join('')}<div class="method-grid">${sourceBox()}<article><span class="kicker">THREE DIFFERENT SIGNALS</span><h2>Rank is not the same as popularity</h2><p><b>Store rank</b> records a platform chart position. <b>Heat score</b> is a transparent editorial composite for discovery. <b>Editor picks</b> are qualitative recommendations. Production data keeps these fields separate.</p></article></div></section>`;
-  return layout({title:'Mobile game rankings',description:'Browse mobile game ranking tables with linked game hubs, chart context and transparent methodology.',route:'/rankings/',active:'Rankings',body});
+  const rankSets=[['Paid',appleData.charts.paid],['Free',appleData.charts.free],['Grossing',appleData.charts.grossing]];
+  const body=`${pageHero('LIVE APP STORE DATA','US iPhone game rankings','Fresh Apple App Store Games charts with source, fetch time and direct paths into PlayScout game hubs when available.',[['3','live chart views'],['75','ranked games'],['6 hours','refresh interval']])}<section class="shell"><div class="live-status"><span><i></i>Last successful sync: ${esc(chartTime)}</span><a href="${esc(appleData.charts.paid.sourceUrl)}" target="_blank" rel="noopener noreferrer">Open Apple source ↗</a></div><div class="filter-bar ranking-controls" role="tablist" aria-label="Ranking type">${rankSets.map(([name],i)=>`<button type="button" data-rank-tab="${name.toLowerCase()}" class="${i===0?'selected':''}">${name}</button>`).join('')}<a class="push" href="${href('/about/sources/')}">Methodology →</a></div>${rankSets.map(([name,set],si)=>`<section class="rank-section ${si?'is-hidden':''}" data-rank-panel="${name.toLowerCase()}">${sectionHead(`${esc(appleData.country)} · APP STORE · GAMES`,`Top ${name.toLowerCase()} games`)}<div class="rank-table"><div class="rank-head"><span>Rank</span><span>Game</span><span>Category</span><span>Source</span><span>Released</span><span>Next</span></div>${set.entries.map(liveRankRow).join('')}</div></section>`).join('')}<div class="method-grid">${sourceBox()}<article><span class="kicker">SOURCE SCOPE</span><h2>What this chart means</h2><p>${esc(appleData.scopeNote)} The scheduled build keeps the last successful snapshot if Apple is temporarily unavailable, so a failed feed cannot erase the page.</p></article></div></section>`;
+  return layout({title:'Live US mobile game rankings',description:'Dynamically updated US App Store Games rankings from Apple, including free, paid and grossing charts.',route:'/rankings/',active:'Rankings',body});
 }
 
 function releasesPage(){

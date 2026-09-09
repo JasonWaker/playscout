@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "sync:data": "node scripts/sync-sources.mjs",
     "build": "node scripts/build.mjs",
     "validate": "node scripts/validate.mjs",
     "check": "npm run build && npm run validate",

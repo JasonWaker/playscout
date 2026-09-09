@@ -52,6 +52,15 @@ const indexedPages = htmlFiles.length - 2;
 const sitemapCount = (sitemap.match(/<url>/g) || []).length;
 if (sitemapCount !== indexedPages) errors.push(`sitemap: expected ${indexedPages} URLs, found ${sitemapCount}`);
 
+const apple = JSON.parse(await readFile(path.join(root, 'src', 'generated', 'apple-charts.json'), 'utf8'));
+for (const type of ['free', 'paid', 'grossing']) {
+  const entries = apple?.charts?.[type]?.entries;
+  if (!Array.isArray(entries) || entries.length < 10) errors.push(`apple ${type}: expected at least 10 chart entries`);
+  if (entries?.some(item => !item.id || !item.name || !item.storeUrl || !item.artworkUrl || !item.rank)) errors.push(`apple ${type}: an entry is missing required fields`);
+}
+const rankingsHtml = await readFile(path.join(out, 'rankings', 'index.html'), 'utf8');
+if (!rankingsHtml.includes('Last successful sync:')) errors.push('rankings: live sync timestamp is not visible');
+
 if (errors.length) {
   console.error(errors.join('\n'));
   process.exit(1);
