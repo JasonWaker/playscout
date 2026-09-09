@@ -10,7 +10,7 @@ PlayScout is a content-rich, static-first mobile game discovery site inspired by
 - `robots.txt`, `sitemap.xml`, RSS feed, crawlable `<a href>` links, and a GitHub Pages deployment workflow.
 - Source and editorial policy pages that separate store rank, editorial heat, player experience, and first-party facts.
 
-The Rankings page now uses Apple’s US App Store Games feeds for free, paid, and grossing charts. Editorial heat, event dates, and codes remain clearly labelled preview data and must be verified before promotion.
+The Rankings and New releases pages now use Apple’s US App Store feeds. Editorial story dates, heat scores, event claims and codes remain clearly labelled preview data and must be verified before promotion.
 
 ## Local development
 

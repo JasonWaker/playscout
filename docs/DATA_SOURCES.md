@@ -4,11 +4,11 @@
 
 ### Apple Marketing Tools RSS
 
-- Purpose: US App Store Games category Top Free, Top Paid and Top Grossing charts.
+- Purpose: US App Store Games category Top Free, Top Paid and Top Grossing charts, plus newly released games.
 - Authentication: none.
-- Fields used: App Store ID, name, developer, release date, category, icon, store URL and category chart position.
+- Fields used: App Store ID, name, developer, release date, category, icon, store URL and category chart position. The new-applications feed is additionally filtered by the returned primary category because Apple currently includes mixed categories in that feed.
 - Update: GitHub Actions runs every six hours and at every push.
-- Accuracy note: the feed is scoped to the App Store Games genre (`6014`) and the page displays its country, store, chart type and fetch time.
+- Accuracy note: ranking feeds are scoped to the App Store Games genre (`6014`). New releases combine the New Applications feed with newly dated entries found in live game charts, deduplicate by App Store ID, and sort by Apple’s release date. The page displays its country, source and fetch time.
 - Endpoints follow Apple’s category RSS format, for example `https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json`.
 - Official tool: <https://rss.marketingtools.apple.com/>
 

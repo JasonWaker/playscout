@@ -58,8 +58,13 @@ for (const type of ['free', 'paid', 'grossing']) {
   if (!Array.isArray(entries) || entries.length < 10) errors.push(`apple ${type}: expected at least 10 chart entries`);
   if (entries?.some(item => !item.id || !item.name || !item.storeUrl || !item.artworkUrl || !item.rank)) errors.push(`apple ${type}: an entry is missing required fields`);
 }
+const releaseEntries = apple?.releases?.entries;
+if (!Array.isArray(releaseEntries) || releaseEntries.length < 5) errors.push('apple releases: expected at least 5 game entries');
+if (releaseEntries?.some(item => !item.id || !item.name || !item.storeUrl || !item.artworkUrl || !item.releaseDate)) errors.push('apple releases: an entry is missing required fields');
 const rankingsHtml = await readFile(path.join(out, 'rankings', 'index.html'), 'utf8');
 if (!rankingsHtml.includes('Last successful sync:')) errors.push('rankings: live sync timestamp is not visible');
+const releasesHtml = await readFile(path.join(out, 'new-games', 'index.html'), 'utf8');
+if (!releasesHtml.includes('LIVE RELEASE FEED') || !releasesHtml.includes('Last successful sync:')) errors.push('new releases: live source labels are not visible');
 
 if (errors.length) {
   console.error(errors.join('\n'));

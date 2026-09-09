@@ -2,14 +2,14 @@ import { cp, mkdir, rm, writeFile } from 'node:fs/promises';
 import { readFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { site, games, guides, news, videos, codes, releases, gameBySlug } from '../src/data.mjs';
+import { site, games, guides, news, videos, codes, gameBySlug } from '../src/data.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const out = path.join(root, 'dist');
 const base = (process.env.SITE_BASE || '').replace(/\/$/, '');
 const siteUrl = (process.env.SITE_URL || 'http://localhost:4174').replace(/\/$/, '');
 const buildDate = new Date().toISOString().slice(0,10);
-let appleData = { provider:'Apple', country:'US', fetchedAt:null, scopeNote:'Cached editorial fallback', charts:{ free:{entries:[]}, paid:{entries:[]}, grossing:{entries:[]} } };
+let appleData = { provider:'Apple', country:'US', fetchedAt:null, scopeNote:'Cached editorial fallback', charts:{ free:{entries:[]}, paid:{entries:[]}, grossing:{entries:[]} }, releases:{entries:[]} };
 try { appleData = JSON.parse(readFileSync(path.join(root, 'src', 'generated', 'apple-charts.json'), 'utf8')); } catch {}
 const chartTime = appleData.fetchedAt ? new Intl.DateTimeFormat('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit',timeZone:'UTC',timeZoneName:'short'}).format(new Date(appleData.fetchedAt)) : 'cached preview';
 
@@ -23,6 +23,7 @@ const game = slug => gameBySlug(slug) || games[0];
 const icon = (item, cls='') => `<img class="${cls}" src="${asset(item.image)}" alt="${esc(item.name)} app icon" width="64" height="64" loading="lazy">`;
 const feedIcon = (item, cls='') => `<img class="${cls}" src="${esc(item.artworkUrl)}" alt="${esc(item.name)} app icon from Apple" width="64" height="64" loading="lazy">`;
 const feedLink = item => item.localSlug ? href(`/games/${item.localSlug}/`) : esc(item.storeUrl);
+const dateLabel = value => value ? new Intl.DateTimeFormat('en-US',{month:'short',day:'numeric',year:'numeric',timeZone:'UTC'}).format(new Date(value)) : 'Date unavailable';
 const badge = (text, tone='teal') => `<span class="badge badge-${tone}">${esc(text)}</span>`;
 const gameCard = item => `<a class="game-card" href="${href(`/games/${item.slug}/`)}">${icon(item)}<span><strong>${esc(item.name)}</strong><small>${esc(item.genre)}</small><em>${esc(item.status)} · ${esc(item.rank)}</em></span></a>`;
 const storyCard = (item, section='guides') => {
@@ -70,7 +71,7 @@ function homePage() {
     <section class="chart-panel">${sectionHead('LIVE DATA','Mobile charts','View all','/rankings/')}<div class="segmented" role="tablist" aria-label="Chart type"><button class="selected" data-chart="paid" type="button">Paid</button><button data-chart="free" type="button">Free</button><button data-chart="grossing" type="button">Grossing</button></div><div class="mini-ranking" data-ranking-list>${chartGames.map((g,i)=>`<a href="${href(`/games/${g.slug}/`)}"><b>${i+1}</b>${icon(g)}<span><strong>${esc(g.name)}</strong><small>${esc(g.genre)}</small></span><em>${i===1?'▲ 1':'—'}</em></a>`).join('')}</div><small class="sample-label">Sample chart snapshot · methodology available</small></section>
   </section>
   <section class="shell">${sectionHead('DISCOVER','Popular games right now','Explore all games','/games/')}<div class="game-rail">${games.slice(0,8).map(gameCard).join('')}</div></section>
-  <section class="shell">${sectionHead('PLAY NEXT','New and upcoming','Full release calendar','/new-games/')}<div class="release-grid">${releases.slice(0,4).map(r=>{const g=game(r.game);return `<a href="${href(`/games/${g.slug}/`)}"><time>${esc(r.date)}</time>${icon(g)}<span><strong>${esc(g.name)}</strong><small>${esc(r.note)}</small><em>${esc(r.label)}</em></span></a>`}).join('')}</div></section>
+  <section class="shell">${sectionHead('LIVE RELEASE FEED','New games on the App Store','Full release feed','/new-games/')}<div class="release-grid">${appleData.releases.entries.slice(0,4).map(item=>`<a href="${feedLink(item)}" ${item.localSlug?'':'target="_blank" rel="noopener noreferrer"'}><time>${esc(dateLabel(item.releaseDate).replace(', 2026',''))}</time>${feedIcon(item)}<span><strong>${esc(item.name)}</strong><small>${esc(item.developer)}</small><em>NEW GAME · APPLE</em></span></a>`).join('')}</div></section>
   <section class="shell">${sectionHead('PLAYER-TESTED','Updated guides','Browse all guides','/guides/')}<div class="story-grid">${guides.slice(0,6).map(g=>storyCard(g)).join('')}</div></section>
   <section class="video-band"><div class="shell">${sectionHead('WATCH & LEARN','Video tutorials and player perspectives','All videos','/videos/')}<div class="video-grid">${videos.slice(0,3).map(videoCard).join('')}</div></div></section>
   <section class="shell split-section"><div>${sectionHead('THE LATEST','News that changes how you play','News channel','/news/')}<div class="compact-feed">${news.slice(0,6).map(n=>compactStory(n,'news')).join('')}</div></div><div>${sectionHead('REWARDS','Codes to verify','All codes','/codes/')}<div class="code-stack">${codes.slice(0,5).map(codeRow).join('')}</div></div></section>
@@ -130,9 +131,15 @@ function rankingsPage(){
   return layout({title:'Live US mobile game rankings',description:'Dynamically updated US App Store Games rankings from Apple, including free, paid and grossing charts.',route:'/rankings/',active:'Rankings',body});
 }
 
+function liveReleaseRow(item){
+  const external = !item.localSlug;
+  return `<a href="${feedLink(item)}" ${external?'target="_blank" rel="noopener noreferrer"':''}><time>${esc(dateLabel(item.releaseDate))}</time>${feedIcon(item)}<span><strong>${esc(item.name)}</strong><small>${esc(item.developer)}</small></span><em>${esc(item.discoveredVia || 'Apple feed')}</em><b>${external?'App Store ↗':'Game hub'}</b></a>`;
+}
+
 function releasesPage(){
-  const body=`${pageHero('RELEASE CALENDAR','New and upcoming mobile games','A scannable calendar for launches, content drops and live events, each linked to a game hub.',[['8','tracked dates'],['2','platforms'],['Weekly','editor review']])}<section class="shell"><div class="filter-bar"><button class="selected">All dates</button><button>This week</button><button>Upcoming</button><button>iOS</button><button>Android</button></div><div class="release-list">${releases.map(r=>{const g=game(r.game);return `<a href="${href(`/games/${g.slug}/`)}"><time>${esc(r.date)}</time>${icon(g)}<span><strong>${esc(g.name)}</strong><small>${esc(g.summary)}</small></span><em>${esc(r.label)}</em><b>${esc(r.note)}</b></a>`}).join('')}</div>${sectionHead('READY NOW','Established games to explore','Browse all','/games/')}<div class="game-rail">${games.slice(0,6).map(gameCard).join('')}</div></section>`;
-  return layout({title:'New and upcoming mobile games',description:'Discover new mobile game launches, upcoming events and content updates with direct links to game hubs.',route:'/new-games/',active:'New releases',body});
+  const latest = [...appleData.releases.entries].sort((a,b)=>String(b.releaseDate).localeCompare(String(a.releaseDate)));
+  const body=`${pageHero('LIVE RELEASE FEED','New mobile games','Recent games discovered across Apple new-app and live chart feeds, deduplicated and sorted by their App Store release date.',[[String(latest.length),'recent games'],['Apple','official source'],['6 hours','refresh interval']])}<section class="shell"><div class="live-status"><span><i></i>Last successful sync: ${esc(chartTime)}</span><a href="${esc(appleData.releases.sourceUrl)}" target="_blank" rel="noopener noreferrer">Apple RSS tools ↗</a></div><div class="release-list">${latest.map(liveReleaseRow).join('')}</div>${sectionHead('READY NOW','Established games to explore','Browse all','/games/')}<div class="game-rail">${games.slice(0,6).map(gameCard).join('')}</div></section>`;
+  return layout({title:'New mobile games on the App Store',description:'Dynamically updated new mobile game releases from the US App Store Games category.',route:'/new-games/',active:'New releases',body});
 }
 
 function videosPage(){

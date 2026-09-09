@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "provider": "Apple Marketing Tools RSS",
   "country": "US",
-  "fetchedAt": "2026-09-09T02:14:00.016Z",
+  "fetchedAt": "2026-09-09T02:25:48.091Z",
   "scopeNote": "United States App Store Games category (genre 6014). Rank is the position returned by the Apple feed.",
   "charts": {
     "free": {
       "title": "iTunes Store: Top Free Applications in Games",
       "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json",
-      "feedUpdated": "2026-09-08T19:11:37-07:00",
+      "feedUpdated": "2026-09-08T19:24:12-07:00",
       "entries": [
         {
           "id": "6761760135",
@@ -21,7 +21,9 @@
             "Games"
           ],
           "rank": 1,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6752672568",
@@ -34,7 +36,9 @@
             "Games"
           ],
           "rank": 2,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6748084174",
@@ -47,7 +51,9 @@
             "Games"
           ],
           "rank": 3,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6798905825",
@@ -60,7 +66,9 @@
             "Games"
           ],
           "rank": 4,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6499209744",
@@ -73,7 +81,9 @@
             "Games"
           ],
           "rank": 5,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6759763476",
@@ -86,7 +96,9 @@
             "Games"
           ],
           "rank": 6,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
           "id": "431946152",
@@ -99,7 +111,9 @@
             "Games"
           ],
           "rank": 7,
-          "localSlug": "roblox"
+          "localSlug": "roblox",
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6468921495",
@@ -112,7 +126,9 @@
             "Games"
           ],
           "rank": 8,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6760325543",
@@ -125,7 +141,9 @@
             "Games"
           ],
           "rank": 9,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6779167923",
@@ -138,7 +156,9 @@
             "Games"
           ],
           "rank": 10,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
           "id": "1617391485",
@@ -151,7 +171,9 @@
             "Games"
           ],
           "rank": 11,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6754464806",
@@ -164,7 +186,9 @@
             "Games"
           ],
           "rank": 12,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6780195090",
@@ -177,7 +201,9 @@
             "Games"
           ],
           "rank": 13,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
           "id": "638689075",
@@ -190,7 +216,9 @@
             "Games"
           ],
           "rank": 14,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
           "id": "1623318294",
@@ -203,7 +231,9 @@
             "Games"
           ],
           "rank": 15,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6759412341",
@@ -216,7 +246,9 @@
             "Games"
           ],
           "rank": 16,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6780891673",
@@ -229,7 +261,9 @@
             "Games"
           ],
           "rank": 17,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6746743297",
@@ -242,7 +276,9 @@
             "Games"
           ],
           "rank": 18,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6758326278",
@@ -255,7 +291,9 @@
             "Games"
           ],
           "rank": 19,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6761757565",
@@ -268,7 +306,9 @@
             "Games"
           ],
           "rank": 20,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6747492600",
@@ -281,7 +321,9 @@
             "Games"
           ],
           "rank": 21,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6443575749",
@@ -294,7 +336,9 @@
             "Games"
           ],
           "rank": 22,
-          "localSlug": "whiteout-survival"
+          "localSlug": "whiteout-survival",
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
           "id": "1608987929",
@@ -307,7 +351,9 @@
             "Games"
           ],
           "rank": 23,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
           "id": "1482155847",
@@ -320,7 +366,9 @@
             "Games"
           ],
           "rank": 24,
-          "localSlug": "royal-match"
+          "localSlug": "royal-match",
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         },
         {
           "id": "1621328561",
@@ -333,14 +381,16 @@
             "Games"
           ],
           "rank": 25,
-          "localSlug": "monopoly-go"
+          "localSlug": "monopoly-go",
+          "discoveredVia": "Top free",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
         }
       ]
     },
     "paid": {
       "title": "iTunes Store: Top Paid Applications in Games",
       "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json",
-      "feedUpdated": "2026-09-08T19:12:38-07:00",
+      "feedUpdated": "2026-09-08T19:24:12-07:00",
       "entries": [
         {
           "id": "479516143",
@@ -353,7 +403,9 @@
             "Games"
           ],
           "rank": 1,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
           "id": "623592465",
@@ -366,7 +418,9 @@
             "Games"
           ],
           "rank": 2,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
           "id": "525818839",
@@ -379,7 +433,9 @@
             "Games"
           ],
           "rank": 3,
-          "localSlug": "plague-inc"
+          "localSlug": "plague-inc",
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
           "id": "625334537",
@@ -392,7 +448,9 @@
             "Games"
           ],
           "rank": 4,
-          "localSlug": "geometry-dash"
+          "localSlug": "geometry-dash",
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
           "id": "1118115766",
@@ -405,7 +463,9 @@
             "Games"
           ],
           "rank": 5,
-          "localSlug": "bloons-td-6"
+          "localSlug": "bloons-td-6",
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
           "id": "1596736236",
@@ -418,7 +478,9 @@
             "Games"
           ],
           "rank": 6,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
           "id": "1406710800",
@@ -431,7 +493,9 @@
             "Games"
           ],
           "rank": 7,
-          "localSlug": "stardew-valley"
+          "localSlug": "stardew-valley",
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6502453075",
@@ -444,7 +508,9 @@
             "Games"
           ],
           "rank": 8,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
           "id": "1477966166",
@@ -457,7 +523,9 @@
             "Games"
           ],
           "rank": 9,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
           "id": "1631859420",
@@ -470,7 +538,9 @@
             "Games"
           ],
           "rank": 10,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
           "id": "763692274",
@@ -483,7 +553,9 @@
             "Games"
           ],
           "rank": 11,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
           "id": "824305459",
@@ -496,7 +568,9 @@
             "Games"
           ],
           "rank": 12,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6758328352",
@@ -509,7 +583,9 @@
             "Games"
           ],
           "rank": 13,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
           "id": "640364616",
@@ -522,7 +598,9 @@
             "Games"
           ],
           "rank": 14,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
           "id": "1491530147",
@@ -535,7 +613,9 @@
             "Games"
           ],
           "rank": 15,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
           "id": "1093131935",
@@ -548,7 +628,9 @@
             "Games"
           ],
           "rank": 16,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6753077755",
@@ -561,7 +643,9 @@
             "Games"
           ],
           "rank": 17,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
           "id": "912536422",
@@ -574,7 +658,9 @@
             "Games"
           ],
           "rank": 18,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
           "id": "575154654",
@@ -587,7 +673,9 @@
             "Games"
           ],
           "rank": 19,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6714479204",
@@ -600,7 +688,9 @@
             "Games"
           ],
           "rank": 20,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6754894237",
@@ -613,7 +703,9 @@
             "Games"
           ],
           "rank": 21,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6748056918",
@@ -626,7 +718,9 @@
             "Games"
           ],
           "rank": 22,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
           "id": "891194610",
@@ -639,7 +733,9 @@
             "Games"
           ],
           "rank": 23,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6762803589",
@@ -652,7 +748,9 @@
             "Games"
           ],
           "rank": 24,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6748751735",
@@ -665,14 +763,16 @@
             "Games"
           ],
           "rank": 25,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top paid",
+          "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
         }
       ]
     },
     "grossing": {
       "title": "iTunes Store: Top Grossing",
       "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json",
-      "feedUpdated": "2026-09-08T19:14:01-07:00",
+      "feedUpdated": "2026-09-08T19:24:12-07:00",
       "entries": [
         {
           "id": "1621328561",
@@ -685,7 +785,9 @@
             "Games"
           ],
           "rank": 1,
-          "localSlug": "monopoly-go"
+          "localSlug": "monopoly-go",
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
           "id": "1094591345",
@@ -698,7 +800,9 @@
             "Games"
           ],
           "rank": 2,
-          "localSlug": "pokemon-go"
+          "localSlug": "pokemon-go",
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
           "id": "1482155847",
@@ -711,7 +815,9 @@
             "Games"
           ],
           "rank": 3,
-          "localSlug": "royal-match"
+          "localSlug": "royal-match",
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
           "id": "553834731",
@@ -724,7 +830,9 @@
             "Games"
           ],
           "rank": 4,
-          "localSlug": "candy-crush-saga"
+          "localSlug": "candy-crush-saga",
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
           "id": "1623318294",
@@ -737,7 +845,9 @@
             "Games"
           ],
           "rank": 5,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6739554056",
@@ -750,7 +860,9 @@
             "Games"
           ],
           "rank": 6,
-          "localSlug": "kingshot"
+          "localSlug": "kingshot",
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6443575749",
@@ -763,7 +875,9 @@
             "Games"
           ],
           "rank": 7,
-          "localSlug": "whiteout-survival"
+          "localSlug": "whiteout-survival",
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
           "id": "1606549505",
@@ -776,7 +890,9 @@
             "Games"
           ],
           "rank": 8,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6448786147",
@@ -789,7 +905,9 @@
             "Games"
           ],
           "rank": 9,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
           "id": "1176027022",
@@ -802,7 +920,9 @@
             "Games"
           ],
           "rank": 10,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
           "id": "431946152",
@@ -815,7 +935,9 @@
             "Games"
           ],
           "rank": 11,
-          "localSlug": "roblox"
+          "localSlug": "roblox",
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
           "id": "638689075",
@@ -828,7 +950,9 @@
             "Games"
           ],
           "rank": 12,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6471045672",
@@ -841,7 +965,9 @@
             "Games"
           ],
           "rank": 13,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
           "id": "1053012308",
@@ -854,7 +980,9 @@
             "Games"
           ],
           "rank": 14,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
           "id": "1098157959",
@@ -867,7 +995,9 @@
             "Games"
           ],
           "rank": 15,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6449094229",
@@ -880,7 +1010,9 @@
             "Games"
           ],
           "rank": 16,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
           "id": "1105855019",
@@ -893,7 +1025,9 @@
             "Games"
           ],
           "rank": 17,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6503272652",
@@ -906,7 +1040,9 @@
             "Games"
           ],
           "rank": 18,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
           "id": "1300146617",
@@ -919,7 +1055,9 @@
             "Games"
           ],
           "rank": 19,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6751056652",
@@ -932,7 +1070,9 @@
             "Games"
           ],
           "rank": 20,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
           "id": "406889139",
@@ -945,7 +1085,9 @@
             "Games"
           ],
           "rank": 21,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6752672568",
@@ -958,7 +1100,9 @@
             "Games"
           ],
           "rank": 22,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
           "id": "6756058501",
@@ -971,7 +1115,9 @@
             "Games"
           ],
           "rank": 23,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
           "id": "307569751",
@@ -984,7 +1130,9 @@
             "Games"
           ],
           "rank": 24,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         },
         {
           "id": "1195621598",
@@ -997,9 +1145,394 @@
             "Games"
           ],
           "rank": 25,
-          "localSlug": null
+          "localSlug": null,
+          "discoveredVia": "Top grossing",
+          "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
         }
       ]
     }
+  },
+  "releases": {
+    "title": "iTunes Store: All New Applications",
+    "sourceUrl": "https://rss.marketingtools.apple.com/",
+    "feedUpdated": "2026-09-08T19:24:12-07:00",
+    "scopeNote": "Recent games discovered across Apple New Applications and live US Games charts, deduplicated and sorted by the App Store release date.",
+    "entries": [
+      {
+        "id": "6798905825",
+        "name": "MiniMuses",
+        "developer": "Studio Sirenia",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/c4/a5/62c4a5ae-148b-84b2-4977-8fc5b327e2a5/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+        "storeUrl": "https://apps.apple.com/us/app/minimuses/id6798905825?uo=2",
+        "releaseDate": "2026-09-07T00:00:00-07:00",
+        "genres": [
+          "Games"
+        ],
+        "rank": 4,
+        "localSlug": null,
+        "discoveredVia": "Top free",
+        "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
+      },
+      {
+        "id": "6762803589",
+        "name": "Slots & Daggers",
+        "developer": "Future Friends Games",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/62/68/7462689a-1aaf-32a4-0ec1-3825b85613d5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+        "storeUrl": "https://apps.apple.com/us/app/slots-daggers/id6762803589?uo=2",
+        "releaseDate": "2026-08-17T00:00:00-07:00",
+        "genres": [
+          "Games"
+        ],
+        "rank": 24,
+        "localSlug": null,
+        "discoveredVia": "Top paid",
+        "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
+      },
+      {
+        "id": "6748751735",
+        "name": "Servant of the Lake",
+        "developer": "Rusty Lake",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/d2/d4/80d2d4b4-80b2-3117-ca0b-0317d5593a40/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+        "storeUrl": "https://apps.apple.com/us/app/servant-of-the-lake/id6748751735?uo=2",
+        "releaseDate": "2026-08-13T00:00:00-07:00",
+        "genres": [
+          "Games"
+        ],
+        "rank": 25,
+        "localSlug": null,
+        "discoveredVia": "Top paid",
+        "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
+      },
+      {
+        "id": "6753077755",
+        "name": "How Many Dudes?",
+        "developer": "Butterscotch Shenanigans, Inc.",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/93/75/6d9375fa-3ddd-619c-0ac2-933fb9938036/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+        "storeUrl": "https://apps.apple.com/us/app/how-many-dudes/id6753077755?uo=2",
+        "releaseDate": "2026-07-30T00:00:00-07:00",
+        "genres": [
+          "Games"
+        ],
+        "rank": 17,
+        "localSlug": null,
+        "discoveredVia": "Top paid",
+        "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
+      },
+      {
+        "id": "6759412341",
+        "name": "EA College Football Mobile 27",
+        "developer": "Electronic Arts",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/2e/a5/632ea5a5-33e3-d96b-49da-9b733c81a90b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+        "storeUrl": "https://apps.apple.com/us/app/ea-college-football-mobile-27/id6759412341?uo=2",
+        "releaseDate": "2026-07-09T00:00:00-07:00",
+        "genres": [
+          "Games"
+        ],
+        "rank": 16,
+        "localSlug": null,
+        "discoveredVia": "Top free",
+        "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
+      },
+      {
+        "id": "6786293494",
+        "name": "Daily Drop: Sports Trivia",
+        "developer": "Lucas Wood",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/d4/9e/fdd49eba-0547-2809-142c-6b3e8681d7b1/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+        "storeUrl": "https://apps.apple.com/us/app/daily-drop-sports-trivia/id6786293494?uo=2",
+        "releaseDate": "2026-07-07T00:00:00-07:00",
+        "genres": [
+          "Games"
+        ],
+        "rank": 2,
+        "localSlug": null,
+        "discoveredVia": "New applications",
+        "sourceUrl": "https://itunes.apple.com/us/rss/newapplications/limit=100/genre=6014/json"
+      },
+      {
+        "id": "6786356764",
+        "name": "Hear With Eyes",
+        "developer": "HyeBeen Han",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/24/33/a1243322-695a-c643-b865-ddd90f5a4b91/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+        "storeUrl": "https://apps.apple.com/us/app/hear-with-eyes/id6786356764?uo=2",
+        "releaseDate": "2026-07-07T00:00:00-07:00",
+        "genres": [
+          "Games"
+        ],
+        "rank": 3,
+        "localSlug": null,
+        "discoveredVia": "New applications",
+        "sourceUrl": "https://itunes.apple.com/us/rss/newapplications/limit=100/genre=6014/json"
+      },
+      {
+        "id": "6783859673",
+        "name": "NeuroSprint",
+        "developer": "Abhishek Chauhan",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/89/eb/d489ebb1-8d64-67d6-56f5-bd9dd226e1b3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+        "storeUrl": "https://apps.apple.com/us/app/neurosprint/id6783859673?uo=2",
+        "releaseDate": "2026-07-07T00:00:00-07:00",
+        "genres": [
+          "Games"
+        ],
+        "rank": 4,
+        "localSlug": null,
+        "discoveredVia": "New applications",
+        "sourceUrl": "https://itunes.apple.com/us/rss/newapplications/limit=100/genre=6014/json"
+      },
+      {
+        "id": "6787802923",
+        "name": "レトロゲームショップ物語",
+        "developer": "SHIN HOMMA",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c4/46/c6/c446c6a1-ad5b-a3a3-b0f8-6511b12349e3/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+        "storeUrl": "https://apps.apple.com/us/app/%E3%83%AC%E3%83%88%E3%83%AD%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%E7%89%A9%E8%AA%9E/id6787802923?uo=2",
+        "releaseDate": "2026-07-07T00:00:00-07:00",
+        "genres": [
+          "Games"
+        ],
+        "rank": 5,
+        "localSlug": null,
+        "discoveredVia": "New applications",
+        "sourceUrl": "https://itunes.apple.com/us/rss/newapplications/limit=100/genre=6014/json"
+      },
+      {
+        "id": "6785943621",
+        "name": "SkeetGolf",
+        "developer": "Yeong Bing Ong",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f4/77/c4/f477c492-c038-16a3-9ada-361c75dc052b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+        "storeUrl": "https://apps.apple.com/us/app/skeetgolf/id6785943621?uo=2",
+        "releaseDate": "2026-07-07T00:00:00-07:00",
+        "genres": [
+          "Games"
+        ],
+        "rank": 6,
+        "localSlug": null,
+        "discoveredVia": "New applications",
+        "sourceUrl": "https://itunes.apple.com/us/rss/newapplications/limit=100/genre=6014/json"
+      },
+      {
+        "id": "6786307978",
+        "name": "Block Fall Logic Puzzle",
+        "developer": "Tayyib Temizel",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/b0/23/eeb02397-be5e-ecaf-8415-3171928c3172/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+        "storeUrl": "https://apps.apple.com/us/app/block-fall-logic-puzzle/id6786307978?uo=2",
+        "releaseDate": "2026-07-07T00:00:00-07:00",
+        "genres": [
+          "Games"
+        ],
+        "rank": 7,
+        "localSlug": null,
+        "discoveredVia": "New applications",
+        "sourceUrl": "https://itunes.apple.com/us/rss/newapplications/limit=100/genre=6014/json"
+      },
+      {
+        "id": "6785155998",
+        "name": "Blubby - beware the blobs",
+        "developer": "SHARAN SREEJITH",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/e1/51/b7e15117-e2b7-40b4-8c20-a9e31ed6f780/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+        "storeUrl": "https://apps.apple.com/us/app/blubby-beware-the-blobs/id6785155998?uo=2",
+        "releaseDate": "2026-07-07T00:00:00-07:00",
+        "genres": [
+          "Games"
+        ],
+        "rank": 8,
+        "localSlug": null,
+        "discoveredVia": "New applications",
+        "sourceUrl": "https://itunes.apple.com/us/rss/newapplications/limit=100/genre=6014/json"
+      },
+      {
+        "id": "6786002120",
+        "name": "Cyber Legion",
+        "developer": "Mohammad Ali Khademi",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/91/18/23911813-dda8-a1d1-48b6-c335ef76882f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+        "storeUrl": "https://apps.apple.com/us/app/cyber-legion/id6786002120?uo=2",
+        "releaseDate": "2026-07-07T00:00:00-07:00",
+        "genres": [
+          "Games"
+        ],
+        "rank": 9,
+        "localSlug": null,
+        "discoveredVia": "New applications",
+        "sourceUrl": "https://itunes.apple.com/us/rss/newapplications/limit=100/genre=6014/json"
+      },
+      {
+        "id": "6785950466",
+        "name": "Fence Tamer: Animal Balance",
+        "developer": "旭东 宗",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/29/bf/5229bf49-ba8d-85a6-073f-15030d1cc5c4/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+        "storeUrl": "https://apps.apple.com/us/app/fence-tamer-animal-balance/id6785950466?uo=2",
+        "releaseDate": "2026-07-07T00:00:00-07:00",
+        "genres": [
+          "Games"
+        ],
+        "rank": 10,
+        "localSlug": null,
+        "discoveredVia": "New applications",
+        "sourceUrl": "https://itunes.apple.com/us/rss/newapplications/limit=100/genre=6014/json"
+      },
+      {
+        "id": "6786198512",
+        "name": "Glowfin Reef",
+        "developer": "Fluid Bloom Media LLC",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ba/02/32/ba0232d3-bb71-de19-8d5f-3ed237262547/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+        "storeUrl": "https://apps.apple.com/us/app/glowfin-reef/id6786198512?uo=2",
+        "releaseDate": "2026-07-07T00:00:00-07:00",
+        "genres": [
+          "Games"
+        ],
+        "rank": 11,
+        "localSlug": null,
+        "discoveredVia": "New applications",
+        "sourceUrl": "https://itunes.apple.com/us/rss/newapplications/limit=100/genre=6014/json"
+      },
+      {
+        "id": "6785919923",
+        "name": "Hero Clash Legends",
+        "developer": "Mohsin Afzal",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/a5/29/15a5294e-626d-0305-239a-6611703b8d5b/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+        "storeUrl": "https://apps.apple.com/us/app/hero-clash-legends/id6785919923?uo=2",
+        "releaseDate": "2026-07-03T00:00:00-07:00",
+        "genres": [
+          "Games"
+        ],
+        "rank": 1,
+        "localSlug": null,
+        "discoveredVia": "New applications",
+        "sourceUrl": "https://itunes.apple.com/us/rss/newapplications/limit=100/genre=6014/json"
+      },
+      {
+        "id": "6780891673",
+        "name": "Royal Smash! - Physics Puzzle",
+        "developer": "Cypher Games",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/7b/ba/cf7bba17-4270-55ab-7d08-96ec164921cc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+        "storeUrl": "https://apps.apple.com/us/app/royal-smash-physics-puzzle/id6780891673?uo=2",
+        "releaseDate": "2026-06-30T00:00:00-07:00",
+        "genres": [
+          "Games"
+        ],
+        "rank": 17,
+        "localSlug": null,
+        "discoveredVia": "Top free",
+        "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
+      },
+      {
+        "id": "6780195090",
+        "name": "82-0.com",
+        "developer": "Vaulty Studios Inc.",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/53/21/d3/5321d312-e22f-b6d6-dcfd-6ec69789b1db/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+        "storeUrl": "https://apps.apple.com/us/app/82-0-com/id6780195090?uo=2",
+        "releaseDate": "2026-06-24T00:00:00-07:00",
+        "genres": [
+          "Games"
+        ],
+        "rank": 13,
+        "localSlug": null,
+        "discoveredVia": "Top free",
+        "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
+      },
+      {
+        "id": "6779167923",
+        "name": "Colony Flow!",
+        "developer": "ABI GLOBAL LTD.",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/84/78/a0847884-e83a-7fc7-8bf6-3222e6c5ad80/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+        "storeUrl": "https://apps.apple.com/us/app/colony-flow/id6779167923?uo=2",
+        "releaseDate": "2026-06-13T00:00:00-07:00",
+        "genres": [
+          "Games"
+        ],
+        "rank": 10,
+        "localSlug": null,
+        "discoveredVia": "Top free",
+        "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
+      },
+      {
+        "id": "6761760135",
+        "name": "Meowdoku!",
+        "developer": "Oakever Games",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1d/92/a0/1d92a03e-cbc0-50c4-e454-bef69fa07305/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+        "storeUrl": "https://apps.apple.com/us/app/meowdoku/id6761760135?uo=2",
+        "releaseDate": "2026-05-19T00:00:00-07:00",
+        "genres": [
+          "Games"
+        ],
+        "rank": 1,
+        "localSlug": null,
+        "discoveredVia": "Top free",
+        "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
+      },
+      {
+        "id": "6748056918",
+        "name": "Farming Simulator 26 Mobile",
+        "developer": "GIANTS Software GmbH",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/05/97/d8/0597d891-6310-201c-f115-c7d281a7ba01/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+        "storeUrl": "https://apps.apple.com/us/app/farming-simulator-26-mobile/id6748056918?uo=2",
+        "releaseDate": "2026-05-19T00:00:00-07:00",
+        "genres": [
+          "Games"
+        ],
+        "rank": 22,
+        "localSlug": null,
+        "discoveredVia": "Top paid",
+        "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
+      },
+      {
+        "id": "6761757565",
+        "name": "Colorever: Gem Art Puzzle",
+        "developer": "Oakever Games",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/2e/b0/a32eb044-3e64-ceb9-e7f2-96aa2f24d30f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+        "storeUrl": "https://apps.apple.com/us/app/colorever-gem-art-puzzle/id6761757565?uo=2",
+        "releaseDate": "2026-04-20T00:00:00-07:00",
+        "genres": [
+          "Games"
+        ],
+        "rank": 20,
+        "localSlug": null,
+        "discoveredVia": "Top free",
+        "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
+      },
+      {
+        "id": "6758328352",
+        "name": "Scritchy Scratchy",
+        "developer": "Funday Games ApS",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/30/b8/bc30b850-afe5-38fd-0666-3af591767acc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+        "storeUrl": "https://apps.apple.com/us/app/scritchy-scratchy/id6758328352?uo=2",
+        "releaseDate": "2026-03-18T00:00:00-07:00",
+        "genres": [
+          "Games"
+        ],
+        "rank": 13,
+        "localSlug": null,
+        "discoveredVia": "Top paid",
+        "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
+      },
+      {
+        "id": "6759763476",
+        "name": "Bus Traffic Fever!",
+        "developer": "GOODROID,Inc.",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b0/b5/ae/b0b5ae03-60d3-2d6b-13fb-dab687ae307d/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+        "storeUrl": "https://apps.apple.com/us/app/bus-traffic-fever/id6759763476?uo=2",
+        "releaseDate": "2026-03-13T00:00:00-07:00",
+        "genres": [
+          "Games"
+        ],
+        "rank": 6,
+        "localSlug": null,
+        "discoveredVia": "Top free",
+        "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
+      },
+      {
+        "id": "6760325543",
+        "name": "CubeAway - 3DPuzzle",
+        "developer": "GOODROID,Inc.",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/c3/64/bcc364aa-74dd-504a-be7a-1a3dc0d90471/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+        "storeUrl": "https://apps.apple.com/us/app/cubeaway-3dpuzzle/id6760325543?uo=2",
+        "releaseDate": "2026-03-13T00:00:00-07:00",
+        "genres": [
+          "Games"
+        ],
+        "rank": 9,
+        "localSlug": null,
+        "discoveredVia": "Top free",
+        "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
+      }
+    ]
   }
 }
