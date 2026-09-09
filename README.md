@@ -1,16 +1,16 @@
 # PlayScout
 
-PlayScout is a content-rich, static-first mobile game discovery site inspired by the useful parts of editorial publishers and live chart products. It provides separate, crawlable routes for game hubs, rankings, releases, guides, news, videos, codes, search, sourcing, and editorial policy.
+PlayScout is a content-rich, static-first game discovery site inspired by the useful parts of editorial publishers and live chart products. It provides separate, crawlable routes for game hubs, iOS rankings and releases, cross-platform giveaways, free-to-play discovery, guides, news, videos, codes, search, sourcing, and editorial policy.
 
 ## What is implemented
 
-- 46 generated HTML pages: 12 game hubs, 12 guide articles, 10 news articles, and 11 channel/policy pages plus a custom 404.
+- 48 generated HTML pages: 12 game hubs, 12 guide articles, 10 news articles, 13 channel/policy pages, and a custom 404.
 - Desktop and mobile navigation, game filtering, site search, ranking tabs, code-copy feedback, YouTube embeds, and responsive layouts.
 - Unique titles, descriptions, canonicals, one H1 per page, Open Graph metadata, `Article`, `NewsArticle`, `BreadcrumbList`, `VideoObject`, `Organization`, and `WebSite` JSON-LD.
 - `robots.txt`, `sitemap.xml`, RSS feed, crawlable `<a href>` links, and a GitHub Pages deployment workflow.
 - Source and editorial policy pages that separate store rank, editorial heat, player experience, and first-party facts.
 
-The Rankings and New releases pages now use Apple’s US App Store feeds. Editorial story dates, heat scores, event claims and codes remain clearly labelled preview data and must be verified before promotion.
+The Rankings and New releases pages use Apple’s US iOS/iPadOS App Store feeds and never represent Android ranks. GamerPower supplies live, cross-platform offers with attribution. FreeToGame supplies the recent PC/browser free-to-play catalog with attribution. Editorial story dates, heat scores, event claims and codes remain clearly labelled preview data and must be verified before promotion.
 
 ## Local development
 
@@ -19,7 +19,7 @@ npm run check
 npm run serve
 ```
 
-Refresh the cached Apple chart snapshot with `npm run sync:data`. GitHub Actions runs this sync every six hours and deploys the generated site while retaining the last successful snapshot during a provider outage.
+Refresh all three cached source snapshots with `npm run sync:data`. GitHub Actions runs this sync every six hours and deploys the generated site while retaining the last successful snapshot during a provider outage.
 
 Open `http://localhost:4174`. Edit structured content in `src/data.mjs`, templates in `scripts/build.mjs`, presentation in `src/styles.css`, and client enhancements in `src/app.js`.
 

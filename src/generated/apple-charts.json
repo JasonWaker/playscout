@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provider": "Apple Marketing Tools RSS",
   "country": "US",
-  "fetchedAt": "2026-09-09T02:25:48.091Z",
-  "scopeNote": "United States App Store Games category (genre 6014). Rank is the position returned by the Apple feed.",
+  "platform": "iOS/iPadOS",
+  "storefront": "Apple App Store",
+  "fetchedAt": "2026-09-09T02:52:58.216Z",
+  "scopeNote": "United States iOS/iPadOS App Store Games category (genre 6014). This dataset contains no Android rankings. Rank is the position returned by Apple.",
   "charts": {
     "free": {
       "title": "iTunes Store: Top Free Applications in Games",
       "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json",
-      "feedUpdated": "2026-09-08T19:24:12-07:00",
+      "feedUpdated": "2026-09-08T19:52:22-07:00",
       "entries": [
         {
           "id": "6761760135",
@@ -21,6 +23,8 @@
             "Games"
           ],
           "rank": 1,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -36,6 +40,8 @@
             "Games"
           ],
           "rank": 2,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -51,6 +57,8 @@
             "Games"
           ],
           "rank": 3,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -66,6 +74,8 @@
             "Games"
           ],
           "rank": 4,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -81,6 +91,8 @@
             "Games"
           ],
           "rank": 5,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -96,6 +108,8 @@
             "Games"
           ],
           "rank": 6,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -111,6 +125,8 @@
             "Games"
           ],
           "rank": 7,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": "roblox",
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -126,6 +142,8 @@
             "Games"
           ],
           "rank": 8,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -141,6 +159,8 @@
             "Games"
           ],
           "rank": 9,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -156,6 +176,8 @@
             "Games"
           ],
           "rank": 10,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -171,6 +193,8 @@
             "Games"
           ],
           "rank": 11,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -186,6 +210,8 @@
             "Games"
           ],
           "rank": 12,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -201,6 +227,8 @@
             "Games"
           ],
           "rank": 13,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -216,6 +244,8 @@
             "Games"
           ],
           "rank": 14,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -231,6 +261,8 @@
             "Games"
           ],
           "rank": 15,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -246,6 +278,8 @@
             "Games"
           ],
           "rank": 16,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -261,6 +295,8 @@
             "Games"
           ],
           "rank": 17,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -276,6 +312,8 @@
             "Games"
           ],
           "rank": 18,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -284,13 +322,15 @@
           "id": "6758326278",
           "name": "Amaze GO!",
           "developer": "Oakever Games",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b4/40/ef/b440ef3e-ddf5-475a-3883-48d142e6a5fa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/ca/4c/81ca4c82-2402-4ead-21c6-dba1a905def6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
           "storeUrl": "https://apps.apple.com/us/app/amaze-go/id6758326278?uo=2",
           "releaseDate": "2026-02-13T00:00:00-07:00",
           "genres": [
             "Games"
           ],
           "rank": 19,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -306,6 +346,8 @@
             "Games"
           ],
           "rank": 20,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -314,13 +356,15 @@
           "id": "6747492600",
           "name": "Mahjong Blast",
           "developer": "Nebula Studio",
-          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ce/d5/07/ced50705-e3a3-9d6d-0ba0-f0abe81ff629/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+          "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/8b/c3/3c8bc3af-0288-b180-a987-4287a625c027/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
           "storeUrl": "https://apps.apple.com/us/app/mahjong-blast/id6747492600?uo=2",
           "releaseDate": "2025-06-24T00:00:00-07:00",
           "genres": [
             "Games"
           ],
           "rank": 21,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -336,6 +380,8 @@
             "Games"
           ],
           "rank": 22,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": "whiteout-survival",
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -351,6 +397,8 @@
             "Games"
           ],
           "rank": 23,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -366,6 +414,8 @@
             "Games"
           ],
           "rank": 24,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": "royal-match",
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -381,6 +431,8 @@
             "Games"
           ],
           "rank": 25,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": "monopoly-go",
           "discoveredVia": "Top free",
           "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -390,7 +442,7 @@
     "paid": {
       "title": "iTunes Store: Top Paid Applications in Games",
       "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json",
-      "feedUpdated": "2026-09-08T19:24:12-07:00",
+      "feedUpdated": "2026-09-08T19:52:22-07:00",
       "entries": [
         {
           "id": "479516143",
@@ -403,6 +455,8 @@
             "Games"
           ],
           "rank": 1,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top paid",
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -418,6 +472,8 @@
             "Games"
           ],
           "rank": 2,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top paid",
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -433,6 +489,8 @@
             "Games"
           ],
           "rank": 3,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": "plague-inc",
           "discoveredVia": "Top paid",
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -448,6 +506,8 @@
             "Games"
           ],
           "rank": 4,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": "geometry-dash",
           "discoveredVia": "Top paid",
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -463,6 +523,8 @@
             "Games"
           ],
           "rank": 5,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": "bloons-td-6",
           "discoveredVia": "Top paid",
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -478,6 +540,8 @@
             "Games"
           ],
           "rank": 6,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top paid",
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -493,6 +557,8 @@
             "Games"
           ],
           "rank": 7,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": "stardew-valley",
           "discoveredVia": "Top paid",
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -508,6 +574,8 @@
             "Games"
           ],
           "rank": 8,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top paid",
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -523,6 +591,8 @@
             "Games"
           ],
           "rank": 9,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top paid",
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -538,6 +608,8 @@
             "Games"
           ],
           "rank": 10,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top paid",
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -553,6 +625,8 @@
             "Games"
           ],
           "rank": 11,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top paid",
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -568,6 +642,8 @@
             "Games"
           ],
           "rank": 12,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top paid",
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -583,6 +659,8 @@
             "Games"
           ],
           "rank": 13,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top paid",
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -598,6 +676,8 @@
             "Games"
           ],
           "rank": 14,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top paid",
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -613,6 +693,8 @@
             "Games"
           ],
           "rank": 15,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top paid",
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -628,6 +710,8 @@
             "Games"
           ],
           "rank": 16,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top paid",
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -643,6 +727,8 @@
             "Games"
           ],
           "rank": 17,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top paid",
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -658,6 +744,8 @@
             "Games"
           ],
           "rank": 18,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top paid",
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -673,6 +761,8 @@
             "Games"
           ],
           "rank": 19,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top paid",
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -688,6 +778,8 @@
             "Games"
           ],
           "rank": 20,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top paid",
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -703,6 +795,8 @@
             "Games"
           ],
           "rank": 21,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top paid",
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -718,6 +812,8 @@
             "Games"
           ],
           "rank": 22,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top paid",
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -733,6 +829,8 @@
             "Games"
           ],
           "rank": 23,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top paid",
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -748,6 +846,8 @@
             "Games"
           ],
           "rank": 24,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top paid",
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -763,6 +863,8 @@
             "Games"
           ],
           "rank": 25,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top paid",
           "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -772,7 +874,7 @@
     "grossing": {
       "title": "iTunes Store: Top Grossing",
       "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json",
-      "feedUpdated": "2026-09-08T19:24:12-07:00",
+      "feedUpdated": "2026-09-08T19:52:22-07:00",
       "entries": [
         {
           "id": "1621328561",
@@ -785,6 +887,8 @@
             "Games"
           ],
           "rank": 1,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": "monopoly-go",
           "discoveredVia": "Top grossing",
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
@@ -800,6 +904,8 @@
             "Games"
           ],
           "rank": 2,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": "pokemon-go",
           "discoveredVia": "Top grossing",
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
@@ -815,6 +921,8 @@
             "Games"
           ],
           "rank": 3,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": "royal-match",
           "discoveredVia": "Top grossing",
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
@@ -830,6 +938,8 @@
             "Games"
           ],
           "rank": 4,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": "candy-crush-saga",
           "discoveredVia": "Top grossing",
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
@@ -845,6 +955,8 @@
             "Games"
           ],
           "rank": 5,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top grossing",
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
@@ -860,6 +972,8 @@
             "Games"
           ],
           "rank": 6,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": "kingshot",
           "discoveredVia": "Top grossing",
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
@@ -875,6 +989,8 @@
             "Games"
           ],
           "rank": 7,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": "whiteout-survival",
           "discoveredVia": "Top grossing",
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
@@ -890,6 +1006,8 @@
             "Games"
           ],
           "rank": 8,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top grossing",
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
@@ -905,6 +1023,8 @@
             "Games"
           ],
           "rank": 9,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top grossing",
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
@@ -920,6 +1040,8 @@
             "Games"
           ],
           "rank": 10,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top grossing",
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
@@ -935,6 +1057,8 @@
             "Games"
           ],
           "rank": 11,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": "roblox",
           "discoveredVia": "Top grossing",
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
@@ -950,6 +1074,8 @@
             "Games"
           ],
           "rank": 12,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top grossing",
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
@@ -965,6 +1091,8 @@
             "Games"
           ],
           "rank": 13,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top grossing",
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
@@ -980,6 +1108,8 @@
             "Games"
           ],
           "rank": 14,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top grossing",
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
@@ -995,6 +1125,8 @@
             "Games"
           ],
           "rank": 15,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top grossing",
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
@@ -1010,6 +1142,8 @@
             "Games"
           ],
           "rank": 16,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top grossing",
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
@@ -1025,6 +1159,8 @@
             "Games"
           ],
           "rank": 17,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top grossing",
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
@@ -1040,6 +1176,8 @@
             "Games"
           ],
           "rank": 18,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top grossing",
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
@@ -1055,6 +1193,8 @@
             "Games"
           ],
           "rank": 19,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top grossing",
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
@@ -1070,6 +1210,8 @@
             "Games"
           ],
           "rank": 20,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top grossing",
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
@@ -1085,6 +1227,8 @@
             "Games"
           ],
           "rank": 21,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top grossing",
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
@@ -1100,6 +1244,8 @@
             "Games"
           ],
           "rank": 22,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top grossing",
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
@@ -1115,6 +1261,8 @@
             "Games"
           ],
           "rank": 23,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top grossing",
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
@@ -1130,6 +1278,8 @@
             "Games"
           ],
           "rank": 24,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top grossing",
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
@@ -1145,6 +1295,8 @@
             "Games"
           ],
           "rank": 25,
+          "platform": "iOS/iPadOS",
+          "storefront": "Apple App Store",
           "localSlug": null,
           "discoveredVia": "Top grossing",
           "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json"
@@ -1155,7 +1307,7 @@
   "releases": {
     "title": "iTunes Store: All New Applications",
     "sourceUrl": "https://rss.marketingtools.apple.com/",
-    "feedUpdated": "2026-09-08T19:24:12-07:00",
+    "feedUpdated": "2026-09-08T19:52:22-07:00",
     "scopeNote": "Recent games discovered across Apple New Applications and live US Games charts, deduplicated and sorted by the App Store release date.",
     "entries": [
       {
@@ -1169,6 +1321,8 @@
           "Games"
         ],
         "rank": 4,
+        "platform": "iOS/iPadOS",
+        "storefront": "Apple App Store",
         "localSlug": null,
         "discoveredVia": "Top free",
         "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -1184,6 +1338,8 @@
           "Games"
         ],
         "rank": 24,
+        "platform": "iOS/iPadOS",
+        "storefront": "Apple App Store",
         "localSlug": null,
         "discoveredVia": "Top paid",
         "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -1199,6 +1355,8 @@
           "Games"
         ],
         "rank": 25,
+        "platform": "iOS/iPadOS",
+        "storefront": "Apple App Store",
         "localSlug": null,
         "discoveredVia": "Top paid",
         "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -1214,6 +1372,8 @@
           "Games"
         ],
         "rank": 17,
+        "platform": "iOS/iPadOS",
+        "storefront": "Apple App Store",
         "localSlug": null,
         "discoveredVia": "Top paid",
         "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -1229,6 +1389,8 @@
           "Games"
         ],
         "rank": 16,
+        "platform": "iOS/iPadOS",
+        "storefront": "Apple App Store",
         "localSlug": null,
         "discoveredVia": "Top free",
         "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -1244,6 +1406,8 @@
           "Games"
         ],
         "rank": 2,
+        "platform": "iOS/iPadOS",
+        "storefront": "Apple App Store",
         "localSlug": null,
         "discoveredVia": "New applications",
         "sourceUrl": "https://itunes.apple.com/us/rss/newapplications/limit=100/genre=6014/json"
@@ -1259,6 +1423,8 @@
           "Games"
         ],
         "rank": 3,
+        "platform": "iOS/iPadOS",
+        "storefront": "Apple App Store",
         "localSlug": null,
         "discoveredVia": "New applications",
         "sourceUrl": "https://itunes.apple.com/us/rss/newapplications/limit=100/genre=6014/json"
@@ -1274,6 +1440,8 @@
           "Games"
         ],
         "rank": 4,
+        "platform": "iOS/iPadOS",
+        "storefront": "Apple App Store",
         "localSlug": null,
         "discoveredVia": "New applications",
         "sourceUrl": "https://itunes.apple.com/us/rss/newapplications/limit=100/genre=6014/json"
@@ -1289,6 +1457,8 @@
           "Games"
         ],
         "rank": 5,
+        "platform": "iOS/iPadOS",
+        "storefront": "Apple App Store",
         "localSlug": null,
         "discoveredVia": "New applications",
         "sourceUrl": "https://itunes.apple.com/us/rss/newapplications/limit=100/genre=6014/json"
@@ -1304,6 +1474,8 @@
           "Games"
         ],
         "rank": 6,
+        "platform": "iOS/iPadOS",
+        "storefront": "Apple App Store",
         "localSlug": null,
         "discoveredVia": "New applications",
         "sourceUrl": "https://itunes.apple.com/us/rss/newapplications/limit=100/genre=6014/json"
@@ -1319,6 +1491,8 @@
           "Games"
         ],
         "rank": 7,
+        "platform": "iOS/iPadOS",
+        "storefront": "Apple App Store",
         "localSlug": null,
         "discoveredVia": "New applications",
         "sourceUrl": "https://itunes.apple.com/us/rss/newapplications/limit=100/genre=6014/json"
@@ -1334,6 +1508,8 @@
           "Games"
         ],
         "rank": 8,
+        "platform": "iOS/iPadOS",
+        "storefront": "Apple App Store",
         "localSlug": null,
         "discoveredVia": "New applications",
         "sourceUrl": "https://itunes.apple.com/us/rss/newapplications/limit=100/genre=6014/json"
@@ -1349,6 +1525,8 @@
           "Games"
         ],
         "rank": 9,
+        "platform": "iOS/iPadOS",
+        "storefront": "Apple App Store",
         "localSlug": null,
         "discoveredVia": "New applications",
         "sourceUrl": "https://itunes.apple.com/us/rss/newapplications/limit=100/genre=6014/json"
@@ -1364,6 +1542,8 @@
           "Games"
         ],
         "rank": 10,
+        "platform": "iOS/iPadOS",
+        "storefront": "Apple App Store",
         "localSlug": null,
         "discoveredVia": "New applications",
         "sourceUrl": "https://itunes.apple.com/us/rss/newapplications/limit=100/genre=6014/json"
@@ -1379,6 +1559,8 @@
           "Games"
         ],
         "rank": 11,
+        "platform": "iOS/iPadOS",
+        "storefront": "Apple App Store",
         "localSlug": null,
         "discoveredVia": "New applications",
         "sourceUrl": "https://itunes.apple.com/us/rss/newapplications/limit=100/genre=6014/json"
@@ -1394,6 +1576,8 @@
           "Games"
         ],
         "rank": 1,
+        "platform": "iOS/iPadOS",
+        "storefront": "Apple App Store",
         "localSlug": null,
         "discoveredVia": "New applications",
         "sourceUrl": "https://itunes.apple.com/us/rss/newapplications/limit=100/genre=6014/json"
@@ -1409,6 +1593,8 @@
           "Games"
         ],
         "rank": 17,
+        "platform": "iOS/iPadOS",
+        "storefront": "Apple App Store",
         "localSlug": null,
         "discoveredVia": "Top free",
         "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -1424,6 +1610,8 @@
           "Games"
         ],
         "rank": 13,
+        "platform": "iOS/iPadOS",
+        "storefront": "Apple App Store",
         "localSlug": null,
         "discoveredVia": "Top free",
         "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -1439,6 +1627,8 @@
           "Games"
         ],
         "rank": 10,
+        "platform": "iOS/iPadOS",
+        "storefront": "Apple App Store",
         "localSlug": null,
         "discoveredVia": "Top free",
         "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -1454,6 +1644,8 @@
           "Games"
         ],
         "rank": 1,
+        "platform": "iOS/iPadOS",
+        "storefront": "Apple App Store",
         "localSlug": null,
         "discoveredVia": "Top free",
         "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -1469,6 +1661,8 @@
           "Games"
         ],
         "rank": 22,
+        "platform": "iOS/iPadOS",
+        "storefront": "Apple App Store",
         "localSlug": null,
         "discoveredVia": "Top paid",
         "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -1484,6 +1678,8 @@
           "Games"
         ],
         "rank": 20,
+        "platform": "iOS/iPadOS",
+        "storefront": "Apple App Store",
         "localSlug": null,
         "discoveredVia": "Top free",
         "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -1499,6 +1695,8 @@
           "Games"
         ],
         "rank": 13,
+        "platform": "iOS/iPadOS",
+        "storefront": "Apple App Store",
         "localSlug": null,
         "discoveredVia": "Top paid",
         "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json"
@@ -1514,6 +1712,8 @@
           "Games"
         ],
         "rank": 6,
+        "platform": "iOS/iPadOS",
+        "storefront": "Apple App Store",
         "localSlug": null,
         "discoveredVia": "Top free",
         "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"
@@ -1529,6 +1729,8 @@
           "Games"
         ],
         "rank": 9,
+        "platform": "iOS/iPadOS",
+        "storefront": "Apple App Store",
         "localSlug": null,
         "discoveredVia": "Top free",
         "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json"

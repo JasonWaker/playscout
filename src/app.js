@@ -38,6 +38,13 @@
     });
   });
 
+  document.querySelectorAll('[data-home-chart]').forEach(button => {
+    button.addEventListener('click', () => {
+      document.querySelectorAll('[data-home-chart]').forEach(item => item.classList.toggle('selected', item === button));
+      document.querySelectorAll('[data-home-chart-panel]').forEach(panel => panel.classList.toggle('is-hidden', panel.dataset.homeChartPanel !== button.dataset.homeChart));
+    });
+  });
+
   const gameSearch = document.querySelector('[data-game-search]');
   if (gameSearch) {
     const items = [...document.querySelectorAll('[data-game-item]')];

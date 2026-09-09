@@ -62,9 +62,19 @@ const releaseEntries = apple?.releases?.entries;
 if (!Array.isArray(releaseEntries) || releaseEntries.length < 5) errors.push('apple releases: expected at least 5 game entries');
 if (releaseEntries?.some(item => !item.id || !item.name || !item.storeUrl || !item.artworkUrl || !item.releaseDate)) errors.push('apple releases: an entry is missing required fields');
 const rankingsHtml = await readFile(path.join(out, 'rankings', 'index.html'), 'utf8');
-if (!rankingsHtml.includes('Last successful sync:')) errors.push('rankings: live sync timestamp is not visible');
+if (!rankingsHtml.includes('Last successful Apple sync:') || !rankingsHtml.includes('iOS/iPadOS only') || !rankingsHtml.includes('no Android rankings')) errors.push('rankings: Apple-only platform scope or live timestamp is not visible');
 const releasesHtml = await readFile(path.join(out, 'new-games', 'index.html'), 'utf8');
-if (!releasesHtml.includes('LIVE RELEASE FEED') || !releasesHtml.includes('Last successful sync:')) errors.push('new releases: live source labels are not visible');
+if (!releasesHtml.includes('Last successful Apple sync:') || !releasesHtml.includes('iOS/iPadOS only')) errors.push('new releases: Apple-only platform scope or live timestamp is not visible');
+
+const discovery = JSON.parse(await readFile(path.join(root, 'src', 'generated', 'discovery-feeds.json'), 'utf8'));
+if (!Array.isArray(discovery?.giveaways?.entries) || discovery.giveaways.entries.length < 5) errors.push('GamerPower: expected at least 5 active offers');
+if (discovery?.giveaways?.entries?.some(item => !item.id || !item.title || !item.sourceUrl || !item.thumbnailUrl || !Array.isArray(item.platforms))) errors.push('GamerPower: an entry is missing required fields');
+if (!Array.isArray(discovery?.freeGames?.entries) || discovery.freeGames.entries.length < 10) errors.push('FreeToGame: expected at least 10 games');
+if (discovery?.freeGames?.entries?.some(item => !item.id || !item.title || !item.sourceUrl || !item.thumbnailUrl || !item.platform)) errors.push('FreeToGame: an entry is missing required fields');
+const giveawaysHtml = await readFile(path.join(out, 'giveaways', 'index.html'), 'utf8');
+if (!giveawaysHtml.includes('Last successful GamerPower sync:') || !giveawaysHtml.includes('GamerPower API &amp; terms')) errors.push('giveaways: source attribution or live timestamp is not visible');
+const freeGamesHtml = await readFile(path.join(out, 'free-games', 'index.html'), 'utf8');
+if (!freeGamesHtml.includes('Last successful FreeToGame sync:') || !freeGamesHtml.includes('PC &amp; browser')) errors.push('free games: source scope or live timestamp is not visible');
 
 if (errors.length) {
   console.error(errors.join('\n'));
