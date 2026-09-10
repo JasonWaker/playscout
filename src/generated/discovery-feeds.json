@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-09T09:01:41.219Z",
+  "fetchedAt": "2026-09-10T09:02:30.275Z",
   "giveaways": {
     "provider": "GamerPower",
     "sourceUrl": "https://www.gamerpower.com/api-read",
     "endpoint": "https://www.gamerpower.com/api/giveaways?sort-by=date",
-    "fetchedAt": "2026-09-09T09:01:41.219Z",
+    "fetchedAt": "2026-09-10T09:02:30.275Z",
     "scopeNote": "Active giveaways, full games, in-game loot and beta access across listed platforms. Platform labels come from GamerPower; this is not a store ranking.",
     "entries": [
       {
@@ -24,7 +24,7 @@
           "GOG",
           "DRM-Free"
         ],
-        "users": 20360,
+        "users": 27560,
         "status": "Active"
       },
       {
@@ -42,7 +42,7 @@
           "Android",
           "iOS"
         ],
-        "users": 12260,
+        "users": 13580,
         "status": "Active"
       },
       {
@@ -60,7 +60,7 @@
           "PC",
           "Epic Games Store"
         ],
-        "users": 46950,
+        "users": 53990,
         "status": "Active"
       },
       {
@@ -81,7 +81,7 @@
           "Android",
           "iOS"
         ],
-        "users": 6070,
+        "users": 6470,
         "status": "Active"
       },
       {
@@ -99,25 +99,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 49240,
-        "status": "Active"
-      },
-      {
-        "id": "3709",
-        "title": "NoRush! - Tower Edition (Epic Games) Giveaways",
-        "worth": "$2.99",
-        "thumbnailUrl": "https://www.gamerpower.com/offers/1/6a53a044a87b6.jpg",
-        "description": "No rush to claim this giveaway. Grab NoRush! - Tower Edition for free via Epic Games Store! NoRush is a 3d casual runner game with unexpected twists.",
-        "sourceUrl": "https://www.gamerpower.com/norush-tower-edition-epic-games-giveaways",
-        "claimUrl": "https://www.gamerpower.com/open/norush-tower-edition-epic-games-giveaways",
-        "publishedAt": "2026-08-28 11:18:37",
-        "endsAt": "2026-09-09 23:59:00",
-        "type": "Game",
-        "platforms": [
-          "PC",
-          "Epic Games Store"
-        ],
-        "users": 128010,
+        "users": 53290,
         "status": "Active"
       },
       {
@@ -135,7 +117,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 63910,
+        "users": 67530,
         "status": "Active"
       },
       {
@@ -153,7 +135,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 80120,
+        "users": 84130,
         "status": "Active"
       },
       {
@@ -172,7 +154,7 @@
           "Android",
           "iOS"
         ],
-        "users": 18780,
+        "users": 19080,
         "status": "Active"
       },
       {
@@ -190,7 +172,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 100540,
+        "users": 104120,
         "status": "Active"
       },
       {
@@ -208,7 +190,7 @@
           "PC",
           "Steam"
         ],
-        "users": 25990,
+        "users": 26320,
         "status": "Active"
       },
       {
@@ -226,7 +208,7 @@
           "PC",
           "Steam"
         ],
-        "users": 21830,
+        "users": 22040,
         "status": "Active"
       },
       {
@@ -244,7 +226,7 @@
           "PC",
           "Steam"
         ],
-        "users": 259830,
+        "users": 266120,
         "status": "Active"
       },
       {
@@ -261,7 +243,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 45390,
+        "users": 48080,
         "status": "Active"
       },
       {
@@ -279,7 +261,7 @@
           "PC",
           "Steam"
         ],
-        "users": 31290,
+        "users": 31520,
         "status": "Active"
       },
       {
@@ -297,7 +279,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 155010,
+        "users": 157080,
         "status": "Active"
       },
       {
@@ -316,7 +298,7 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 142530,
+        "users": 144650,
         "status": "Active"
       },
       {
@@ -335,7 +317,7 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 151190,
+        "users": 153210,
         "status": "Active"
       },
       {
@@ -352,7 +334,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 34030,
+        "users": 34340,
         "status": "Active"
       },
       {
@@ -369,7 +351,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 39970,
+        "users": 40200,
         "status": "Active"
       },
       {
@@ -389,7 +371,7 @@
           "Xbox Series X|S",
           "Nintendo Switch"
         ],
-        "users": 45120,
+        "users": 45380,
         "status": "Active"
       },
       {
@@ -406,7 +388,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 46430,
+        "users": 46760,
         "status": "Active"
       },
       {
@@ -425,7 +407,7 @@
           "Playstation 5",
           "Playstation 4"
         ],
-        "users": 47920,
+        "users": 48180,
         "status": "Active"
       },
       {
@@ -445,7 +427,7 @@
           "Android",
           "iOS"
         ],
-        "users": 49530,
+        "users": 49760,
         "status": "Active"
       },
       {
@@ -462,7 +444,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 48160,
+        "users": 48400,
         "status": "Active"
       },
       {
@@ -485,7 +467,7 @@
           "Android",
           "iOS"
         ],
-        "users": 48210,
+        "users": 48540,
         "status": "Active"
       },
       {
@@ -503,7 +485,7 @@
           "PC",
           "Steam"
         ],
-        "users": 58250,
+        "users": 58480,
         "status": "Active"
       },
       {
@@ -520,7 +502,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 58970,
+        "users": 59240,
         "status": "Active"
       },
       {
@@ -537,7 +519,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 58360,
+        "users": 58530,
         "status": "Active"
       },
       {
@@ -556,7 +538,26 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 74930,
+        "users": 77240,
+        "status": "Active"
+      },
+      {
+        "id": "3496",
+        "title": "Cherophobia (Itch.io) Giveaway",
+        "worth": "$1.99",
+        "thumbnailUrl": "https://www.gamerpower.com/offers/1/698fa7369c1f5.jpg",
+        "description": "Download Cherophobia for free via Itch.io! Cherophobia is a short 3D psychological horror game.",
+        "sourceUrl": "https://www.gamerpower.com/cherophobia-itch-io-giveaway",
+        "claimUrl": "https://www.gamerpower.com/open/cherophobia-itch-io-giveaway",
+        "publishedAt": "2026-02-13 17:35:34",
+        "endsAt": "2026-09-18 23:59:00",
+        "type": "Game",
+        "platforms": [
+          "PC",
+          "Itch.io",
+          "DRM-Free"
+        ],
+        "users": 51710,
         "status": "Active"
       }
     ]
@@ -565,7 +566,7 @@
     "provider": "FreeToGame",
     "sourceUrl": "https://www.freetogame.com/api-doc",
     "endpoint": "https://www.freetogame.com/api/games?sort-by=release-date",
-    "fetchedAt": "2026-09-09T09:01:41.219Z",
+    "fetchedAt": "2026-09-10T09:02:30.275Z",
     "scopeNote": "Free-to-play PC and browser game directory sorted by the provider release-date feed. This is not an iOS or Android chart.",
     "entries": [
       {
