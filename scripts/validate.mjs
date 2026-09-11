@@ -90,6 +90,7 @@ if (!freeGamesHtml.includes('Last successful FreeToGame sync:') || !freeGamesHtm
 const sourcedNews = [
   ['minecraft-wilderness-bound','https://www.minecraft.net/en-us/article/drop-3-2026-name-announce'],
   ['minecraft-treasure-hunt-watch-challenge','https://www.minecraft.net/en-us/article/treasure-hunt-watch-challenge'],
+  ['roblox-global-creator-impact','https://about.roblox.com/newsroom/2026/09/global-impact-of-creation-on-roblox'],
   ['roblox-fall-games-preview','https://about.roblox.com/newsroom/2026/09/roblox-fall-games-preview'],
 ];
 for (const [slug, sourceUrl] of sourcedNews) {

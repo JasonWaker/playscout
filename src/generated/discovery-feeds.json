@@ -1,87 +1,102 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-10T09:02:30.275Z",
+  "fetchedAt": "2026-09-11T09:01:16.966Z",
   "giveaways": {
     "provider": "GamerPower",
     "sourceUrl": "https://www.gamerpower.com/api-read",
     "endpoint": "https://www.gamerpower.com/api/giveaways?sort-by=date",
-    "fetchedAt": "2026-09-10T09:02:30.275Z",
+    "fetchedAt": "2026-09-11T09:01:16.966Z",
     "scopeNote": "Active giveaways, full games, in-game loot and beta access across listed platforms. Platform labels come from GamerPower; this is not a store ranking.",
     "entries": [
       {
-        "id": "3767",
-        "title": "State of Mind (GOG) Giveaway",
-        "worth": "$19.99",
-        "thumbnailUrl": "https://www.gamerpower.com/offers/1/6a9ebcfac0aab.jpg",
-        "description": "Experience the future today! Grab State of Mind for free via GOG and keep it forever. State of Mind is a 3d Sci-fi thriller game delving into transhumanism.",
-        "sourceUrl": "https://www.gamerpower.com/state-of-mind-gog-giveaway",
-        "claimUrl": "https://www.gamerpower.com/open/state-of-mind-gog-giveaway",
-        "publishedAt": "2026-09-07 09:32:42",
-        "endsAt": "2026-09-10 23:59:00",
-        "type": "Game",
-        "platforms": [
-          "PC",
-          "GOG",
-          "DRM-Free"
-        ],
-        "users": 27560,
-        "status": "Active"
-      },
-      {
-        "id": "3764",
-        "title": "Evan's Remains (Mobile) Giveaway",
-        "worth": "$5.99",
-        "thumbnailUrl": "https://www.gamerpower.com/offers/1/6a998eb716bfe.jpg",
-        "description": "Evan's Remains (Mobile version) is free until September 10 on the Epic Games Store App for iPhone, iPad, and Android. Note: May not be available in all regions",
-        "sourceUrl": "https://www.gamerpower.com/evan-s-remains-mobile-giveaway",
-        "claimUrl": "https://www.gamerpower.com/open/evan-s-remains-mobile-giveaway",
-        "publishedAt": "2026-09-03 11:13:59",
-        "endsAt": "2026-09-10 23:59:00",
+        "id": "3775",
+        "title": "Alone With You (Mobile) Giveaway",
+        "worth": "$4.99",
+        "thumbnailUrl": "https://www.gamerpower.com/offers/1/6aa2ca834a5a1.jpg",
+        "description": "Alone With You (Mobile version) is free until September 17 on the Epic Games Store App for iPhone, iPad, and Android. Note: May not be available in all regions",
+        "sourceUrl": "https://www.gamerpower.com/alone-with-you-mobile-giveaway",
+        "claimUrl": "https://www.gamerpower.com/open/alone-with-you-mobile-giveaway",
+        "publishedAt": "2026-09-10 11:19:31",
+        "endsAt": "2026-09-17 23:59:00",
         "type": "Game",
         "platforms": [
           "Android",
           "iOS"
         ],
-        "users": 13580,
+        "users": 1920,
         "status": "Active"
       },
       {
-        "id": "3763",
-        "title": "Alone With You (Epic Games) Giveaway",
-        "worth": "$9.99",
-        "thumbnailUrl": "https://www.gamerpower.com/offers/1/6a998bd861dec.jpg",
-        "description": "Looking for some romance? Grab Alone With You for free via Epic Games Store! Alone With You is a sci-fi adventure game with pixel graphics and visual novel storytelling.",
-        "sourceUrl": "https://www.gamerpower.com/alone-with-you-epic-games-giveaway",
-        "claimUrl": "https://www.gamerpower.com/open/alone-with-you-epic-games-giveaway",
-        "publishedAt": "2026-09-03 11:01:44",
-        "endsAt": "2026-09-10 23:59:00",
+        "id": "3774",
+        "title": "Astral Ascent (Epic Games) Giveaway",
+        "worth": "$24.99",
+        "thumbnailUrl": "https://www.gamerpower.com/offers/1/6aa2c8331c791.jpg",
+        "description": "Claim Astral Ascent for free via Epic Games Store! Astral Ascent is a fun 2D platformer roguelite game with addicting gameplay and great combat.",
+        "sourceUrl": "https://www.gamerpower.com/astral-ascent-epic-games-giveaway",
+        "claimUrl": "https://www.gamerpower.com/open/astral-ascent-epic-games-giveaway",
+        "publishedAt": "2026-09-10 11:09:39",
+        "endsAt": "2026-09-17 23:59:00",
         "type": "Game",
         "platforms": [
           "PC",
           "Epic Games Store"
         ],
-        "users": 53990,
+        "users": 9360,
         "status": "Active"
       },
       {
-        "id": "3762",
-        "title": "Idle Champions 9th Anniversary Starter Pack Key Giveaway",
-        "worth": "N/A",
-        "thumbnailUrl": "https://www.gamerpower.com/offers/1/6a984cf60c5fb.jpg",
-        "description": "Celebrate the 9th Anniversary of Idle Champions of the Forgotten Realms and kick-start your adventures with a Starter Pack full of in-game items!",
-        "sourceUrl": "https://www.gamerpower.com/idle-champions-9th-anniversary-starter-pack-key-giveaway",
-        "claimUrl": "https://www.gamerpower.com/open/idle-champions-9th-anniversary-starter-pack-key-giveaway",
-        "publishedAt": "2026-09-02 12:21:10",
-        "endsAt": "N/A",
-        "type": "DLC",
+        "id": "3773",
+        "title": "Luftrausers (Epic Games) Giveaway",
+        "worth": "$9.99",
+        "thumbnailUrl": "https://www.gamerpower.com/offers/1/6aa2c633c21e7.jpg",
+        "description": "Score Luftrausers for free via Epic Games Store! Luftrausers is a stylish arcade shooter with unique weapons, ridiculous combos, and challenging missions. Don´t miss it!",
+        "sourceUrl": "https://www.gamerpower.com/luftrausers-epic-games-giveaway",
+        "claimUrl": "https://www.gamerpower.com/open/luftrausers-epic-games-giveaway",
+        "publishedAt": "2026-09-10 11:01:07",
+        "endsAt": "2026-09-17 23:59:00",
+        "type": "Game",
         "platforms": [
           "PC",
-          "Playstation 4",
-          "Xbox One",
-          "Android",
-          "iOS"
+          "Epic Games Store"
         ],
-        "users": 6470,
+        "users": 8900,
+        "status": "Active"
+      },
+      {
+        "id": "3772",
+        "title": "MANDATO (Itch.io) Giveaway",
+        "worth": "$2.99",
+        "thumbnailUrl": "https://www.gamerpower.com/offers/1/6aa2b003d7c11.jpg",
+        "description": "Download MANDATO for free via Itch.io! MANDATO is a short story-driven first-person game inspired by Filipino culture.",
+        "sourceUrl": "https://www.gamerpower.com/mandato-itch-io-giveaway",
+        "claimUrl": "https://www.gamerpower.com/open/mandato-itch-io-giveaway",
+        "publishedAt": "2026-09-10 09:26:27",
+        "endsAt": "2026-09-11 23:59:00",
+        "type": "Game",
+        "platforms": [
+          "PC",
+          "Itch.io"
+        ],
+        "users": 4930,
+        "status": "Active"
+      },
+      {
+        "id": "3771",
+        "title": "Liminal Space Holiday (Itch.io) Giveaway",
+        "worth": "$3.00",
+        "thumbnailUrl": "https://www.gamerpower.com/offers/1/6aa2ad0a69420.jpg",
+        "description": "Enjoy a Liminal Space Holiday! Score Liminal Space Holiday for free via Itch.io! Liminal Space Holiday is a retro nostalgic adventure game with 3d graphics.",
+        "sourceUrl": "https://www.gamerpower.com/liminal-space-holiday-itch-io-giveaway",
+        "claimUrl": "https://www.gamerpower.com/open/liminal-space-holiday-itch-io-giveaway",
+        "publishedAt": "2026-09-10 09:13:46",
+        "endsAt": "2026-09-13 23:59:00",
+        "type": "Game",
+        "platforms": [
+          "PC",
+          "Itch.io",
+          "DRM-Free"
+        ],
+        "users": 4770,
         "status": "Active"
       },
       {
@@ -99,7 +114,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 53290,
+        "users": 57060,
         "status": "Active"
       },
       {
@@ -117,7 +132,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 67530,
+        "users": 71050,
         "status": "Active"
       },
       {
@@ -135,7 +150,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 84130,
+        "users": 87930,
         "status": "Active"
       },
       {
@@ -154,7 +169,7 @@
           "Android",
           "iOS"
         ],
-        "users": 19080,
+        "users": 19470,
         "status": "Active"
       },
       {
@@ -172,7 +187,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 104120,
+        "users": 107550,
         "status": "Active"
       },
       {
@@ -190,7 +205,7 @@
           "PC",
           "Steam"
         ],
-        "users": 26320,
+        "users": 26570,
         "status": "Active"
       },
       {
@@ -208,7 +223,7 @@
           "PC",
           "Steam"
         ],
-        "users": 22040,
+        "users": 22250,
         "status": "Active"
       },
       {
@@ -226,7 +241,7 @@
           "PC",
           "Steam"
         ],
-        "users": 266120,
+        "users": 271800,
         "status": "Active"
       },
       {
@@ -243,7 +258,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 48080,
+        "users": 50400,
         "status": "Active"
       },
       {
@@ -261,7 +276,7 @@
           "PC",
           "Steam"
         ],
-        "users": 31520,
+        "users": 31890,
         "status": "Active"
       },
       {
@@ -279,7 +294,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 157080,
+        "users": 158990,
         "status": "Active"
       },
       {
@@ -298,7 +313,7 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 144650,
+        "users": 146980,
         "status": "Active"
       },
       {
@@ -317,7 +332,7 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 153210,
+        "users": 155320,
         "status": "Active"
       },
       {
@@ -334,7 +349,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 34340,
+        "users": 34620,
         "status": "Active"
       },
       {
@@ -351,7 +366,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 40200,
+        "users": 40460,
         "status": "Active"
       },
       {
@@ -371,7 +386,7 @@
           "Xbox Series X|S",
           "Nintendo Switch"
         ],
-        "users": 45380,
+        "users": 45620,
         "status": "Active"
       },
       {
@@ -388,7 +403,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 46760,
+        "users": 46960,
         "status": "Active"
       },
       {
@@ -407,7 +422,7 @@
           "Playstation 5",
           "Playstation 4"
         ],
-        "users": 48180,
+        "users": 48460,
         "status": "Active"
       },
       {
@@ -427,7 +442,7 @@
           "Android",
           "iOS"
         ],
-        "users": 49760,
+        "users": 49980,
         "status": "Active"
       },
       {
@@ -444,7 +459,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 48400,
+        "users": 48650,
         "status": "Active"
       },
       {
@@ -467,7 +482,7 @@
           "Android",
           "iOS"
         ],
-        "users": 48540,
+        "users": 48760,
         "status": "Active"
       },
       {
@@ -485,7 +500,7 @@
           "PC",
           "Steam"
         ],
-        "users": 58480,
+        "users": 58700,
         "status": "Active"
       },
       {
@@ -502,7 +517,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 59240,
+        "users": 59430,
         "status": "Active"
       },
       {
@@ -519,7 +534,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 58530,
+        "users": 58820,
         "status": "Active"
       },
       {
@@ -538,26 +553,7 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 77240,
-        "status": "Active"
-      },
-      {
-        "id": "3496",
-        "title": "Cherophobia (Itch.io) Giveaway",
-        "worth": "$1.99",
-        "thumbnailUrl": "https://www.gamerpower.com/offers/1/698fa7369c1f5.jpg",
-        "description": "Download Cherophobia for free via Itch.io! Cherophobia is a short 3D psychological horror game.",
-        "sourceUrl": "https://www.gamerpower.com/cherophobia-itch-io-giveaway",
-        "claimUrl": "https://www.gamerpower.com/open/cherophobia-itch-io-giveaway",
-        "publishedAt": "2026-02-13 17:35:34",
-        "endsAt": "2026-09-18 23:59:00",
-        "type": "Game",
-        "platforms": [
-          "PC",
-          "Itch.io",
-          "DRM-Free"
-        ],
-        "users": 51710,
+        "users": 79280,
         "status": "Active"
       }
     ]
@@ -566,7 +562,7 @@
     "provider": "FreeToGame",
     "sourceUrl": "https://www.freetogame.com/api-doc",
     "endpoint": "https://www.freetogame.com/api/games?sort-by=release-date",
-    "fetchedAt": "2026-09-10T09:02:30.275Z",
+    "fetchedAt": "2026-09-11T09:01:16.966Z",
     "scopeNote": "Free-to-play PC and browser game directory sorted by the provider release-date feed. This is not an iOS or Android chart.",
     "entries": [
       {

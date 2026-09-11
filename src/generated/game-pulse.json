@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "date": "2026-09-10",
-  "generatedAt": "2026-09-10T09:02:28.296Z",
-  "sourceObservedAt": "2026-09-10T09:02:27.583Z",
+  "date": "2026-09-11",
+  "generatedAt": "2026-09-11T09:01:14.853Z",
+  "sourceObservedAt": "2026-09-11T09:01:14.413Z",
   "scopeNote": "Daily editorial briefing: three recent US iOS releases and three current US iOS grossing-chart games. Facts remain linked to Apple; practical tips are automatically synthesized and labelled.",
   "items": [
     {
@@ -17,7 +17,7 @@
       "releaseDate": "2026-09-07T00:00:00-07:00",
       "rank": null,
       "rating": 4.7,
-      "ratingCount": 643,
+      "ratingCount": 768,
       "contentRating": "4+",
       "intro": "MiniMuses is game from Studio Sirenia. This briefing uses current App Store metadata to explain what to inspect before investing time or money.",
       "playStyle": "Start with the tutorial and first complete play loop, then decide whether the game rewards skill, collection, planning or repeated short sessions.",
@@ -37,7 +37,7 @@
       },
       "sourceProvider": "Apple App Store",
       "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-10T09:02:27.583Z",
+      "sourceObservedAt": "2026-09-11T09:01:14.413Z",
       "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
     },
     {
@@ -52,7 +52,7 @@
       "releaseDate": "2026-08-17T00:00:00-07:00",
       "rank": null,
       "rating": 4.9,
-      "ratingCount": 301,
+      "ratingCount": 313,
       "contentRating": "12+",
       "intro": "Slots & Daggers is a strategy title from Future Friends Games. This briefing uses current App Store metadata to explain what to inspect before investing time or money.",
       "playStyle": "Progress comes from reading objectives, sequencing upgrades and protecting scarce resources for the moments that return the most value.",
@@ -72,7 +72,7 @@
       },
       "sourceProvider": "Apple App Store",
       "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-10T09:02:27.583Z",
+      "sourceObservedAt": "2026-09-11T09:01:14.413Z",
       "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
     },
     {
@@ -87,7 +87,7 @@
       "releaseDate": "2026-08-13T00:00:00-07:00",
       "rank": null,
       "rating": 4.9,
-      "ratingCount": 1848,
+      "ratingCount": 1864,
       "contentRating": "12+",
       "intro": "Servant of the Lake is an adventure title from Rusty Lake. This briefing uses current App Store metadata to explain what to inspect before investing time or money.",
       "playStyle": "The core loop rewards pattern recognition, deliberate use of limited tools and learning why a failed attempt ran out of options.",
@@ -107,7 +107,7 @@
       },
       "sourceProvider": "Apple App Store",
       "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-10T09:02:27.583Z",
+      "sourceObservedAt": "2026-09-11T09:01:14.413Z",
       "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
     },
     {
@@ -122,7 +122,7 @@
       "releaseDate": "2023-04-11T00:00:00-07:00",
       "rank": 1,
       "rating": 4.8,
-      "ratingCount": 3820736,
+      "ratingCount": 3821656,
       "contentRating": "9+",
       "intro": "Roll, collect landmarks and plan event multipliers in a fast-moving social board game.",
       "playStyle": "Progress comes from reading objectives, sequencing upgrades and protecting scarce resources for the moments that return the most value.",
@@ -142,7 +142,7 @@
       },
       "sourceProvider": "Apple App Store",
       "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-10T09:02:27.583Z",
+      "sourceObservedAt": "2026-09-11T09:01:14.413Z",
       "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
     },
     {
@@ -157,7 +157,7 @@
       "releaseDate": "2021-02-25T00:00:00-07:00",
       "rank": 2,
       "rating": 4.7,
-      "ratingCount": 3811053,
+      "ratingCount": 3812197,
       "contentRating": "12+",
       "intro": "Complete match-three levels, unlock areas and restore King Robert’s castle.",
       "playStyle": "The core loop rewards pattern recognition, deliberate use of limited tools and learning why a failed attempt ran out of options.",
@@ -177,7 +177,7 @@
       },
       "sourceProvider": "Apple App Store",
       "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-10T09:02:27.583Z",
+      "sourceObservedAt": "2026-09-11T09:01:14.413Z",
       "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
     },
     {
@@ -192,7 +192,7 @@
       "releaseDate": "2022-07-07T00:00:00-07:00",
       "rank": 3,
       "rating": 4.6,
-      "ratingCount": 201286,
+      "ratingCount": 201475,
       "contentRating": "12+",
       "intro": "Gossip Harbor®: Merge & Story is a puzzle title from Microfun Limited. This briefing uses current App Store metadata to explain what to inspect before investing time or money.",
       "playStyle": "The core loop rewards pattern recognition, deliberate use of limited tools and learning why a failed attempt ran out of options.",
@@ -212,7 +212,7 @@
       },
       "sourceProvider": "Apple App Store",
       "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-10T09:02:27.583Z",
+      "sourceObservedAt": "2026-09-11T09:01:14.413Z",
       "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
     }
   ]
