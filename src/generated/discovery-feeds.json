@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-11T09:01:16.966Z",
+  "fetchedAt": "2026-09-12T09:02:36.571Z",
   "giveaways": {
     "provider": "GamerPower",
     "sourceUrl": "https://www.gamerpower.com/api-read",
     "endpoint": "https://www.gamerpower.com/api/giveaways?sort-by=date",
-    "fetchedAt": "2026-09-11T09:01:16.966Z",
+    "fetchedAt": "2026-09-12T09:02:36.571Z",
     "scopeNote": "Active giveaways, full games, in-game loot and beta access across listed platforms. Platform labels come from GamerPower; this is not a store ranking.",
     "entries": [
       {
@@ -23,7 +23,7 @@
           "Android",
           "iOS"
         ],
-        "users": 1920,
+        "users": 3680,
         "status": "Active"
       },
       {
@@ -41,7 +41,7 @@
           "PC",
           "Epic Games Store"
         ],
-        "users": 9360,
+        "users": 19910,
         "status": "Active"
       },
       {
@@ -59,25 +59,7 @@
           "PC",
           "Epic Games Store"
         ],
-        "users": 8900,
-        "status": "Active"
-      },
-      {
-        "id": "3772",
-        "title": "MANDATO (Itch.io) Giveaway",
-        "worth": "$2.99",
-        "thumbnailUrl": "https://www.gamerpower.com/offers/1/6aa2b003d7c11.jpg",
-        "description": "Download MANDATO for free via Itch.io! MANDATO is a short story-driven first-person game inspired by Filipino culture.",
-        "sourceUrl": "https://www.gamerpower.com/mandato-itch-io-giveaway",
-        "claimUrl": "https://www.gamerpower.com/open/mandato-itch-io-giveaway",
-        "publishedAt": "2026-09-10 09:26:27",
-        "endsAt": "2026-09-11 23:59:00",
-        "type": "Game",
-        "platforms": [
-          "PC",
-          "Itch.io"
-        ],
-        "users": 4930,
+        "users": 18800,
         "status": "Active"
       },
       {
@@ -96,7 +78,7 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 4770,
+        "users": 9620,
         "status": "Active"
       },
       {
@@ -114,7 +96,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 57060,
+        "users": 60920,
         "status": "Active"
       },
       {
@@ -132,7 +114,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 71050,
+        "users": 74960,
         "status": "Active"
       },
       {
@@ -150,7 +132,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 87930,
+        "users": 91620,
         "status": "Active"
       },
       {
@@ -169,7 +151,7 @@
           "Android",
           "iOS"
         ],
-        "users": 19470,
+        "users": 19670,
         "status": "Active"
       },
       {
@@ -187,7 +169,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 107550,
+        "users": 111020,
         "status": "Active"
       },
       {
@@ -205,7 +187,7 @@
           "PC",
           "Steam"
         ],
-        "users": 26570,
+        "users": 26780,
         "status": "Active"
       },
       {
@@ -223,7 +205,7 @@
           "PC",
           "Steam"
         ],
-        "users": 22250,
+        "users": 22390,
         "status": "Active"
       },
       {
@@ -241,7 +223,7 @@
           "PC",
           "Steam"
         ],
-        "users": 271800,
+        "users": 278800,
         "status": "Active"
       },
       {
@@ -258,7 +240,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 50400,
+        "users": 52660,
         "status": "Active"
       },
       {
@@ -276,7 +258,7 @@
           "PC",
           "Steam"
         ],
-        "users": 31890,
+        "users": 32050,
         "status": "Active"
       },
       {
@@ -294,7 +276,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 158990,
+        "users": 161160,
         "status": "Active"
       },
       {
@@ -313,7 +295,7 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 146980,
+        "users": 149480,
         "status": "Active"
       },
       {
@@ -332,7 +314,7 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 155320,
+        "users": 157870,
         "status": "Active"
       },
       {
@@ -349,7 +331,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 34620,
+        "users": 34770,
         "status": "Active"
       },
       {
@@ -366,7 +348,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 40460,
+        "users": 40610,
         "status": "Active"
       },
       {
@@ -386,7 +368,7 @@
           "Xbox Series X|S",
           "Nintendo Switch"
         ],
-        "users": 45620,
+        "users": 45830,
         "status": "Active"
       },
       {
@@ -403,7 +385,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 46960,
+        "users": 47200,
         "status": "Active"
       },
       {
@@ -422,7 +404,7 @@
           "Playstation 5",
           "Playstation 4"
         ],
-        "users": 48460,
+        "users": 48590,
         "status": "Active"
       },
       {
@@ -442,7 +424,7 @@
           "Android",
           "iOS"
         ],
-        "users": 49980,
+        "users": 50120,
         "status": "Active"
       },
       {
@@ -459,7 +441,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 48650,
+        "users": 48820,
         "status": "Active"
       },
       {
@@ -482,7 +464,7 @@
           "Android",
           "iOS"
         ],
-        "users": 48760,
+        "users": 48950,
         "status": "Active"
       },
       {
@@ -500,7 +482,7 @@
           "PC",
           "Steam"
         ],
-        "users": 58700,
+        "users": 58850,
         "status": "Active"
       },
       {
@@ -517,7 +499,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 59430,
+        "users": 59570,
         "status": "Active"
       },
       {
@@ -534,7 +516,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 58820,
+        "users": 58920,
         "status": "Active"
       },
       {
@@ -553,7 +535,26 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 79280,
+        "users": 81660,
+        "status": "Active"
+      },
+      {
+        "id": "3496",
+        "title": "Cherophobia (Itch.io) Giveaway",
+        "worth": "$1.99",
+        "thumbnailUrl": "https://www.gamerpower.com/offers/1/698fa7369c1f5.jpg",
+        "description": "Download Cherophobia for free via Itch.io! Cherophobia is a short 3D psychological horror game.",
+        "sourceUrl": "https://www.gamerpower.com/cherophobia-itch-io-giveaway",
+        "claimUrl": "https://www.gamerpower.com/open/cherophobia-itch-io-giveaway",
+        "publishedAt": "2026-02-13 17:35:34",
+        "endsAt": "2026-09-18 23:59:00",
+        "type": "Game",
+        "platforms": [
+          "PC",
+          "Itch.io",
+          "DRM-Free"
+        ],
+        "users": 57170,
         "status": "Active"
       }
     ]
@@ -562,7 +563,7 @@
     "provider": "FreeToGame",
     "sourceUrl": "https://www.freetogame.com/api-doc",
     "endpoint": "https://www.freetogame.com/api/games?sort-by=release-date",
-    "fetchedAt": "2026-09-11T09:01:16.966Z",
+    "fetchedAt": "2026-09-12T09:02:36.571Z",
     "scopeNote": "Free-to-play PC and browser game directory sorted by the provider release-date feed. This is not an iOS or Android chart.",
     "entries": [
       {

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "date": "2026-09-11",
-  "generatedAt": "2026-09-11T09:01:14.853Z",
-  "sourceObservedAt": "2026-09-11T09:01:14.413Z",
+  "date": "2026-09-12",
+  "generatedAt": "2026-09-12T09:02:33.786Z",
+  "sourceObservedAt": "2026-09-12T09:02:33.362Z",
   "scopeNote": "Daily editorial briefing: three recent US iOS releases and three current US iOS grossing-chart games. Facts remain linked to Apple; practical tips are automatically synthesized and labelled.",
   "items": [
     {
@@ -10,14 +10,14 @@
       "kind": "new",
       "name": "MiniMuses",
       "developer": "Studio Sirenia",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/c4/a5/62c4a5ae-148b-84b2-4977-8fc5b327e2a5/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/00/93/0c009394-ae9e-91c1-c4d7-86471def78a9/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
       "storeUrl": "https://apps.apple.com/us/app/minimuses/id6798905825?uo=2",
       "localSlug": null,
       "genre": "Games",
       "releaseDate": "2026-09-07T00:00:00-07:00",
       "rank": null,
       "rating": 4.7,
-      "ratingCount": 768,
+      "ratingCount": 881,
       "contentRating": "4+",
       "intro": "MiniMuses is game from Studio Sirenia. This briefing uses current App Store metadata to explain what to inspect before investing time or money.",
       "playStyle": "Start with the tutorial and first complete play loop, then decide whether the game rewards skill, collection, planning or repeated short sessions.",
@@ -33,11 +33,11 @@
         "channel": "YouTube search",
         "duration": null,
         "url": "https://www.youtube.com/results?search_query=MiniMuses%20gameplay%20tips%20guide",
-        "thumbnailUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/c4/a5/62c4a5ae-148b-84b2-4977-8fc5b327e2a5/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png"
+        "thumbnailUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/00/93/0c009394-ae9e-91c1-c4d7-86471def78a9/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png"
       },
       "sourceProvider": "Apple App Store",
       "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-11T09:01:14.413Z",
+      "sourceObservedAt": "2026-09-12T09:02:33.362Z",
       "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
     },
     {
@@ -52,7 +52,7 @@
       "releaseDate": "2026-08-17T00:00:00-07:00",
       "rank": null,
       "rating": 4.9,
-      "ratingCount": 313,
+      "ratingCount": 321,
       "contentRating": "12+",
       "intro": "Slots & Daggers is a strategy title from Future Friends Games. This briefing uses current App Store metadata to explain what to inspect before investing time or money.",
       "playStyle": "Progress comes from reading objectives, sequencing upgrades and protecting scarce resources for the moments that return the most value.",
@@ -72,7 +72,7 @@
       },
       "sourceProvider": "Apple App Store",
       "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-11T09:01:14.413Z",
+      "sourceObservedAt": "2026-09-12T09:02:33.362Z",
       "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
     },
     {
@@ -87,7 +87,7 @@
       "releaseDate": "2026-08-13T00:00:00-07:00",
       "rank": null,
       "rating": 4.9,
-      "ratingCount": 1864,
+      "ratingCount": 1882,
       "contentRating": "12+",
       "intro": "Servant of the Lake is an adventure title from Rusty Lake. This briefing uses current App Store metadata to explain what to inspect before investing time or money.",
       "playStyle": "The core loop rewards pattern recognition, deliberate use of limited tools and learning why a failed attempt ran out of options.",
@@ -107,7 +107,7 @@
       },
       "sourceProvider": "Apple App Store",
       "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-11T09:01:14.413Z",
+      "sourceObservedAt": "2026-09-12T09:02:33.362Z",
       "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
     },
     {
@@ -122,7 +122,7 @@
       "releaseDate": "2023-04-11T00:00:00-07:00",
       "rank": 1,
       "rating": 4.8,
-      "ratingCount": 3821656,
+      "ratingCount": 3822726,
       "contentRating": "9+",
       "intro": "Roll, collect landmarks and plan event multipliers in a fast-moving social board game.",
       "playStyle": "Progress comes from reading objectives, sequencing upgrades and protecting scarce resources for the moments that return the most value.",
@@ -142,7 +142,7 @@
       },
       "sourceProvider": "Apple App Store",
       "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-11T09:01:14.413Z",
+      "sourceObservedAt": "2026-09-12T09:02:33.362Z",
       "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
     },
     {
@@ -157,7 +157,7 @@
       "releaseDate": "2021-02-25T00:00:00-07:00",
       "rank": 2,
       "rating": 4.7,
-      "ratingCount": 3812197,
+      "ratingCount": 3813462,
       "contentRating": "12+",
       "intro": "Complete match-three levels, unlock areas and restore King Robert’s castle.",
       "playStyle": "The core loop rewards pattern recognition, deliberate use of limited tools and learning why a failed attempt ran out of options.",
@@ -177,7 +177,7 @@
       },
       "sourceProvider": "Apple App Store",
       "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-11T09:01:14.413Z",
+      "sourceObservedAt": "2026-09-12T09:02:33.362Z",
       "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
     },
     {
@@ -192,7 +192,7 @@
       "releaseDate": "2022-07-07T00:00:00-07:00",
       "rank": 3,
       "rating": 4.6,
-      "ratingCount": 201475,
+      "ratingCount": 201672,
       "contentRating": "12+",
       "intro": "Gossip Harbor®: Merge & Story is a puzzle title from Microfun Limited. This briefing uses current App Store metadata to explain what to inspect before investing time or money.",
       "playStyle": "The core loop rewards pattern recognition, deliberate use of limited tools and learning why a failed attempt ran out of options.",
@@ -212,7 +212,7 @@
       },
       "sourceProvider": "Apple App Store",
       "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-11T09:01:14.413Z",
+      "sourceObservedAt": "2026-09-12T09:02:33.362Z",
       "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
     }
   ]
