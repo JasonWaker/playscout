@@ -24,6 +24,10 @@ const routes = new Set(htmlFiles.map(file => {
 for (const file of htmlFiles) {
   const rel = path.relative(out, file);
   const html = await readFile(file, 'utf8');
+  if (rel === path.join('news', 'pokemon-go-season-checklist', 'index.html')) {
+    if (!html.includes('content="noindex"') || !html.includes('rel="canonical"') || !html.includes('/news/pokemon-go-mega-squads/')) errors.push(`${rel}: legacy redirect is incomplete`);
+    continue;
+  }
   const h1s = (html.match(/<h1(?:\s|>)/g) || []).length;
   if (h1s !== 1) errors.push(`${rel}: expected one h1, found ${h1s}`);
   for (const token of ['<title>', 'name="description"', 'rel="canonical"', 'application/ld+json']) {
@@ -48,7 +52,7 @@ for (const file of htmlFiles) {
 }
 
 const sitemap = await readFile(path.join(out, 'sitemap.xml'), 'utf8');
-const indexedPages = htmlFiles.length - 2;
+const indexedPages = (await Promise.all(htmlFiles.map(file => readFile(file, 'utf8')))).filter(html => !/name="robots" content="noindex/.test(html)).length;
 const sitemapCount = (sitemap.match(/<url>/g) || []).length;
 if (sitemapCount !== indexedPages) errors.push(`sitemap: expected ${indexedPages} URLs, found ${sitemapCount}`);
 
@@ -92,6 +96,7 @@ const sourcedNews = [
   ['minecraft-treasure-hunt-watch-challenge','https://www.minecraft.net/en-us/article/treasure-hunt-watch-challenge'],
   ['roblox-global-creator-impact','https://about.roblox.com/newsroom/2026/09/global-impact-of-creation-on-roblox'],
   ['roblox-fall-games-preview','https://about.roblox.com/newsroom/2026/09/roblox-fall-games-preview'],
+  ['pokemon-go-mega-squads','https://pokemongo.com/en/news/mega-squads-2026'],
 ];
 for (const [slug, sourceUrl] of sourcedNews) {
   const html = await readFile(path.join(out, 'news', slug, 'index.html'), 'utf8');

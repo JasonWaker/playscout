@@ -98,7 +98,7 @@ function homePage() {
   const lead = guides[0]; const leadGame = game(lead.game);
   const body = `<section class="shell hero-grid">
     <a class="lead-story" href="${href(`/guides/${lead.slug}/`)}"><img src="${asset(leadGame.hero)}" alt="${esc(leadGame.name)} gameplay scene" width="900" height="620"><span class="scrim"></span><div><span class="eyebrow">EDITOR'S GUIDE · ${lead.time.toUpperCase()}</span><h1>${esc(lead.title)}</h1><p>${esc(lead.dek)}</p><small>Player-tested route · ${esc(lead.updated)}</small></div></a>
-    <section class="updates-panel">${sectionHead('TODAY','Latest updates','All','/news/')}<div class="updates-list">${news.slice(0,6).map((n,i)=>`<a href="${href(`/news/${n.slug}/`)}"><time>${['14:20','13:42','12:18','10:55','09:30','08:15'][i]}</time><span><b>${esc(n.type)}</b>${esc(n.title)}</span></a>`).join('')}</div></section>
+    <section class="updates-panel">${sectionHead('NEWS','Latest updates','All','/news/')}<div class="updates-list">${news.slice(0,6).map(n=>`<a href="${href(`/news/${n.slug}/`)}"><time>${esc(new Date(n.published||n.date).toLocaleDateString('en-US',{month:'short',day:'numeric',timeZone:'UTC'}))}</time><span><b>${esc(n.type)}</b>${esc(n.title)}</span></a>`).join('')}</div></section>
     <section class="chart-panel">${sectionHead('LIVE · US iOS','App Store game charts','View all','/rankings/')}<div class="segmented" role="tablist" aria-label="iOS App Store chart type"><button class="selected" data-home-chart="paid" type="button">Paid</button><button data-home-chart="free" type="button">Free</button><button data-home-chart="grossing" type="button">Grossing</button></div>${['paid','free','grossing'].map((type,index)=>`<div class="mini-ranking ${index?'is-hidden':''}" data-home-chart-panel="${type}">${appleData.charts[type].entries.slice(0,5).map(miniLiveRank).join('')}</div>`).join('')}<small class="sample-label">Apple App Store · iOS/iPadOS only · synced ${esc(chartTime)}</small></section>
   </section>
   <section class="shell">${sectionHead('DISCOVER','Popular games right now','Explore all games','/games/')}<div class="game-rail">${games.slice(0,8).map(gameCard).join('')}</div></section>
@@ -252,6 +252,7 @@ for(const g of games) pages.push([`/games/${g.slug}/`,gamePage(g)]);
 for(const item of guides) pages.push([`/guides/${item.slug}/`,articlePage(item,'guides')]);
 for(const item of news) pages.push([`/news/${item.slug}/`,articlePage(item,'news')]);
 for(const [route,html] of pages) await write(route,html);
+await write('/news/pokemon-go-season-checklist/',`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex"><meta http-equiv="refresh" content="0;url=${href('/news/pokemon-go-mega-squads/')}"><link rel="canonical" href="${absolute('/news/pokemon-go-mega-squads/')}"><title>Pokémon GO event update | PlayScout</title></head><body><p>This story has moved to <a href="${href('/news/pokemon-go-mega-squads/')}">Pokémon GO Mega Squads</a>.</p></body></html>`);
 await writeFile(path.join(out,'404.html'),notFound());
 
 const indexed=pages.map(([route])=>route).filter(route=>route!='/search/');

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "date": "2026-09-12",
-  "generatedAt": "2026-09-12T09:02:33.786Z",
-  "sourceObservedAt": "2026-09-12T09:02:33.362Z",
+  "date": "2026-09-13",
+  "generatedAt": "2026-09-13T09:03:32.816Z",
+  "sourceObservedAt": "2026-09-13T09:03:32.338Z",
   "scopeNote": "Daily editorial briefing: three recent US iOS releases and three current US iOS grossing-chart games. Facts remain linked to Apple; practical tips are automatically synthesized and labelled.",
   "items": [
     {
@@ -17,7 +17,7 @@
       "releaseDate": "2026-09-07T00:00:00-07:00",
       "rank": null,
       "rating": 4.7,
-      "ratingCount": 881,
+      "ratingCount": 978,
       "contentRating": "4+",
       "intro": "MiniMuses is game from Studio Sirenia. This briefing uses current App Store metadata to explain what to inspect before investing time or money.",
       "playStyle": "Start with the tutorial and first complete play loop, then decide whether the game rewards skill, collection, planning or repeated short sessions.",
@@ -37,7 +37,7 @@
       },
       "sourceProvider": "Apple App Store",
       "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-12T09:02:33.362Z",
+      "sourceObservedAt": "2026-09-13T09:03:32.338Z",
       "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
     },
     {
@@ -52,7 +52,7 @@
       "releaseDate": "2026-08-17T00:00:00-07:00",
       "rank": null,
       "rating": 4.9,
-      "ratingCount": 321,
+      "ratingCount": 330,
       "contentRating": "12+",
       "intro": "Slots & Daggers is a strategy title from Future Friends Games. This briefing uses current App Store metadata to explain what to inspect before investing time or money.",
       "playStyle": "Progress comes from reading objectives, sequencing upgrades and protecting scarce resources for the moments that return the most value.",
@@ -72,7 +72,7 @@
       },
       "sourceProvider": "Apple App Store",
       "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-12T09:02:33.362Z",
+      "sourceObservedAt": "2026-09-13T09:03:32.338Z",
       "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
     },
     {
@@ -87,7 +87,7 @@
       "releaseDate": "2026-08-13T00:00:00-07:00",
       "rank": null,
       "rating": 4.9,
-      "ratingCount": 1882,
+      "ratingCount": 1906,
       "contentRating": "12+",
       "intro": "Servant of the Lake is an adventure title from Rusty Lake. This briefing uses current App Store metadata to explain what to inspect before investing time or money.",
       "playStyle": "The core loop rewards pattern recognition, deliberate use of limited tools and learning why a failed attempt ran out of options.",
@@ -107,7 +107,7 @@
       },
       "sourceProvider": "Apple App Store",
       "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-12T09:02:33.362Z",
+      "sourceObservedAt": "2026-09-13T09:03:32.338Z",
       "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
     },
     {
@@ -122,7 +122,7 @@
       "releaseDate": "2023-04-11T00:00:00-07:00",
       "rank": 1,
       "rating": 4.8,
-      "ratingCount": 3822726,
+      "ratingCount": 3823795,
       "contentRating": "9+",
       "intro": "Roll, collect landmarks and plan event multipliers in a fast-moving social board game.",
       "playStyle": "Progress comes from reading objectives, sequencing upgrades and protecting scarce resources for the moments that return the most value.",
@@ -142,42 +142,7 @@
       },
       "sourceProvider": "Apple App Store",
       "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-12T09:02:33.362Z",
-      "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
-    },
-    {
-      "id": "hot-1482155847",
-      "kind": "hot",
-      "name": "Royal Match",
-      "developer": "Dream Games",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d9/9d/83/d99d834a-172e-0962-988c-5c95acc4ce97/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "storeUrl": "https://apps.apple.com/us/app/royal-match/id1482155847?uo=2",
-      "localSlug": "royal-match",
-      "genre": "Casual",
-      "releaseDate": "2021-02-25T00:00:00-07:00",
-      "rank": 2,
-      "rating": 4.7,
-      "ratingCount": 3813462,
-      "contentRating": "12+",
-      "intro": "Complete match-three levels, unlock areas and restore King Robert’s castle.",
-      "playStyle": "The core loop rewards pattern recognition, deliberate use of limited tools and learning why a failed attempt ran out of options.",
-      "tips": [
-        "Read the objective before making the first move.",
-        "Save boosters for boards where they remove a specific blocker.",
-        "After a loss, change one decision instead of repeating the same opening."
-      ],
-      "video": {
-        "type": "video",
-        "id": "RM79zJc6_Q4",
-        "title": "Royal Match - Basic Fundamentals, Tips and Tricks",
-        "channel": "ATrain64",
-        "duration": "14:40",
-        "url": "https://www.youtube.com/watch?v=RM79zJc6_Q4",
-        "thumbnailUrl": "https://i.ytimg.com/vi/RM79zJc6_Q4/hqdefault.jpg"
-      },
-      "sourceProvider": "Apple App Store",
-      "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-12T09:02:33.362Z",
+      "sourceObservedAt": "2026-09-13T09:03:32.338Z",
       "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
     },
     {
@@ -190,9 +155,9 @@
       "localSlug": null,
       "genre": "Puzzle",
       "releaseDate": "2022-07-07T00:00:00-07:00",
-      "rank": 3,
+      "rank": 2,
       "rating": 4.6,
-      "ratingCount": 201672,
+      "ratingCount": 201861,
       "contentRating": "12+",
       "intro": "Gossip Harbor®: Merge & Story is a puzzle title from Microfun Limited. This briefing uses current App Store metadata to explain what to inspect before investing time or money.",
       "playStyle": "The core loop rewards pattern recognition, deliberate use of limited tools and learning why a failed attempt ran out of options.",
@@ -212,7 +177,42 @@
       },
       "sourceProvider": "Apple App Store",
       "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-12T09:02:33.362Z",
+      "sourceObservedAt": "2026-09-13T09:03:32.338Z",
+      "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
+    },
+    {
+      "id": "hot-431946152",
+      "kind": "hot",
+      "name": "Roblox",
+      "developer": "Roblox Corporation",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/f0/55/65f055cb-e179-ba96-2a74-c9251e1c99e7/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "storeUrl": "https://apps.apple.com/us/app/roblox/id431946152?uo=2",
+      "localSlug": "roblox",
+      "genre": "Entertainment",
+      "releaseDate": "2011-05-26T13:51:47-07:00",
+      "rank": 3,
+      "rating": 4.5,
+      "ratingCount": 20087059,
+      "contentRating": "12+",
+      "intro": "A vast player-created platform with experiences spanning action, roleplay, racing and social play.",
+      "playStyle": "Expect short action or exploration loops that turn practice, equipment choices and route knowledge into more consistent progress.",
+      "tips": [
+        "Test controls and camera settings before a long session.",
+        "Upgrade the tool or ability used most often first.",
+        "Replay a short section to learn timing before using rare recovery items."
+      ],
+      "video": {
+        "type": "search",
+        "id": null,
+        "title": "Find Roblox gameplay and player tips",
+        "channel": "YouTube search",
+        "duration": null,
+        "url": "https://www.youtube.com/results?search_query=Roblox%20gameplay%20tips%20guide",
+        "thumbnailUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/f0/55/65f055cb-e179-ba96-2a74-c9251e1c99e7/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png"
+      },
+      "sourceProvider": "Apple App Store",
+      "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json",
+      "sourceObservedAt": "2026-09-13T09:03:32.338Z",
       "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
     }
   ]

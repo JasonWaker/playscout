@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-12T09:02:36.571Z",
+  "fetchedAt": "2026-09-13T09:03:34.783Z",
   "giveaways": {
     "provider": "GamerPower",
     "sourceUrl": "https://www.gamerpower.com/api-read",
     "endpoint": "https://www.gamerpower.com/api/giveaways?sort-by=date",
-    "fetchedAt": "2026-09-12T09:02:36.571Z",
+    "fetchedAt": "2026-09-13T09:03:34.783Z",
     "scopeNote": "Active giveaways, full games, in-game loot and beta access across listed platforms. Platform labels come from GamerPower; this is not a store ranking.",
     "entries": [
       {
@@ -23,7 +23,7 @@
           "Android",
           "iOS"
         ],
-        "users": 3680,
+        "users": 5540,
         "status": "Active"
       },
       {
@@ -41,7 +41,7 @@
           "PC",
           "Epic Games Store"
         ],
-        "users": 19910,
+        "users": 28240,
         "status": "Active"
       },
       {
@@ -59,7 +59,7 @@
           "PC",
           "Epic Games Store"
         ],
-        "users": 18800,
+        "users": 26900,
         "status": "Active"
       },
       {
@@ -78,7 +78,7 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 9620,
+        "users": 13290,
         "status": "Active"
       },
       {
@@ -96,7 +96,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 60920,
+        "users": 64110,
         "status": "Active"
       },
       {
@@ -114,7 +114,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 74960,
+        "users": 77970,
         "status": "Active"
       },
       {
@@ -132,7 +132,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 91620,
+        "users": 94620,
         "status": "Active"
       },
       {
@@ -151,7 +151,7 @@
           "Android",
           "iOS"
         ],
-        "users": 19670,
+        "users": 20020,
         "status": "Active"
       },
       {
@@ -169,7 +169,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 111020,
+        "users": 113790,
         "status": "Active"
       },
       {
@@ -187,7 +187,7 @@
           "PC",
           "Steam"
         ],
-        "users": 26780,
+        "users": 27090,
         "status": "Active"
       },
       {
@@ -205,7 +205,7 @@
           "PC",
           "Steam"
         ],
-        "users": 22390,
+        "users": 22600,
         "status": "Active"
       },
       {
@@ -223,24 +223,7 @@
           "PC",
           "Steam"
         ],
-        "users": 278800,
-        "status": "Active"
-      },
-      {
-        "id": "3498",
-        "title": "Primal Slideee Deluxe (Stove) Giveaway",
-        "worth": "$1.99",
-        "thumbnailUrl": "https://www.gamerpower.com/offers/1/6993208da38c7.jpg",
-        "description": "Download Primal Slideee Deluxe for free via Stove until July 31!",
-        "sourceUrl": "https://www.gamerpower.com/primal-slideee-deluxe-pc-giveaway",
-        "claimUrl": "https://www.gamerpower.com/open/primal-slideee-deluxe-pc-giveaway",
-        "publishedAt": "2026-07-08 11:25:07",
-        "endsAt": "2026-09-12 23:59:59",
-        "type": "Game",
-        "platforms": [
-          "PC"
-        ],
-        "users": 52660,
+        "users": 286900,
         "status": "Active"
       },
       {
@@ -258,7 +241,7 @@
           "PC",
           "Steam"
         ],
-        "users": 32050,
+        "users": 32260,
         "status": "Active"
       },
       {
@@ -276,7 +259,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 161160,
+        "users": 163680,
         "status": "Active"
       },
       {
@@ -295,7 +278,7 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 149480,
+        "users": 152210,
         "status": "Active"
       },
       {
@@ -314,7 +297,7 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 157870,
+        "users": 160340,
         "status": "Active"
       },
       {
@@ -331,7 +314,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 34770,
+        "users": 35010,
         "status": "Active"
       },
       {
@@ -348,7 +331,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 40610,
+        "users": 40860,
         "status": "Active"
       },
       {
@@ -368,7 +351,7 @@
           "Xbox Series X|S",
           "Nintendo Switch"
         ],
-        "users": 45830,
+        "users": 46170,
         "status": "Active"
       },
       {
@@ -385,7 +368,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 47200,
+        "users": 47570,
         "status": "Active"
       },
       {
@@ -404,7 +387,7 @@
           "Playstation 5",
           "Playstation 4"
         ],
-        "users": 48590,
+        "users": 48890,
         "status": "Active"
       },
       {
@@ -424,7 +407,7 @@
           "Android",
           "iOS"
         ],
-        "users": 50120,
+        "users": 50410,
         "status": "Active"
       },
       {
@@ -441,7 +424,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 48820,
+        "users": 49100,
         "status": "Active"
       },
       {
@@ -464,7 +447,7 @@
           "Android",
           "iOS"
         ],
-        "users": 48950,
+        "users": 49340,
         "status": "Active"
       },
       {
@@ -482,7 +465,7 @@
           "PC",
           "Steam"
         ],
-        "users": 58850,
+        "users": 59270,
         "status": "Active"
       },
       {
@@ -499,7 +482,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 59570,
+        "users": 59960,
         "status": "Active"
       },
       {
@@ -516,7 +499,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 58920,
+        "users": 59130,
         "status": "Active"
       },
       {
@@ -535,7 +518,7 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 81660,
+        "users": 84680,
         "status": "Active"
       },
       {
@@ -554,7 +537,25 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 57170,
+        "users": 60140,
+        "status": "Active"
+      },
+      {
+        "id": "3488",
+        "title": "Deadswitch Combat: Weapons Skins Steam Key Giveaway",
+        "worth": "$9.99",
+        "thumbnailUrl": "https://www.gamerpower.com/offers/1/698b912713a1b.jpg",
+        "description": "Claim your free Deadswitch Combat: Weapon Skins Bundle Steam DLC key and unlock 200+ weapon skins! Please note this DLC giveaway requires the base game and 10 ARP to claim a key. Fortunately, you can earn ARP daily for free.",
+        "sourceUrl": "https://www.gamerpower.com/deadswitch-combat-weapons-skins-steam-key-giveaway",
+        "claimUrl": "https://www.gamerpower.com/open/deadswitch-combat-weapons-skins-steam-key-giveaway",
+        "publishedAt": "2026-02-10 15:17:23",
+        "endsAt": "N/A",
+        "type": "DLC",
+        "platforms": [
+          "PC",
+          "Steam"
+        ],
+        "users": 65280,
         "status": "Active"
       }
     ]
@@ -563,7 +564,7 @@
     "provider": "FreeToGame",
     "sourceUrl": "https://www.freetogame.com/api-doc",
     "endpoint": "https://www.freetogame.com/api/games?sort-by=release-date",
-    "fetchedAt": "2026-09-12T09:02:36.571Z",
+    "fetchedAt": "2026-09-13T09:03:34.783Z",
     "scopeNote": "Free-to-play PC and browser game directory sorted by the provider release-date feed. This is not an iOS or Android chart.",
     "entries": [
       {
