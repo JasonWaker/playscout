@@ -92,6 +92,7 @@ const freeGamesHtml = await readFile(path.join(out, 'free-games', 'index.html'),
 if (!freeGamesHtml.includes('Last successful FreeToGame sync:') || !freeGamesHtml.includes('PC &amp; browser')) errors.push('free games: source scope or live timestamp is not visible');
 
 const sourcedNews = [
+  ['roblox-rdc-2026-player-changes','https://about.roblox.com/newsroom/2026/09/rdc-2026-the-world-needs-more-play'],
   ['minecraft-wilderness-bound','https://www.minecraft.net/en-us/article/drop-3-2026-name-announce'],
   ['minecraft-treasure-hunt-watch-challenge','https://www.minecraft.net/en-us/article/treasure-hunt-watch-challenge'],
   ['roblox-global-creator-impact','https://about.roblox.com/newsroom/2026/09/global-impact-of-creation-on-roblox'],
