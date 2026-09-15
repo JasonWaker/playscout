@@ -1,13 +1,31 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-14T09:02:23.707Z",
+  "fetchedAt": "2026-09-15T13:25:38.845Z",
   "giveaways": {
     "provider": "GamerPower",
     "sourceUrl": "https://www.gamerpower.com/api-read",
     "endpoint": "https://www.gamerpower.com/api/giveaways?sort-by=date",
-    "fetchedAt": "2026-09-14T09:02:23.707Z",
+    "fetchedAt": "2026-09-15T13:25:38.845Z",
     "scopeNote": "Active giveaways, full games, in-game loot and beta access across listed platforms. Platform labels come from GamerPower; this is not a store ranking.",
     "entries": [
+      {
+        "id": "3776",
+        "title": "Crystal Crisis (Steam) Giveaway",
+        "worth": "$19.99",
+        "thumbnailUrl": "https://www.gamerpower.com/offers/1/6aa7d795dadd3.jpg",
+        "description": "Score Crystal Crisis for free via Steam! Crystal Crisis is a fun puzzle game with an all-star cast of heroes! Don´t miss this amazing game!",
+        "sourceUrl": "https://www.gamerpower.com/crystal-crisis-steam-giveaway",
+        "claimUrl": "https://www.gamerpower.com/open/crystal-crisis-steam-giveaway",
+        "publishedAt": "2026-09-14 07:16:37",
+        "endsAt": "2026-09-22 23:59:00",
+        "type": "Game",
+        "platforms": [
+          "PC",
+          "Steam"
+        ],
+        "users": 18960,
+        "status": "Active"
+      },
       {
         "id": "3775",
         "title": "Alone With You (Mobile) Giveaway",
@@ -23,7 +41,7 @@
           "Android",
           "iOS"
         ],
-        "users": 7340,
+        "users": 9380,
         "status": "Active"
       },
       {
@@ -41,7 +59,7 @@
           "PC",
           "Epic Games Store"
         ],
-        "users": 35660,
+        "users": 45430,
         "status": "Active"
       },
       {
@@ -59,7 +77,7 @@
           "PC",
           "Epic Games Store"
         ],
-        "users": 33960,
+        "users": 43160,
         "status": "Active"
       },
       {
@@ -77,7 +95,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 66600,
+        "users": 70380,
         "status": "Active"
       },
       {
@@ -95,7 +113,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 80680,
+        "users": 84350,
         "status": "Active"
       },
       {
@@ -113,7 +131,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 97290,
+        "users": 100790,
         "status": "Active"
       },
       {
@@ -132,7 +150,7 @@
           "Android",
           "iOS"
         ],
-        "users": 20450,
+        "users": 20700,
         "status": "Active"
       },
       {
@@ -150,7 +168,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 116360,
+        "users": 119800,
         "status": "Active"
       },
       {
@@ -168,7 +186,7 @@
           "PC",
           "Steam"
         ],
-        "users": 27380,
+        "users": 27710,
         "status": "Active"
       },
       {
@@ -186,7 +204,7 @@
           "PC",
           "Steam"
         ],
-        "users": 22970,
+        "users": 23170,
         "status": "Active"
       },
       {
@@ -204,7 +222,7 @@
           "PC",
           "Steam"
         ],
-        "users": 294610,
+        "users": 304690,
         "status": "Active"
       },
       {
@@ -222,7 +240,7 @@
           "PC",
           "Steam"
         ],
-        "users": 32480,
+        "users": 32720,
         "status": "Active"
       },
       {
@@ -240,7 +258,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 166210,
+        "users": 169480,
         "status": "Active"
       },
       {
@@ -259,7 +277,7 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 155240,
+        "users": 159010,
         "status": "Active"
       },
       {
@@ -278,7 +296,7 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 162800,
+        "users": 166780,
         "status": "Active"
       },
       {
@@ -295,7 +313,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 35290,
+        "users": 35490,
         "status": "Active"
       },
       {
@@ -312,7 +330,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 41080,
+        "users": 41330,
         "status": "Active"
       },
       {
@@ -332,7 +350,7 @@
           "Xbox Series X|S",
           "Nintendo Switch"
         ],
-        "users": 46590,
+        "users": 46860,
         "status": "Active"
       },
       {
@@ -349,7 +367,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 47860,
+        "users": 48030,
         "status": "Active"
       },
       {
@@ -368,7 +386,7 @@
           "Playstation 5",
           "Playstation 4"
         ],
-        "users": 49240,
+        "users": 49410,
         "status": "Active"
       },
       {
@@ -388,7 +406,7 @@
           "Android",
           "iOS"
         ],
-        "users": 50640,
+        "users": 50830,
         "status": "Active"
       },
       {
@@ -405,7 +423,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 49490,
+        "users": 49760,
         "status": "Active"
       },
       {
@@ -428,7 +446,7 @@
           "Android",
           "iOS"
         ],
-        "users": 49710,
+        "users": 49910,
         "status": "Active"
       },
       {
@@ -446,7 +464,7 @@
           "PC",
           "Steam"
         ],
-        "users": 59650,
+        "users": 59890,
         "status": "Active"
       },
       {
@@ -463,7 +481,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 60300,
+        "users": 60440,
         "status": "Active"
       },
       {
@@ -480,7 +498,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 59450,
+        "users": 59620,
         "status": "Active"
       },
       {
@@ -499,7 +517,7 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 87620,
+        "users": 91480,
         "status": "Active"
       },
       {
@@ -518,7 +536,7 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 63060,
+        "users": 66970,
         "status": "Active"
       },
       {
@@ -536,24 +554,7 @@
           "PC",
           "Steam"
         ],
-        "users": 65650,
-        "status": "Active"
-      },
-      {
-        "id": "3489",
-        "title": "KARDS Special Bundle Key Giveaway",
-        "worth": "N/A",
-        "thumbnailUrl": "https://www.gamerpower.com/offers/1/698b92396a0fc.jpg",
-        "description": "Score your free KARDS Special Bundle Key! Please note this DLC giveaway requires the base game and 10 ARP to claim a key. Fortunately, you can earn ARP daily for free.",
-        "sourceUrl": "https://www.gamerpower.com/kards-special-bundle-key-giveaway",
-        "claimUrl": "https://www.gamerpower.com/open/kards-special-bundle-key-giveaway",
-        "publishedAt": "2026-02-10 15:16:57",
-        "endsAt": "N/A",
-        "type": "DLC",
-        "platforms": [
-          "PC"
-        ],
-        "users": 58510,
+        "users": 65820,
         "status": "Active"
       }
     ]
@@ -562,7 +563,7 @@
     "provider": "FreeToGame",
     "sourceUrl": "https://www.freetogame.com/api-doc",
     "endpoint": "https://www.freetogame.com/api/games?sort-by=release-date",
-    "fetchedAt": "2026-09-14T09:02:23.707Z",
+    "fetchedAt": "2026-09-15T13:25:38.845Z",
     "scopeNote": "Free-to-play PC and browser game directory sorted by the provider release-date feed. This is not an iOS or Android chart.",
     "entries": [
       {

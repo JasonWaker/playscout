@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "date": "2026-09-14",
-  "generatedAt": "2026-09-14T09:02:21.508Z",
-  "sourceObservedAt": "2026-09-14T09:02:21.000Z",
+  "date": "2026-09-15",
+  "generatedAt": "2026-09-15T13:25:35.961Z",
+  "sourceObservedAt": "2026-09-15T13:25:35.488Z",
   "scopeNote": "Daily editorial briefing: three recent US iOS releases and three current US iOS grossing-chart games. Facts remain linked to Apple; practical tips are automatically synthesized and labelled.",
   "items": [
     {
@@ -17,7 +17,7 @@
       "releaseDate": "2026-09-07T00:00:00-07:00",
       "rank": null,
       "rating": 4.6,
-      "ratingCount": 1092,
+      "ratingCount": 1208,
       "contentRating": "4+",
       "intro": "MiniMuses is game from Studio Sirenia. This briefing uses current App Store metadata to explain what to inspect before investing time or money.",
       "playStyle": "Start with the tutorial and first complete play loop, then decide whether the game rewards skill, collection, planning or repeated short sessions.",
@@ -37,7 +37,7 @@
       },
       "sourceProvider": "Apple App Store",
       "sourceUrl": "https://itunes.apple.com/us/rss/topfreeapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-14T09:02:21.000Z",
+      "sourceObservedAt": "2026-09-15T13:25:35.488Z",
       "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
     },
     {
@@ -52,7 +52,7 @@
       "releaseDate": "2026-08-17T00:00:00-07:00",
       "rank": null,
       "rating": 4.9,
-      "ratingCount": 340,
+      "ratingCount": 349,
       "contentRating": "12+",
       "intro": "Slots & Daggers is a strategy title from Future Friends Games. This briefing uses current App Store metadata to explain what to inspect before investing time or money.",
       "playStyle": "Progress comes from reading objectives, sequencing upgrades and protecting scarce resources for the moments that return the most value.",
@@ -72,7 +72,7 @@
       },
       "sourceProvider": "Apple App Store",
       "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-14T09:02:21.000Z",
+      "sourceObservedAt": "2026-09-15T13:25:35.488Z",
       "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
     },
     {
@@ -87,7 +87,7 @@
       "releaseDate": "2026-08-13T00:00:00-07:00",
       "rank": null,
       "rating": 4.9,
-      "ratingCount": 1919,
+      "ratingCount": 1938,
       "contentRating": "12+",
       "intro": "Servant of the Lake is an adventure title from Rusty Lake. This briefing uses current App Store metadata to explain what to inspect before investing time or money.",
       "playStyle": "The core loop rewards pattern recognition, deliberate use of limited tools and learning why a failed attempt ran out of options.",
@@ -107,7 +107,7 @@
       },
       "sourceProvider": "Apple App Store",
       "sourceUrl": "https://itunes.apple.com/us/rss/toppaidapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-14T09:02:21.000Z",
+      "sourceObservedAt": "2026-09-15T13:25:35.488Z",
       "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
     },
     {
@@ -122,7 +122,7 @@
       "releaseDate": "2023-04-11T00:00:00-07:00",
       "rank": 1,
       "rating": 4.8,
-      "ratingCount": 3824780,
+      "ratingCount": 3826209,
       "contentRating": "9+",
       "intro": "Roll, collect landmarks and plan event multipliers in a fast-moving social board game.",
       "playStyle": "Progress comes from reading objectives, sequencing upgrades and protecting scarce resources for the moments that return the most value.",
@@ -142,42 +142,7 @@
       },
       "sourceProvider": "Apple App Store",
       "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-14T09:02:21.000Z",
-      "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
-    },
-    {
-      "id": "hot-1482155847",
-      "kind": "hot",
-      "name": "Royal Match",
-      "developer": "Dream Games",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d9/9d/83/d99d834a-172e-0962-988c-5c95acc4ce97/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "storeUrl": "https://apps.apple.com/us/app/royal-match/id1482155847?uo=2",
-      "localSlug": "royal-match",
-      "genre": "Casual",
-      "releaseDate": "2021-02-25T00:00:00-07:00",
-      "rank": 2,
-      "rating": 4.7,
-      "ratingCount": 3816085,
-      "contentRating": "12+",
-      "intro": "Complete match-three levels, unlock areas and restore King Robert’s castle.",
-      "playStyle": "The core loop rewards pattern recognition, deliberate use of limited tools and learning why a failed attempt ran out of options.",
-      "tips": [
-        "Read the objective before making the first move.",
-        "Save boosters for boards where they remove a specific blocker.",
-        "After a loss, change one decision instead of repeating the same opening."
-      ],
-      "video": {
-        "type": "video",
-        "id": "RM79zJc6_Q4",
-        "title": "Royal Match - Basic Fundamentals, Tips and Tricks",
-        "channel": "ATrain64",
-        "duration": "14:40",
-        "url": "https://www.youtube.com/watch?v=RM79zJc6_Q4",
-        "thumbnailUrl": "https://i.ytimg.com/vi/RM79zJc6_Q4/hqdefault.jpg"
-      },
-      "sourceProvider": "Apple App Store",
-      "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-14T09:02:21.000Z",
+      "sourceObservedAt": "2026-09-15T13:25:35.488Z",
       "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
     },
     {
@@ -190,9 +155,9 @@
       "localSlug": "roblox",
       "genre": "Entertainment",
       "releaseDate": "2011-05-26T13:51:47-07:00",
-      "rank": 3,
+      "rank": 2,
       "rating": 4.5,
-      "ratingCount": 20102342,
+      "ratingCount": 20120338,
       "contentRating": "12+",
       "intro": "A vast player-created platform with experiences spanning action, roleplay, racing and social play.",
       "playStyle": "Expect short action or exploration loops that turn practice, equipment choices and route knowledge into more consistent progress.",
@@ -212,7 +177,42 @@
       },
       "sourceProvider": "Apple App Store",
       "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json",
-      "sourceObservedAt": "2026-09-14T09:02:21.000Z",
+      "sourceObservedAt": "2026-09-15T13:25:35.488Z",
+      "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
+    },
+    {
+      "id": "hot-1623318294",
+      "kind": "hot",
+      "name": "Gossip Harbor®: Merge & Story",
+      "developer": "Microfun Limited",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/c3/15/b7c31546-603c-f813-0af5-71978cd76570/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "storeUrl": "https://apps.apple.com/us/app/gossip-harbor-merge-story/id1623318294?uo=2",
+      "localSlug": null,
+      "genre": "Puzzle",
+      "releaseDate": "2022-07-07T00:00:00-07:00",
+      "rank": 3,
+      "rating": 4.6,
+      "ratingCount": 202371,
+      "contentRating": "12+",
+      "intro": "Gossip Harbor®: Merge & Story is a puzzle title from Microfun Limited. This briefing uses current App Store metadata to explain what to inspect before investing time or money.",
+      "playStyle": "The core loop rewards pattern recognition, deliberate use of limited tools and learning why a failed attempt ran out of options.",
+      "tips": [
+        "Read the objective before making the first move.",
+        "Save boosters for boards where they remove a specific blocker.",
+        "After a loss, change one decision instead of repeating the same opening."
+      ],
+      "video": {
+        "type": "search",
+        "id": null,
+        "title": "Find Gossip Harbor®: Merge & Story gameplay and player tips",
+        "channel": "YouTube search",
+        "duration": null,
+        "url": "https://www.youtube.com/results?search_query=Gossip%20Harbor%C2%AE%3A%20Merge%20%26%20Story%20gameplay%20tips%20guide",
+        "thumbnailUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/c3/15/b7c31546-603c-f813-0af5-71978cd76570/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png"
+      },
+      "sourceProvider": "Apple App Store",
+      "sourceUrl": "https://itunes.apple.com/us/rss/topgrossingapplications/limit=25/genre=6014/json",
+      "sourceObservedAt": "2026-09-15T13:25:35.488Z",
       "copyOrigin": "Automatically synthesized from current Apple metadata and PlayScout genre playbooks; verify version-specific mechanics in game."
     }
   ]
