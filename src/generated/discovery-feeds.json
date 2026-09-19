@@ -1,13 +1,144 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-15T13:25:38.845Z",
+  "fetchedAt": "2026-09-19T09:01:55.244Z",
   "giveaways": {
     "provider": "GamerPower",
     "sourceUrl": "https://www.gamerpower.com/api-read",
     "endpoint": "https://www.gamerpower.com/api/giveaways?sort-by=date",
-    "fetchedAt": "2026-09-15T13:25:38.845Z",
+    "fetchedAt": "2026-09-19T09:01:55.244Z",
     "scopeNote": "Active giveaways, full games, in-game loot and beta access across listed platforms. Platform labels come from GamerPower; this is not a store ranking.",
     "entries": [
+      {
+        "id": "3784",
+        "title": "Deadshot (Steam) Giveaway",
+        "worth": "$4.99",
+        "thumbnailUrl": "https://www.gamerpower.com/offers/1/1234.jpg",
+        "description": "Score Deadshot for free via Steam! Deadshot is a 3d retro styled first-person shooter game inspired from classics like Doom and Quake.",
+        "sourceUrl": "https://www.gamerpower.com/deadshot-steam-giveaway",
+        "claimUrl": "https://www.gamerpower.com/open/deadshot-steam-giveaway",
+        "publishedAt": "2026-09-18 13:04:56",
+        "endsAt": "2026-09-23 23:59:00",
+        "type": "Game",
+        "platforms": [
+          "PC",
+          "Steam"
+        ],
+        "users": 14370,
+        "status": "Active"
+      },
+      {
+        "id": "3783",
+        "title": "Aniimo Gift Pack Key Giveaway",
+        "worth": "N/A",
+        "thumbnailUrl": "https://www.gamerpower.com/offers/1/6aac1bff56c85.jpg",
+        "description": "Claim your free Aniimo Gift Pack Key and unlock 66,666 Credits, 6 Aniipod Pros, and 6 Growth Flowers. Please note that this giveaway requires 10 ARP (Arena Reward Points) to claim a key. Fortunately, you can earn ARP for free every day simply by logging into the website.",
+        "sourceUrl": "https://www.gamerpower.com/aniimo-gift-pack-key-giveaway",
+        "claimUrl": "https://www.gamerpower.com/open/aniimo-gift-pack-key-giveaway",
+        "publishedAt": "2026-09-17 12:57:35",
+        "endsAt": "2026-09-30 23:59:00",
+        "type": "DLC",
+        "platforms": [
+          "PC",
+          "Playstation 5",
+          "Xbox Series X|S",
+          "Android",
+          "iOS"
+        ],
+        "users": 2240,
+        "status": "Active"
+      },
+      {
+        "id": "3782",
+        "title": "Shogun Showdown (Epic Games) Giveaway",
+        "worth": "$14.99",
+        "thumbnailUrl": "https://www.gamerpower.com/offers/1/6aac02328ba2e.jpg",
+        "description": "Looking for a new rogue-like game? Grab Shogun Showdown for free via Epic Games Store Shogun Showdown is a cool turn-based combat game with rogue-like and deck-building elements.",
+        "sourceUrl": "https://www.gamerpower.com/shogun-showdown-epic-games-giveaway",
+        "claimUrl": "https://www.gamerpower.com/open/shogun-showdown-epic-games-giveaway",
+        "publishedAt": "2026-09-17 11:07:30",
+        "endsAt": "2026-09-24 23:59:00",
+        "type": "Game",
+        "platforms": [
+          "PC",
+          "Epic Games Store"
+        ],
+        "users": 14810,
+        "status": "Active"
+      },
+      {
+        "id": "3781",
+        "title": "Mindcop (Epic Games) Giveaway",
+        "worth": "$14.99",
+        "thumbnailUrl": "https://www.gamerpower.com/offers/1/6aac007c3171a.jpg",
+        "description": "Score Mindcop without any cost via Epic Games Store! Mindcop is a stylish 2d non-linear detective game with real-time puzzle gaming. Don´t miss it! *Please note this game is also available via Epic Games App!",
+        "sourceUrl": "https://www.gamerpower.com/mindcop-epic-games-giveaway",
+        "claimUrl": "https://www.gamerpower.com/open/mindcop-epic-games-giveaway",
+        "publishedAt": "2026-09-17 11:00:12",
+        "endsAt": "2026-09-24 23:59:00",
+        "type": "Game",
+        "platforms": [
+          "PC",
+          "Android",
+          "iOS",
+          "Epic Games Store"
+        ],
+        "users": 11640,
+        "status": "Active"
+      },
+      {
+        "id": "3780",
+        "title": "Dying Light: The Beast - Discharge Weapon Pack (Steam) Giveaway",
+        "worth": "$4.99",
+        "thumbnailUrl": "https://www.gamerpower.com/offers/1/6aabf82917b1f.jpg",
+        "description": "Claim Dying Light: The Beast - Discharge Weapon Pack (DLC) for free via Steam! Please note the base game is required to enjoy this DLC content.",
+        "sourceUrl": "https://www.gamerpower.com/dying-light-the-beast-discharge-weapon-pack-steam-giveaway",
+        "claimUrl": "https://www.gamerpower.com/open/dying-light-the-beast-discharge-weapon-pack-steam-giveaway",
+        "publishedAt": "2026-09-17 10:24:41",
+        "endsAt": "2026-09-24 23:59:00",
+        "type": "DLC",
+        "platforms": [
+          "PC",
+          "Steam"
+        ],
+        "users": 1890,
+        "status": "Active"
+      },
+      {
+        "id": "3779",
+        "title": "Space Menace (Steam) Giveaway",
+        "worth": "$6.99",
+        "thumbnailUrl": "https://www.gamerpower.com/offers/1/6aaad50c2b7d4.jpg",
+        "description": "New Steam giveaway to improve your day! Claim Space Menace for FREE via Steam! Space Menace is a 2d Sci-Fi space RTS game with multiple paths to progress. Check it out!",
+        "sourceUrl": "https://www.gamerpower.com/space-menace-steam-giveaway",
+        "claimUrl": "https://www.gamerpower.com/open/space-menace-steam-giveaway",
+        "publishedAt": "2026-09-16 13:42:36",
+        "endsAt": "2026-09-23 23:59:00",
+        "type": "Game",
+        "platforms": [
+          "PC",
+          "Steam"
+        ],
+        "users": 33370,
+        "status": "Active"
+      },
+      {
+        "id": "3778",
+        "title": "FOR HONOR (Ubisoft) Giveaway",
+        "worth": "$29.99",
+        "thumbnailUrl": "https://www.gamerpower.com/offers/1/6aa94d05ac575.jpg",
+        "description": "Ubisoft is back with another amazing giveaway! Claim FOR HONOR for free via Ubisoft Store! For Honor is a popular team-based PvP melee fighting game with endless battles. Don´t miss it!",
+        "sourceUrl": "https://www.gamerpower.com/for-honor-ubisoft-giveaway",
+        "claimUrl": "https://www.gamerpower.com/open/for-honor-ubisoft-giveaway",
+        "publishedAt": "2026-09-15 09:49:57",
+        "endsAt": "2026-09-28 23:59:00",
+        "type": "Game",
+        "platforms": [
+          "PC",
+          "Ubisoft Connect"
+        ],
+        "users": 36100,
+        "status": "Active"
+      },
       {
         "id": "3776",
         "title": "Crystal Crisis (Steam) Giveaway",
@@ -23,61 +154,7 @@
           "PC",
           "Steam"
         ],
-        "users": 18960,
-        "status": "Active"
-      },
-      {
-        "id": "3775",
-        "title": "Alone With You (Mobile) Giveaway",
-        "worth": "$4.99",
-        "thumbnailUrl": "https://www.gamerpower.com/offers/1/6aa2ca834a5a1.jpg",
-        "description": "Alone With You (Mobile version) is free until September 17 on the Epic Games Store App for iPhone, iPad, and Android. Note: May not be available in all regions",
-        "sourceUrl": "https://www.gamerpower.com/alone-with-you-mobile-giveaway",
-        "claimUrl": "https://www.gamerpower.com/open/alone-with-you-mobile-giveaway",
-        "publishedAt": "2026-09-10 11:19:31",
-        "endsAt": "2026-09-17 23:59:00",
-        "type": "Game",
-        "platforms": [
-          "Android",
-          "iOS"
-        ],
-        "users": 9380,
-        "status": "Active"
-      },
-      {
-        "id": "3774",
-        "title": "Astral Ascent (Epic Games) Giveaway",
-        "worth": "$24.99",
-        "thumbnailUrl": "https://www.gamerpower.com/offers/1/6aa2c8331c791.jpg",
-        "description": "Claim Astral Ascent for free via Epic Games Store! Astral Ascent is a fun 2D platformer roguelite game with addicting gameplay and great combat.",
-        "sourceUrl": "https://www.gamerpower.com/astral-ascent-epic-games-giveaway",
-        "claimUrl": "https://www.gamerpower.com/open/astral-ascent-epic-games-giveaway",
-        "publishedAt": "2026-09-10 11:09:39",
-        "endsAt": "2026-09-17 23:59:00",
-        "type": "Game",
-        "platforms": [
-          "PC",
-          "Epic Games Store"
-        ],
-        "users": 45430,
-        "status": "Active"
-      },
-      {
-        "id": "3773",
-        "title": "Luftrausers (Epic Games) Giveaway",
-        "worth": "$9.99",
-        "thumbnailUrl": "https://www.gamerpower.com/offers/1/6aa2c633c21e7.jpg",
-        "description": "Score Luftrausers for free via Epic Games Store! Luftrausers is a stylish arcade shooter with unique weapons, ridiculous combos, and challenging missions. Don´t miss it!",
-        "sourceUrl": "https://www.gamerpower.com/luftrausers-epic-games-giveaway",
-        "claimUrl": "https://www.gamerpower.com/open/luftrausers-epic-games-giveaway",
-        "publishedAt": "2026-09-10 11:01:07",
-        "endsAt": "2026-09-17 23:59:00",
-        "type": "Game",
-        "platforms": [
-          "PC",
-          "Epic Games Store"
-        ],
-        "users": 43160,
+        "users": 55680,
         "status": "Active"
       },
       {
@@ -95,7 +172,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 70380,
+        "users": 80900,
         "status": "Active"
       },
       {
@@ -113,7 +190,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 84350,
+        "users": 95050,
         "status": "Active"
       },
       {
@@ -131,7 +208,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 100790,
+        "users": 111210,
         "status": "Active"
       },
       {
@@ -150,7 +227,7 @@
           "Android",
           "iOS"
         ],
-        "users": 20700,
+        "users": 21620,
         "status": "Active"
       },
       {
@@ -168,7 +245,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 119800,
+        "users": 129510,
         "status": "Active"
       },
       {
@@ -186,7 +263,7 @@
           "PC",
           "Steam"
         ],
-        "users": 27710,
+        "users": 28940,
         "status": "Active"
       },
       {
@@ -204,7 +281,7 @@
           "PC",
           "Steam"
         ],
-        "users": 23170,
+        "users": 24270,
         "status": "Active"
       },
       {
@@ -222,7 +299,7 @@
           "PC",
           "Steam"
         ],
-        "users": 304690,
+        "users": 334960,
         "status": "Active"
       },
       {
@@ -240,7 +317,7 @@
           "PC",
           "Steam"
         ],
-        "users": 32720,
+        "users": 33350,
         "status": "Active"
       },
       {
@@ -258,7 +335,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 169480,
+        "users": 179380,
         "status": "Active"
       },
       {
@@ -277,7 +354,7 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 159010,
+        "users": 169830,
         "status": "Active"
       },
       {
@@ -296,7 +373,7 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 166780,
+        "users": 178040,
         "status": "Active"
       },
       {
@@ -313,7 +390,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 35490,
+        "users": 36450,
         "status": "Active"
       },
       {
@@ -330,7 +407,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 41330,
+        "users": 42260,
         "status": "Active"
       },
       {
@@ -350,7 +427,7 @@
           "Xbox Series X|S",
           "Nintendo Switch"
         ],
-        "users": 46860,
+        "users": 47930,
         "status": "Active"
       },
       {
@@ -367,7 +444,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 48030,
+        "users": 49100,
         "status": "Active"
       },
       {
@@ -386,7 +463,7 @@
           "Playstation 5",
           "Playstation 4"
         ],
-        "users": 49410,
+        "users": 50290,
         "status": "Active"
       },
       {
@@ -406,7 +483,7 @@
           "Android",
           "iOS"
         ],
-        "users": 50830,
+        "users": 52000,
         "status": "Active"
       },
       {
@@ -423,7 +500,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 49760,
+        "users": 50560,
         "status": "Active"
       },
       {
@@ -446,7 +523,7 @@
           "Android",
           "iOS"
         ],
-        "users": 49910,
+        "users": 50950,
         "status": "Active"
       },
       {
@@ -464,7 +541,7 @@
           "PC",
           "Steam"
         ],
-        "users": 59890,
+        "users": 60920,
         "status": "Active"
       },
       {
@@ -481,80 +558,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 60440,
-        "status": "Active"
-      },
-      {
-        "id": "3508",
-        "title": "Blade and Soul NEO Anniversary Weapon Skin Key Giveaway",
-        "worth": "N/A",
-        "thumbnailUrl": "https://www.gamerpower.com/offers/1/699f2c7ebf7f6.jpg",
-        "description": "Claim your free Blade and Soul NEO Anniversary Weapon Skin Key to unlock a Hot Pink Illusion Weapon Chest and one Character Alteration Voucher. Please note that 5 ARP (Arena Rewards Points) are required to claim this key.",
-        "sourceUrl": "https://www.gamerpower.com/blade-and-soul-neo-anniversary-weapon-skin-key-giveaway",
-        "claimUrl": "https://www.gamerpower.com/open/blade-and-soul-neo-anniversary-weapon-skin-key-giveaway",
-        "publishedAt": "2026-02-25 12:08:14",
-        "endsAt": "N/A",
-        "type": "DLC",
-        "platforms": [
-          "PC"
-        ],
-        "users": 59620,
-        "status": "Active"
-      },
-      {
-        "id": "3421",
-        "title": "Very Realistic Game Dev Simulator (Itch.io) Giveaway",
-        "worth": "$1.99",
-        "thumbnailUrl": "https://www.gamerpower.com/offers/1/6946b7c157bca.jpg",
-        "description": "Are you planning on getting into game dev? Then this might be for you! Very Realistic Game Dev Simulator is free on Itch.io for a limited time!",
-        "sourceUrl": "https://www.gamerpower.com/very-realistic-game-dev-simulator-itch-io-giveaway",
-        "claimUrl": "https://www.gamerpower.com/open/very-realistic-game-dev-simulator-itch-io-giveaway",
-        "publishedAt": "2026-02-16 09:50:41",
-        "endsAt": "2026-09-18 23:59:35",
-        "type": "Game",
-        "platforms": [
-          "PC",
-          "Itch.io",
-          "DRM-Free"
-        ],
-        "users": 91480,
-        "status": "Active"
-      },
-      {
-        "id": "3496",
-        "title": "Cherophobia (Itch.io) Giveaway",
-        "worth": "$1.99",
-        "thumbnailUrl": "https://www.gamerpower.com/offers/1/698fa7369c1f5.jpg",
-        "description": "Download Cherophobia for free via Itch.io! Cherophobia is a short 3D psychological horror game.",
-        "sourceUrl": "https://www.gamerpower.com/cherophobia-itch-io-giveaway",
-        "claimUrl": "https://www.gamerpower.com/open/cherophobia-itch-io-giveaway",
-        "publishedAt": "2026-02-13 17:35:34",
-        "endsAt": "2026-09-18 23:59:00",
-        "type": "Game",
-        "platforms": [
-          "PC",
-          "Itch.io",
-          "DRM-Free"
-        ],
-        "users": 66970,
-        "status": "Active"
-      },
-      {
-        "id": "3488",
-        "title": "Deadswitch Combat: Weapons Skins Steam Key Giveaway",
-        "worth": "$9.99",
-        "thumbnailUrl": "https://www.gamerpower.com/offers/1/698b912713a1b.jpg",
-        "description": "Claim your free Deadswitch Combat: Weapon Skins Bundle Steam DLC key and unlock 200+ weapon skins! Please note this DLC giveaway requires the base game and 10 ARP to claim a key. Fortunately, you can earn ARP daily for free.",
-        "sourceUrl": "https://www.gamerpower.com/deadswitch-combat-weapons-skins-steam-key-giveaway",
-        "claimUrl": "https://www.gamerpower.com/open/deadswitch-combat-weapons-skins-steam-key-giveaway",
-        "publishedAt": "2026-02-10 15:17:23",
-        "endsAt": "N/A",
-        "type": "DLC",
-        "platforms": [
-          "PC",
-          "Steam"
-        ],
-        "users": 65820,
+        "users": 61460,
         "status": "Active"
       }
     ]
@@ -563,9 +567,22 @@
     "provider": "FreeToGame",
     "sourceUrl": "https://www.freetogame.com/api-doc",
     "endpoint": "https://www.freetogame.com/api/games?sort-by=release-date",
-    "fetchedAt": "2026-09-15T13:25:38.845Z",
+    "fetchedAt": "2026-09-19T09:01:55.244Z",
     "scopeNote": "Free-to-play PC and browser game directory sorted by the provider release-date feed. This is not an iOS or Android chart.",
     "entries": [
+      {
+        "id": "651",
+        "title": "Aniimo",
+        "thumbnailUrl": "https://www.freetogame.com/g/651/thumbnail.jpg",
+        "description": "A free-to-play open-world creature taming game.",
+        "gameUrl": "https://www.freetogame.com/open/aniimo",
+        "sourceUrl": "https://www.freetogame.com/aniimo",
+        "genre": "RPG",
+        "platform": "PC (Windows)",
+        "publisher": "Pawprint Studio",
+        "developer": "Pawprint Studio",
+        "releaseDate": "2026-09-15"
+      },
       {
         "id": "650",
         "title": "Tyr",
@@ -1072,19 +1089,6 @@
         "publisher": "My.games",
         "developer": "My.games",
         "releaseDate": "2025-03-04"
-      },
-      {
-        "id": "599",
-        "title": "Marvel Rivals",
-        "thumbnailUrl": "https://www.freetogame.com/g/599/thumbnail.jpg",
-        "description": "A free-to-play superhero team shooter from NetEase.",
-        "gameUrl": "https://www.freetogame.com/open/marvel-rivals",
-        "sourceUrl": "https://www.freetogame.com/marvel-rivals",
-        "genre": "Shooter",
-        "platform": "PC (Windows)",
-        "publisher": "NetEase",
-        "developer": "NetEase",
-        "releaseDate": "2024-12-06"
       }
     ]
   }
