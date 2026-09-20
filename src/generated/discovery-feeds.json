@@ -1,13 +1,31 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-19T09:01:55.244Z",
+  "fetchedAt": "2026-09-20T09:02:06.605Z",
   "giveaways": {
     "provider": "GamerPower",
     "sourceUrl": "https://www.gamerpower.com/api-read",
     "endpoint": "https://www.gamerpower.com/api/giveaways?sort-by=date",
-    "fetchedAt": "2026-09-19T09:01:55.244Z",
+    "fetchedAt": "2026-09-20T09:02:06.605Z",
     "scopeNote": "Active giveaways, full games, in-game loot and beta access across listed platforms. Platform labels come from GamerPower; this is not a store ranking.",
     "entries": [
+      {
+        "id": "3322",
+        "title": "Sausage Hunter (Indiegala) Giveaway",
+        "worth": "$29.99",
+        "thumbnailUrl": "https://www.gamerpower.com/offers/1/68eadb2d6f0c4.jpg",
+        "description": "The hunt for the magic sausage starts now! Download Sausage Hunter for free on IndieGala. Sausage Hunter is a 2D platformer with hand-drawn graphics and intriguing puzzles... plus a kitten and sausages, for some reason.",
+        "sourceUrl": "https://www.gamerpower.com/sausage-hunter-pc-giveaway",
+        "claimUrl": "https://www.gamerpower.com/open/sausage-hunter-pc-giveaway",
+        "publishedAt": "2026-09-19 09:15:50",
+        "endsAt": "N/A",
+        "type": "Game",
+        "platforms": [
+          "PC",
+          "DRM-Free"
+        ],
+        "users": 24560,
+        "status": "Active"
+      },
       {
         "id": "3784",
         "title": "Deadshot (Steam) Giveaway",
@@ -23,14 +41,14 @@
           "PC",
           "Steam"
         ],
-        "users": 14370,
+        "users": 26210,
         "status": "Active"
       },
       {
         "id": "3783",
         "title": "Aniimo Gift Pack Key Giveaway",
         "worth": "N/A",
-        "thumbnailUrl": "https://www.gamerpower.com/offers/1/6aac1bff56c85.jpg",
+        "thumbnailUrl": "https://www.gamerpower.com/offers/1/aniimo.jpg",
         "description": "Claim your free Aniimo Gift Pack Key and unlock 66,666 Credits, 6 Aniipod Pros, and 6 Growth Flowers. Please note that this giveaway requires 10 ARP (Arena Reward Points) to claim a key. Fortunately, you can earn ARP for free every day simply by logging into the website.",
         "sourceUrl": "https://www.gamerpower.com/aniimo-gift-pack-key-giveaway",
         "claimUrl": "https://www.gamerpower.com/open/aniimo-gift-pack-key-giveaway",
@@ -44,7 +62,7 @@
           "Android",
           "iOS"
         ],
-        "users": 2240,
+        "users": 3090,
         "status": "Active"
       },
       {
@@ -62,7 +80,7 @@
           "PC",
           "Epic Games Store"
         ],
-        "users": 14810,
+        "users": 20960,
         "status": "Active"
       },
       {
@@ -82,7 +100,7 @@
           "iOS",
           "Epic Games Store"
         ],
-        "users": 11640,
+        "users": 17620,
         "status": "Active"
       },
       {
@@ -100,7 +118,7 @@
           "PC",
           "Steam"
         ],
-        "users": 1890,
+        "users": 2620,
         "status": "Active"
       },
       {
@@ -118,7 +136,7 @@
           "PC",
           "Steam"
         ],
-        "users": 33370,
+        "users": 43260,
         "status": "Active"
       },
       {
@@ -136,7 +154,7 @@
           "PC",
           "Ubisoft Connect"
         ],
-        "users": 36100,
+        "users": 42570,
         "status": "Active"
       },
       {
@@ -154,7 +172,7 @@
           "PC",
           "Steam"
         ],
-        "users": 55680,
+        "users": 65910,
         "status": "Active"
       },
       {
@@ -172,7 +190,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 80900,
+        "users": 83520,
         "status": "Active"
       },
       {
@@ -190,7 +208,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 95050,
+        "users": 97280,
         "status": "Active"
       },
       {
@@ -208,7 +226,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 111210,
+        "users": 113860,
         "status": "Active"
       },
       {
@@ -227,7 +245,7 @@
           "Android",
           "iOS"
         ],
-        "users": 21620,
+        "users": 22010,
         "status": "Active"
       },
       {
@@ -245,7 +263,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 129510,
+        "users": 131830,
         "status": "Active"
       },
       {
@@ -263,7 +281,7 @@
           "PC",
           "Steam"
         ],
-        "users": 28940,
+        "users": 29390,
         "status": "Active"
       },
       {
@@ -281,7 +299,7 @@
           "PC",
           "Steam"
         ],
-        "users": 24270,
+        "users": 24620,
         "status": "Active"
       },
       {
@@ -299,7 +317,7 @@
           "PC",
           "Steam"
         ],
-        "users": 334960,
+        "users": 343070,
         "status": "Active"
       },
       {
@@ -317,25 +335,7 @@
           "PC",
           "Steam"
         ],
-        "users": 33350,
-        "status": "Active"
-      },
-      {
-        "id": "3306",
-        "title": "Whiskey Mafia: Frank's Story (IndieGala) Giveaway",
-        "worth": "$5.99",
-        "thumbnailUrl": "https://www.gamerpower.com/offers/1/68dd2161c3088.jpg",
-        "description": "Download Whiskey Mafia: Frank's Story for free on IndieGala! Whiskey Mafia: Frank's Story is a 2D adventure game where you experience life in the mafia.",
-        "sourceUrl": "https://www.gamerpower.com/whiskey-mafia-frank-s-story",
-        "claimUrl": "https://www.gamerpower.com/open/whiskey-mafia-frank-s-story",
-        "publishedAt": "2026-07-03 08:46:33",
-        "endsAt": "N/A",
-        "type": "Game",
-        "platforms": [
-          "PC",
-          "DRM-Free"
-        ],
-        "users": 179380,
+        "users": 33720,
         "status": "Active"
       },
       {
@@ -354,7 +354,7 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 169830,
+        "users": 172680,
         "status": "Active"
       },
       {
@@ -373,7 +373,7 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 178040,
+        "users": 181080,
         "status": "Active"
       },
       {
@@ -390,7 +390,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 36450,
+        "users": 36770,
         "status": "Active"
       },
       {
@@ -407,7 +407,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 42260,
+        "users": 42630,
         "status": "Active"
       },
       {
@@ -427,7 +427,7 @@
           "Xbox Series X|S",
           "Nintendo Switch"
         ],
-        "users": 47930,
+        "users": 48190,
         "status": "Active"
       },
       {
@@ -444,7 +444,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 49100,
+        "users": 49420,
         "status": "Active"
       },
       {
@@ -463,7 +463,7 @@
           "Playstation 5",
           "Playstation 4"
         ],
-        "users": 50290,
+        "users": 50620,
         "status": "Active"
       },
       {
@@ -483,7 +483,7 @@
           "Android",
           "iOS"
         ],
-        "users": 52000,
+        "users": 52370,
         "status": "Active"
       },
       {
@@ -500,7 +500,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 50560,
+        "users": 50920,
         "status": "Active"
       },
       {
@@ -523,7 +523,7 @@
           "Android",
           "iOS"
         ],
-        "users": 50950,
+        "users": 51280,
         "status": "Active"
       },
       {
@@ -541,7 +541,7 @@
           "PC",
           "Steam"
         ],
-        "users": 60920,
+        "users": 61270,
         "status": "Active"
       },
       {
@@ -558,7 +558,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 61460,
+        "users": 61860,
         "status": "Active"
       }
     ]
@@ -567,7 +567,7 @@
     "provider": "FreeToGame",
     "sourceUrl": "https://www.freetogame.com/api-doc",
     "endpoint": "https://www.freetogame.com/api/games?sort-by=release-date",
-    "fetchedAt": "2026-09-19T09:01:55.244Z",
+    "fetchedAt": "2026-09-20T09:02:06.605Z",
     "scopeNote": "Free-to-play PC and browser game directory sorted by the provider release-date feed. This is not an iOS or Android chart.",
     "entries": [
       {
