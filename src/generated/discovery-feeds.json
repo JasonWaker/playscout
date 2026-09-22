@@ -1,13 +1,31 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-09-21T09:01:31.857Z",
+  "fetchedAt": "2026-09-22T09:02:25.675Z",
   "giveaways": {
     "provider": "GamerPower",
     "sourceUrl": "https://www.gamerpower.com/api-read",
     "endpoint": "https://www.gamerpower.com/api/giveaways?sort-by=date",
-    "fetchedAt": "2026-09-21T09:01:31.857Z",
+    "fetchedAt": "2026-09-22T09:02:25.675Z",
     "scopeNote": "Active giveaways, full games, in-game loot and beta access across listed platforms. Platform labels come from GamerPower; this is not a store ranking.",
     "entries": [
+      {
+        "id": "3785",
+        "title": "RIDE 6 Welcome Bikes Pack Steam Key Giveaway",
+        "worth": "$2.99",
+        "thumbnailUrl": "https://www.gamerpower.com/offers/1/6ab15f524c039.jpg",
+        "description": "Claim your free RIDE 6 Welcome Bikes Pack (DLC) Steam Key and unlock three unique bikes. Please note the base game is required to enjoy this DLC content plus 10 ARP (Arena Reward Points).",
+        "sourceUrl": "https://www.gamerpower.com/ride-6-welcome-bikes-pack-steam-key-giveaway",
+        "claimUrl": "https://www.gamerpower.com/open/ride-6-welcome-bikes-pack-steam-key-giveaway",
+        "publishedAt": "2026-09-21 12:46:10",
+        "endsAt": "N/A",
+        "type": "DLC",
+        "platforms": [
+          "PC",
+          "Steam"
+        ],
+        "users": 910,
+        "status": "Active"
+      },
       {
         "id": "3322",
         "title": "Sausage Hunter (Indiegala) Giveaway",
@@ -23,7 +41,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 28050,
+        "users": 31560,
         "status": "Active"
       },
       {
@@ -41,7 +59,7 @@
           "PC",
           "Steam"
         ],
-        "users": 36780,
+        "users": 47650,
         "status": "Active"
       },
       {
@@ -62,7 +80,7 @@
           "Android",
           "iOS"
         ],
-        "users": 4050,
+        "users": 4600,
         "status": "Active"
       },
       {
@@ -80,7 +98,7 @@
           "PC",
           "Epic Games Store"
         ],
-        "users": 27430,
+        "users": 32930,
         "status": "Active"
       },
       {
@@ -100,7 +118,7 @@
           "iOS",
           "Epic Games Store"
         ],
-        "users": 23890,
+        "users": 29220,
         "status": "Active"
       },
       {
@@ -118,7 +136,7 @@
           "PC",
           "Steam"
         ],
-        "users": 3400,
+        "users": 3910,
         "status": "Active"
       },
       {
@@ -136,7 +154,7 @@
           "PC",
           "Steam"
         ],
-        "users": 52820,
+        "users": 62510,
         "status": "Active"
       },
       {
@@ -154,7 +172,7 @@
           "PC",
           "Ubisoft Connect"
         ],
-        "users": 49210,
+        "users": 55330,
         "status": "Active"
       },
       {
@@ -172,7 +190,7 @@
           "PC",
           "Steam"
         ],
-        "users": 75500,
+        "users": 85460,
         "status": "Active"
       },
       {
@@ -190,7 +208,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 86160,
+        "users": 88730,
         "status": "Active"
       },
       {
@@ -208,7 +226,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 99980,
+        "users": 102470,
         "status": "Active"
       },
       {
@@ -226,7 +244,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 116360,
+        "users": 118880,
         "status": "Active"
       },
       {
@@ -245,7 +263,7 @@
           "Android",
           "iOS"
         ],
-        "users": 22410,
+        "users": 22610,
         "status": "Active"
       },
       {
@@ -263,7 +281,7 @@
           "PC",
           "DRM-Free"
         ],
-        "users": 134630,
+        "users": 137080,
         "status": "Active"
       },
       {
@@ -281,7 +299,7 @@
           "PC",
           "Steam"
         ],
-        "users": 29890,
+        "users": 30160,
         "status": "Active"
       },
       {
@@ -299,7 +317,7 @@
           "PC",
           "Steam"
         ],
-        "users": 25040,
+        "users": 25320,
         "status": "Active"
       },
       {
@@ -317,7 +335,7 @@
           "PC",
           "Steam"
         ],
-        "users": 351300,
+        "users": 359320,
         "status": "Active"
       },
       {
@@ -335,7 +353,7 @@
           "PC",
           "Steam"
         ],
-        "users": 34000,
+        "users": 34300,
         "status": "Active"
       },
       {
@@ -354,7 +372,7 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 175370,
+        "users": 177850,
         "status": "Active"
       },
       {
@@ -373,7 +391,7 @@
           "Itch.io",
           "DRM-Free"
         ],
-        "users": 184290,
+        "users": 186840,
         "status": "Active"
       },
       {
@@ -390,7 +408,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 37040,
+        "users": 37310,
         "status": "Active"
       },
       {
@@ -407,7 +425,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 43050,
+        "users": 43340,
         "status": "Active"
       },
       {
@@ -427,7 +445,7 @@
           "Xbox Series X|S",
           "Nintendo Switch"
         ],
-        "users": 48530,
+        "users": 48780,
         "status": "Active"
       },
       {
@@ -444,7 +462,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 49980,
+        "users": 50160,
         "status": "Active"
       },
       {
@@ -463,7 +481,7 @@
           "Playstation 5",
           "Playstation 4"
         ],
-        "users": 51020,
+        "users": 51220,
         "status": "Active"
       },
       {
@@ -483,7 +501,7 @@
           "Android",
           "iOS"
         ],
-        "users": 52860,
+        "users": 53090,
         "status": "Active"
       },
       {
@@ -500,7 +518,7 @@
         "platforms": [
           "PC"
         ],
-        "users": 51320,
+        "users": 51540,
         "status": "Active"
       },
       {
@@ -523,7 +541,7 @@
           "Android",
           "iOS"
         ],
-        "users": 51640,
+        "users": 51840,
         "status": "Active"
       },
       {
@@ -541,24 +559,7 @@
           "PC",
           "Steam"
         ],
-        "users": 61740,
-        "status": "Active"
-      },
-      {
-        "id": "3513",
-        "title": "Star Trek Online: Corruption Gift Pack Key Giveaway",
-        "worth": "N/A",
-        "thumbnailUrl": "https://www.gamerpower.com/offers/1/69a718ba231fc.jpg",
-        "description": "Claim your free Star Trek Online: Corruption Gift Pack Key and unlock free in-game items, including 1 Terran Empire Odyssey Outfit, 1 Elite Services Pack, and 1 Small XP Boost. Please note that 5 ARP (Arena Reward Points) are required to claim this key.",
-        "sourceUrl": "https://www.gamerpower.com/star-trek-online-corruption-gift-pack-key-giveaway",
-        "claimUrl": "https://www.gamerpower.com/open/star-trek-online-corruption-gift-pack-key-giveaway",
-        "publishedAt": "2026-03-03 12:22:02",
-        "endsAt": "N/A",
-        "type": "DLC",
-        "platforms": [
-          "PC"
-        ],
-        "users": 62170,
+        "users": 62030,
         "status": "Active"
       }
     ]
@@ -567,7 +568,7 @@
     "provider": "FreeToGame",
     "sourceUrl": "https://www.freetogame.com/api-doc",
     "endpoint": "https://www.freetogame.com/api/games?sort-by=release-date",
-    "fetchedAt": "2026-09-21T09:01:31.857Z",
+    "fetchedAt": "2026-09-22T09:02:25.675Z",
     "scopeNote": "Free-to-play PC and browser game directory sorted by the provider release-date feed. This is not an iOS or Android chart.",
     "entries": [
       {
